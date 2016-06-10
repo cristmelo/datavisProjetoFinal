@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title> Earthquake Data</title>
+		<link rel="stylesheet" href="css/dc.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css"/>
+		<script src="js/crossfilter.js" charset="utf-8"></script>
+		<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script src="js/dc.js" charset="utf-8"></script>
+		<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+
+	    <style type="text/css">  </style>		      
+		   
+</head>
+<body>
+	<script type="text/javascript">
+		var dsv = d3.dsv(";","text/plain");
+		dsv("boletim_sindec_atendimento_2015_1o_trimestre.csv", function(data){
+
+            var dtgFormat = d3.time.format("%Y-%m-%d %H:%M:%S"); // ex: 2013-08-17 19:52:50
+            data.forEach(function(d){
+
+				d.AnoAtendimento = +d.AnoAtendimento;
+	            d.TrimestreAtendimento = +d.TrimestreAtendimento;
+	            d.MesAtendimento = +d.MesAtendimento;
+	            d.DataAtendimentoFormatado = dtgFormat.parse( d.DataAtendimento.substr(0,18) ); 
+	            d.CodigoRegiao = +d.CodigoRegiao;
+	            d.Regiao = d.Regiao;
+	            d.UF = d.UF;
+	            d.CodigoTipoAtendimento = +d.CodigoTipoAtendimento;
+	            d.DescricaoTipoAtendimento = d.DescricaoTipoAtendimento;
+	            d.CodigoAssunto = +d.CodigoAssunto;
+	            d.DescricaoAssunto = d.DescricaoAssunto;
+	            d.GrupoAssunto = d.GrupoAssunto;
+	            d.CodigoProblema = +d.CodigoProblema;
+	            d.DescricaoProblema = d.DescricaoProblema;
+	            d.GrupoProblema = d.GrupoProblema;
+	            d.SexoConsumidor = d.SexoConsumidor;
+	            d.FaixaEtariaConsumidor = d.FaixaEtariaConsumidor;
+	            d.CEPConsumidor = +d.CEPConsumidor;
+
+            });
+
+            //criando um crossfilter
+            var facts = crossfilter(data);
+
+            console.log(facts.all()); //all() retorna todos os registros brutos
+		});
+	</script>			
+</body>
+</html>
