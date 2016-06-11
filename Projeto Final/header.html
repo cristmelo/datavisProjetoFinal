@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title> HEADER </title>
+		<link rel="stylesheet" href="css/dc.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css"/>
+		<script src="js/crossfilter.js" charset="utf-8"></script>
+		<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script src="js/dc.js" charset="utf-8"></script>
+		<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+
+	    <style type="text/css">  </style>		      
+		   
+</head>
+<body>
+	<script type="text/javascript">
+
+      var authorMap = {}
+
+      var loadDSV = function(file){
+
+		var dsv = d3.dsv(";","text/plain");
+		dsv(file, function(data){
+
+	            var dtgFormat = d3.time.format("%Y-%m-%d %H:%M:%S"); // ex: 2013-08-17 19:52:50
+	            data.forEach(function(d){
+
+				d.AnoAtendimento = +d.AnoAtendimento;
+		            d.TrimestreAtendimento = +d.TrimestreAtendimento;
+		            d.MesAtendimento = +d.MesAtendimento;
+		            d.DataAtendimentoFormatado = dtgFormat.parse( d.DataAtendimento.substr(0,18) ); 
+		            d.CodigoRegiao = +d.CodigoRegiao;
+		            d.Regiao = d.Regiao;
+		            d.UF = d.UF;
+		            d.CodigoTipoAtendimento = +d.CodigoTipoAtendimento;
+		            d.DescricaoTipoAtendimento = d.DescricaoTipoAtendimento;
+		            d.CodigoAssunto = +d.CodigoAssunto;
+		            d.DescricaoAssunto = d.DescricaoAssunto;
+		            d.GrupoAssunto = d.GrupoAssunto;
+		            d.CodigoProblema = +d.CodigoProblema;
+		            d.DescricaoProblema = d.DescricaoProblema;
+		            d.GrupoProblema = d.GrupoProblema;
+		            d.SexoConsumidor = d.SexoConsumidor;
+		            d.FaixaEtariaConsumidor = d.FaixaEtariaConsumidor;
+		            d.CEPConsumidor = +d.CEPConsumidor;
+
+	            });
+
+                  //criando um crossfilter
+                  var facts = crossfilter(data);
+
+                  console.log(facts.all()); //all() retorna todos os registros brutos
+
+                  // DIMENSIONS AND GROUPS
+
+                  var AnoAtendimentoDim = facts.dimension(function(d){
+                        return d.AnoAtendimento;
+                  });
+                  var AnoAtendimentoGroup = AnoAtendimentoDim.group();
+
+                  var TrimestreAtendimentoDim = facts.dimension(function(d){
+                        return d.TrimestreAtendimento;
+                  });
+                  var TrimestreAtendimentoGroup = TrimestreAtendimentoDim.group();
+
+                  var MesAtendimentoDim = facts.dimension(function(d){
+                        return d.MesAtendimento;
+                  });
+                  var MesAtendimentoGroup = MesAtendimentoDim.group();
+
+                  var HourDim = facts.dimension(function(d){
+                        return d3.time.hour( d.DataAtendimentoFormatado );
+                  });
+                  var HourGroup = HourDim.group();
+
+                  var CodigoRegiaoDim = facts.dimension(function(d){
+                        return d.CodigoRegiao ;
+                  });
+                  var CodigoRegiaoGroup = CodigoRegiaoDim.group();
+
+                  var RegiaoDim = facts.dimension(function(d){
+                        return d.Regiao;
+                  });
+                  var RegiaoGroup = RegiaoDim.group();
+
+                  var UFDim = facts.dimension(function(d){
+                        return d.UF;
+                  });
+                  var UFGroup = UFDim.group();
+
+                  var CodigoTipoAtendimentoDim = facts.dimension(function(d){
+                        return d.CodigoTipoAtendimento;
+                  });
+                  var CodigoTipoAtendimentoGroup = CodigoTipoAtendimentoDim.group();
+
+                  var DescricaoTipoAtendimentoDim = facts.dimension(function(d){
+                        return d.DescricaoTipoAtendimento;
+                  });
+                  var DescricaoTipoAtendimentoGroup = DescricaoTipoAtendimentoDim.group();
+
+                  var CodigoAssuntoDim = facts.dimension(function(d){
+                        return d.CodigoAssunto;
+                  });
+                  var CodigoAssuntoGroup = CodigoAssuntoDim.group();
+
+                  var GrupoAssuntoDim = facts.dimension(function(d){
+                        return d.GrupoAssunto;
+                  });
+                  var GrupoAssuntoGroup = GrupoAssuntoDim.group();
+
+                  var CodigoProblemaDim = facts.dimension(function(d){
+                        return d.CodigoProblema;
+                  });
+                  var CodigoProblemaGroup = CodigoProblemaDim.group();
+
+                  var DescricaoProblemaDim = facts.dimension(function(d){
+                        return d.DescricaoProblema;
+                  });
+                  var DescricaoProblemaGroup = DescricaoProblemaDim.group();
+
+                  var GrupoProblemaDim = facts.dimension(function(d){
+                        return d.GrupoProblema;
+                  });
+                  var GrupoProblemaGroup = GrupoProblemaDim.group();
+
+                  var SexoConsumidorDim = facts.dimension(function(d){
+                        return d.SexoConsumidor;
+                  });
+                  var SexoConsumidorGroup = SexoConsumidorDim.group();
+
+                  var FaixaEtariaConsumidorDim = facts.dimension(function(d){
+                        return d.FaixaEtariaConsumidor;
+                  });
+                  var FaixaEtariaConsumidorGroup = FaixaEtariaConsumidorDim.group();
+
+                  var CEPConsumidorDim = facts.dimension(function(d){
+                        return d.CEPConsumidor;
+                  });
+                  var CEPConsumidorGroup = CEPConsumidorDim.group();
+
+            });
+
+            
+
+            
+	};
+
+      loadDSV("Teste1.csv");
+      loadDSV("Teste2.csv");
+
+	</script>			
+</body>
+</html>
