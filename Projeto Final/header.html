@@ -16,13 +16,11 @@
 </head>
 <body>
 
- <p class="well lead">Teste<br/> 
- <div id="chart1"></div>
-
+ 
 
 	<script type="text/javascript">
 
-      var barChart1 = dc.barChart('#chart1');
+     
 
       var authorMap = {}
 
@@ -42,26 +40,17 @@
       			d.Regiao = d.Regiao;
       			d.UF = d.UF;
       			d.CodigoTipoAtendimento = +d.CodigoTipoAtendimento;
-      			d.DescricaoTipoAtendimento = d.DescricaoTipoAtendimento;
       			d.CodigoAssunto = +d.CodigoAssunto;
-      			d.DescricaoAssunto = d.DescricaoAssunto;
       			d.GrupoAssunto = d.GrupoAssunto;
       			d.CodigoProblema = +d.CodigoProblema;
       			d.DescricaoProblema = d.DescricaoProblema;
       			d.GrupoProblema = d.GrupoProblema;
       			d.SexoConsumidor = d.SexoConsumidor;
       			d.FaixaEtariaConsumidor = d.FaixaEtariaConsumidor;
-      			d.CEPConsumidor = +d.CEPConsumidor;
                         d.TipoFornecedor = +d.TipoFornecedor;
                         d.RazaoSocialSindec = d.RazaoSocialSindec;
                         d.NomeFantasiaSindec = d.NomeFantasiaSindec;
-                        d.CNPJ = +d.CNPJ;
-                        d.RadicalCNPJ = +d.RadicalCNPJ;
-                        d.RazaoSocialRFB = d.RazaoSocialRFB;
-                        d.NomeFantasiaRFB = d.NomeFantasiaRFB;
-                        d.CodigoCNAEPrincipal = +d.CodigoCNAEPrincipal;
-                        d.DescricaoCNAEPrincipal = d.DescricaoCNAEPrincipal;
-
+                       
 	            });
 
                   //criando um crossfilter
@@ -111,11 +100,6 @@
                   });
                   var CodigoTipoAtendimentoGroup = CodigoTipoAtendimentoDim.group();
 
-                  var DescricaoTipoAtendimentoDim = facts.dimension(function(d){
-                        return d.DescricaoTipoAtendimento;
-                  });
-                  var DescricaoTipoAtendimentoGroup = DescricaoTipoAtendimentoDim.group();
-
                   var CodigoAssuntoDim = facts.dimension(function(d){
                         return d.CodigoAssunto;
                   });
@@ -130,11 +114,6 @@
                         return d.CodigoProblema;
                   });
                   var CodigoProblemaGroup = CodigoProblemaDim.group();
-
-                  var DescricaoProblemaDim = facts.dimension(function(d){
-                        return d.DescricaoProblema;
-                  });
-                  var DescricaoProblemaGroup = DescricaoProblemaDim.group();
 
                   var GrupoProblemaDim = facts.dimension(function(d){
                         return d.GrupoProblema;
@@ -151,11 +130,6 @@
                   });
                   var FaixaEtariaConsumidorGroup = FaixaEtariaConsumidorDim.group();
 
-                  var CEPConsumidorDim = facts.dimension(function(d){
-                        return d.CEPConsumidor;
-                  });
-                  var CEPConsumidorGroup = CEPConsumidorDim.group();
-
                   var TipoFornecedorDim = facts.dimension(function(d){
                         return d.TipoFornecedor;
                   });
@@ -171,58 +145,15 @@
                   });
                   var NomeFantasiaSindecGroup = NomeFantasiaSindecDim.group();
 
-                  var CNPJDim = facts.dimension(function(d){
-                        return d.CNPJ; 
-                  });
-                  var CNPJGroup = CNPJDim.group();
-
-                  var RadicalCNPJDim = facts.dimension(function(d){
-                        return d.RadicalCNPJ; 
-                  });
-                  var RadicalCNPJGroup = RadicalCNPJDim.group();
-
-                  var RazaoSocialRFBDim = facts.dimension(function(d){
-                        return d.RazaoSocialRFB; 
-                  });
-                  var RazaoSocialRFBGroup = RazaoSocialRFBDim.group();
-                  
-                  var NomeFantasiaRFBDim = facts.dimension(function(d){
-                        return d.NomeFantasiaRFB; 
-                  });
-                  var NomeFantasiaRFBGroup = NomeFantasiaRFBDim.group();
-
-                  var CodigoCNAEPrincipalDim = facts.dimension(function(d){
-                        return d.CodigoCNAEPrincipal; 
-                  });
-                  var CodigoCNAEPrincipalGroup = CodigoCNAEPrincipalDim.group();
-
-                  var DescricaoCNAEPrincipalDim = facts.dimension(function(d){
-                        return d.DescricaoCNAEPrincipal; 
-                  });
-                  var DescricaoCNAEPrincipalGroup = DescricaoCNAEPrincipalDim.group();
-
-                  barChart1 /* dc.barChart('#volume-month-chart', 'chartGroup') */
-                      .width(450)
-                      .height(500)
-                      .margins({top: 10, right: 50, bottom: 20, left: 40})
-                      .dimension(UFDim)
-                      .group(UFGroup)
-                      .gap(5)
-                      .x(d3.scale.ordinal().domain( ['DF', 'SP'] ))
-                     // .xUnits(dc.units.ordinal)
-                      .renderHorizontalGridLines(true)
-            
-
-                      dc.renderAll();
-
-
 
             });
 
+      };
+
       
 
-      loadDSV("Teste1.csv");
-      //loadDSV("Teste2.csv");
+      loadDSV("2015_1o_trim_edit.csv");
+     // loadDSV("2015_2o_trim_edit.csv");
 
 	</script>			
 </body>
