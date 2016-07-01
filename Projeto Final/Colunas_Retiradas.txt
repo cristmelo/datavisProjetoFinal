@@ -1,0 +1,56 @@
+COLUNA RETIRADA:
+-DESCRIÇÃO TIPO DE ATENDIMENTO
+MOTIVO:
+Existem alguns tipos de atendimentos do PROCON, classificados como Simples, Preliminar (etc) definidas previamente no 
+dicionário; entretanto, pra cada um destes tipos, temos uma numeração (1 para Simples, 2 para Preliminar etc) e temos
+uma coluna chamada Código Tipo de Atendimento; ou seja, essa coluna descrição torna-se redundante
+
+COLUNA RETIRADA:
+-DESCRIÇÃO ASSUNTO
+MOTIVO:
+A coluna a seguir, GRUPO ASSUNTO, já resume bem o que precisamos fazer; esta coluna descrição detalhava muito mais
+coisas que é desnecessária pra quem vai analisar os dados finais.
+Por exemplo: Grupo de Assunto: Móveis; Descrição do assunto: móveis para cozinha. Não temos a necessidade de termos essa
+informação tão detalhada.
+
+COLUNA RETIRADA:
+-DESCRIÇÃO PROBLEMA
+MOTIVO:
+Análogo ao tópico anterior; descreve detalhadamente coisas que não nos interessa. A colune seguinte, GRUPO PROBLEMA,
+é mais sucinta, e resume muito bem o tópico do problema.
+
+COLUNA RETIRADA:
+-CEP comsumidor
+MOTIVO:
+Não precisamos desta informação
+
+COLUNA RETIRADA:
+-CNPJ
+MOTIVO:
+Não precisamos desta informação
+
+COLUNA RETIRADA:
+-RADICAL CNPJ
+MOTIVO:
+Não precisamos desta informação
+
+COLUNA RETIRADA:
+-RAZÃO SOCIAL RFB
+MOTIVO:
+É basicamente a mesma coluna da Razão Social, só que cadastrado pela Receita Federal; como os nomes são praticamente 
+os mesmos, optei por tirá-la.
+
+COLUNA RETIRADA:
+-NOME FANTASIA RFB
+MOTIVO:
+Análogo ao tópico anterior
+
+COLUNA RETIRADA:
+-Código CNAE
+MOTIVO:
+Não precisamos desta informação
+
+COLUNA RETIRADA:
+-Descrição CNAE
+MOTIVO:
+Não precisamos desta informação
