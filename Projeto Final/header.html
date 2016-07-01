@@ -6,6 +6,7 @@
             <!--<link rel="stylesheet" href="css/styles.css">-->
             <link rel="stylesheet" href="packs/leaflet/leaflet.css"/>
             <link rel="stylesheet" href="packs/bootstrap-3.3.6-dist/css/bootstrap.min.css"/>
+            <!--link rel="import" href="maps.html" -->
             <script src="js/crossfilter.js" charset="utf-8"></script>
             <script src="packs/d3/d3.min.js" charset="utf-8"></script>
             <script src="js/dc.js" charset="utf-8"></script>
@@ -16,7 +17,8 @@
 </head>
 <body>
 
- 
+ <p class="well lead">Quantidade de registros no PROCON por estado<br/> 
+ <div id="chart1"></div>
 
 	<script type="text/javascript">
 
@@ -25,6 +27,8 @@
       var authorMap = {}
 
       var loadDSV = function(file){
+
+            var barChart1 = dc.barChart('#chart1');
 
 		var dsv = d3.dsv(";","text/plain");
 		dsv(file, function(data){
@@ -145,15 +149,35 @@
                   });
                   var NomeFantasiaSindecGroup = NomeFantasiaSindecDim.group();
 
+                  ///////////////////////////////////////////////////////////////
+
+                  var UFaxis = data.map(function(d){return d.UF;});
+
+                  //var sortByCnt = UFaxis.sort(function (a, b) { return a.UF < b.UF; });
+                  //var names = sortByCnt.map(function (d) { return d.UF; });
+
+                  barChart1 /* dc.barChart('#volume-month-chart', 'chartGroup') */
+                      .width(1000)
+                      .height(600)
+                      .margins({top: 10, right: 50, bottom: 20, left: 40})
+                      .dimension(UFDim)
+                      .group(UFGroup)
+                      .gap(5)
+                      .x(d3.scale.ordinal().domain(UFaxis))
+                      .xUnits(dc.units.ordinal)
+                      .renderHorizontalGridLines(true)
+            
+
+                      dc.renderAll();
 
             });
 
       };
 
-      
 
-      loadDSV("2015_1o_trim_edit.csv");
-     // loadDSV("2015_2o_trim_edit.csv");
+     loadDSV("Teste1.csv");
+    // loadDSV("2015_1o_trim_edit.csv");
+    //  loadDSV("2015_2o_trim_edit.csv");
 
 	</script>			
 </body>
