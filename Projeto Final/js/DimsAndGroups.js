@@ -3,7 +3,19 @@
 
 var loadDSV = function(file){
 
-            var barChart1 = dc.barChart('#chart1');
+                var barChart1 = dc.barChart('#chart1');
+
+
+
+                var popByUFmap = d3.map();
+
+                d3.csv("populacaoPorEstado.csv", function(data){
+                  data.forEach(function(d) {
+                      popByUFmap.set( d.UF, +d.populacao.replace(".","") );
+                  });
+                });
+
+
 
         		var dsv = d3.dsv(";","text/plain");
         		dsv(file, function(data){
@@ -26,10 +38,9 @@ var loadDSV = function(file){
           			d.GrupoProblema = d.GrupoProblema;
           			d.SexoConsumidor = d.SexoConsumidor;
           			d.FaixaEtariaConsumidor = d.FaixaEtariaConsumidor;
-                d.TipoFornecedor = +d.TipoFornecedor;
-                d.RazaoSocialSindec = d.RazaoSocialSindec;
-                d.NomeFantasiaSindec = d.NomeFantasiaSindec;
-                 
+                    d.TipoFornecedor = +d.TipoFornecedor;
+                    d.RazaoSocialSindec = d.RazaoSocialSindec;
+                    d.NomeFantasiaSindec = d.NomeFantasiaSindec;                 
            });
 
             //criando um crossfilter
@@ -68,11 +79,6 @@ var loadDSV = function(file){
                   return d.Regiao;
             });
             var RegiaoGroup = RegiaoDim.group();
-
-            var UFDim = facts.dimension(function(d){
-                  return d.UF;
-            });
-            var UFGroup = UFDim.group();
 
             var CodigoTipoAtendimentoDim = facts.dimension(function(d){
                   return d.CodigoTipoAtendimento;
@@ -124,36 +130,41 @@ var loadDSV = function(file){
             });
             var NomeFantasiaSindecGroup = NomeFantasiaSindecDim.group();
 
-            ///////////////////////////////////////////////////////////////
 
-            var popByUFmap = d3.map();
-
-            d3.csv("populacaoPorEstado.csv", function(data){
-              data.forEach(function(d) {
-                  popByUFmap.set( d.UF, +d.populacao.replace(".","") );
-              });
+            ////////////////////////////////////////////////
+            
+            var UFDim = facts.dimension(function(d){
+                  return d.UF;
             });
+            var UFGroup = UFDim.group();
+
+            ///////////////////////////////////////////////////////////////
 
             
             var UFOrdenadosPorReclamacao = [];
-            var UFNumeroDeReclamantes = UFGroup.top(Infinity);
-
-
             var UFNumeroDeReclamantesMap = d3.map();
 
 
+            var UFNumeroDeReclamantes = UFGroup.all()
+                .map(function (d){
+                    b = {};
+                    b.key = d.key;
+                    b.value = d.value /  (popByUFmap.get(d.key)/100000) ;
+                    UFNumeroDeReclamantesMap.set(b.key, b.value);
+                    return b;
+                });
+            
+            UFNumeroDeReclamantes = UFNumeroDeReclamantes.sort(function(a,b){
+                return b.value - a.value;
+            });
 
-            for(var i = 0; i < UFGroup.size(); i++){
-              UFOrdenadosPorReclamacao.push(UFNumeroDeReclamantes[i].key);
-              UFNumeroDeReclamantesMap.set(UFNumeroDeReclamantes[i].key, UFNumeroDeReclamantes[i].value)
-            }
+            console.log(UFNumeroDeReclamantes);
+
+            UFOrdenadosPorReclamacao = UFNumeroDeReclamantes.map(function(d){ return d.key; }); 
+
+            UFGroup.all().forEach(function(d){d.value = UFNumeroDeReclamantesMap.get(d.key);});
 
             ///////////////////////
-            console.log(UFGroup);
-
-            var popByUF_relative = d3.map();            
-
-
 
             //var sortedReclamacao = UFGroup.all().sort(function(a,b){return a.value < b.value});
             //var reclamacaoSortedUf = sortedReclamacao.map(function(d){return d.key});
