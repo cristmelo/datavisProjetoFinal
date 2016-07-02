@@ -5,6 +5,7 @@ var loadDSV = function(file){
 
                 var barChart1 = dc.barChart('#chart1');
 
+                var barChart2 = dc.barChart('#chart2');
 
 
                 var popByUFmap = d3.map();
@@ -110,10 +111,7 @@ var loadDSV = function(file){
             });
             var SexoConsumidorGroup = SexoConsumidorDim.group();
 
-            var FaixaEtariaConsumidorDim = facts.dimension(function(d){
-                  return d.FaixaEtariaConsumidor;
-            });
-            var FaixaEtariaConsumidorGroup = FaixaEtariaConsumidorDim.group();
+            
 
             var TipoFornecedorDim = facts.dimension(function(d){
                   return d.TipoFornecedor;
@@ -143,24 +141,59 @@ var loadDSV = function(file){
                                     return 1/(popByUFmap.get(d.UF)/100000);
                                 });
             
+            var FaixaEtariaConsumidorDim = facts.dimension(function(d){
+                  if(d.FaixaEtariaConsumidor == "até 20 anos"){return "≤ 20"}
+                  else if(d.FaixaEtariaConsumidor == "entre 21 a 30 anos"){return "21 a 30";}
+                  else if(d.FaixaEtariaConsumidor == "entre 31 a 40 anos"){return "31 a 40";}
+                  else if(d.FaixaEtariaConsumidor == "entre 41 a 50 anos"){return "41 a 50";}
+                  else if(d.FaixaEtariaConsumidor == "entre 51 a 60 anos"){return "51 a 60";}
+                  else if(d.FaixaEtariaConsumidor == "entre 61 a 70 anos"){return "61 a 70";}
+                  else if(d.FaixaEtariaConsumidor == "mais de 70 anos"){return "70 ≥";}
+                  else {return "Não informado"}
+            });
+            var FaixaEtariaConsumidorGroup = FaixaEtariaConsumidorDim.group();
+
+            console.log(FaixaEtariaConsumidorGroup.all());
+
+
+            //////////////////////////////////////////////////////////////////////////
 
             var UFOrdenadosPorReclamacao = UFGroupRelativo.top(Infinity).map(function(d){return d.key})
             
-
+            ////////////////////////////////////////////////////////////////////////////
 
 
             //Grafico de barras Qtd relativa de reclamaçoes por estado.
             barChart1 /* dc.barChart('#volume-month-chart', 'chartGroup') */
-                .width(800)
-                .height(300)
-                //.margins({top: 10, right: 50, bottom: 20, left: 40})
+                .width(600)
+                .height(250)
+                //.margins({top: 10, right: 50, bottom: 20, left: 50})
                 .dimension(UFDim)
                 .group(UFGroupRelativo)
-                .gap(5)
+                .gap(2)
                 .x(d3.scale.ordinal().domain(UFOrdenadosPorReclamacao))
                 .xUnits(dc.units.ordinal)
-                .renderHorizontalGridLines(true)
-                dc.renderAll();
+                .elasticY(true)
+                .renderHorizontalGridLines(true);
+                
+
+
+
+            barChart2 
+                .width(600)
+                .height(250)
+                //.margins({top: 10, right: 50, bottom: 20, left: 50})
+                .dimension(FaixaEtariaConsumidorDim)
+                .group(FaixaEtariaConsumidorGroup)
+                .gap(3)
+                .elasticY(true)
+                .x(d3.scale.ordinal().domain(["≤ 20", "21 a 30", "31 a 40", "41 a 50", "51 a 60", "61 a 70", "70 ≥", "Não informado"]))
+                .xUnits(dc.units.ordinal)
+                .renderHorizontalGridLines(true);
+
+
+
+            dc.renderAll();
 
       });
 
