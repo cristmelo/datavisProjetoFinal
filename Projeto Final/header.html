@@ -1,26 +1,38 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
+<meta charset="utf-8">  
+
 <html>
 <head>
-		<title> HEADER </title>
-            <link rel="stylesheet" href="css/dc.css">
-            <!--<link rel="stylesheet" href="css/styles.css">-->
-            <link rel="stylesheet" href="packs/leaflet/leaflet.css"/>
-            <link rel="stylesheet" href="packs/bootstrap-3.3.6-dist/css/bootstrap.min.css"/>
-            <!--link rel="import" href="maps.html" -->
-            <script src="js/crossfilter.js" charset="utf-8"></script>
-            <script src="packs/d3/d3.min.js" charset="utf-8"></script>
-            <script src="js/dc.js" charset="utf-8"></script>
-            <script src="packs/leaflet/leaflet.js"></script>
-              
-	    <style type="text/css">  </style>		      
-		   
+        <link rel="stylesheet" href="css/dc.css">
+        <link rel="stylesheet" href="packs/leaflet/leaflet.css"/>
+        <link rel="stylesheet" href="packs/bootstrap-3.3.6-dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/styles.css">
+        
+        <!--link rel="import" href="maps.html" -->
+        <script src="js/crossfilter.js" charset="utf-8"></script>
+        <script src="packs/d3/d3.min.js" charset="utf-8"></script>
+        <script src="js/dc.js" charset="utf-8"></script>
+        <script src="packs/leaflet/leaflet.js"></script>             
+
+		<title> WoW </title>
 </head>
 <body>
-
-  <p class="well lead">Quantidade de registros no PROCON por estado<br/> 
-  <div id="chart1"></div>
-  <script src = "js/DimsAndGroups.js" type="text/javascript"> </script> 
- 
+    <div class = "container" style="text-align: center; align:center;">
+    
+        <div class="row" >
+            <h1 >Visualização sobre os dados do PROCON</h1>
+        </div>
+    
+         <div class="row">
+            <p class="well lead">Quantidade de registros no PROCON por estado</p>
+        </div>  
+        
+        <div class="row" id="chart1" ></div>
+    
+    </div>
+    <!-- Javascript -->
+    <script src = "js/DimsAndGroups.js" type="text/javascript"> </script> 
+     
   		
 </body>
 </html>

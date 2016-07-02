@@ -138,54 +138,29 @@ var loadDSV = function(file){
             });
             var UFGroup = UFDim.group();
 
-            ///////////////////////////////////////////////////////////////
-
+            var UFGroupRelativo = UFDim.group()
+                                .reduceSum(function(d){
+                                    return 1/(popByUFmap.get(d.UF)/100000);
+                                });
             
-            var UFOrdenadosPorReclamacao = [];
-            var UFNumeroDeReclamantesMap = d3.map();
 
-
-            var UFNumeroDeReclamantes = UFGroup.all()
-                .map(function (d){
-                    b = {};
-                    b.key = d.key;
-                    b.value = d.value /  (popByUFmap.get(d.key)/100000) ;
-                    UFNumeroDeReclamantesMap.set(b.key, b.value);
-                    return b;
-                });
+            var UFOrdenadosPorReclamacao = UFGroupRelativo.top(Infinity).map(function(d){return d.key})
             
-            UFNumeroDeReclamantes = UFNumeroDeReclamantes.sort(function(a,b){
-                return b.value - a.value;
-            });
-
-            console.log(UFNumeroDeReclamantes);
-
-            UFOrdenadosPorReclamacao = UFNumeroDeReclamantes.map(function(d){ return d.key; }); 
-
-            UFGroup.all().forEach(function(d){d.value = UFNumeroDeReclamantesMap.get(d.key);});
-
-            ///////////////////////
-
-            //var sortedReclamacao = UFGroup.all().sort(function(a,b){return a.value < b.value});
-            //var reclamacaoSortedUf = sortedReclamacao.map(function(d){return d.key});
-            //console.log(UFGroup.all());
 
 
+
+            //Grafico de barras Qtd relativa de reclamaçoes por estado.
             barChart1 /* dc.barChart('#volume-month-chart', 'chartGroup') */
-                .width(1000)
-                .height(600)
-                .margins({top: 10, right: 50, bottom: 20, left: 40})
+                .width(800)
+                .height(300)
+                //.margins({top: 10, right: 50, bottom: 20, left: 40})
                 .dimension(UFDim)
-                .group(UFGroup)
+                .group(UFGroupRelativo)
                 .gap(5)
                 .x(d3.scale.ordinal().domain(UFOrdenadosPorReclamacao))
                 .xUnits(dc.units.ordinal)
                 .renderHorizontalGridLines(true)
-      
-
                 dc.renderAll();
-
-            ///////////////////////////////////////////////////////////////
 
       });
 
