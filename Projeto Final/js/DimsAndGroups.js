@@ -17,10 +17,14 @@ var geojson = L.geoJson(brasilData, {
 
 
 
-var barChart1 = dc.barChart('#chart1');
-var barChart2 = dc.barChart('#chart2');
-var barChart3 = dc.barChart('#chart3');
-var rowChart3 = dc.rowChart('#chart4');
+var barChart1 = dc.barChart('#chart1'); /* Numero de reclamações registradas por 100 mil hab. */
+var barChart2 = dc.barChart('#chart2'); /* Distribuição dos reclamantes por faixa etária */
+//var barChart3 = dc.barChart('#chart3'); /* Empresas mais denunciadas */
+var rowChart1 = dc.rowChart('#chart4'); /* Empresas mais denunciadas */
+var rowChart2 = dc.rowChart('#chart5'); /* Grupos de problema mais denunciados */
+var rowChart3 = dc.rowChart('#chart6'); /* Setores mais denunciados */
+var barChart4 = dc.barChart('#chart7'); /* Número de reclamações mensais */
+
 
 var popByUFmap = d3.map();
 d3.csv("populacaoPorEstado.csv", function(data){
@@ -60,9 +64,9 @@ dsv("Teste1.csv", function(data){
 
     console.log(facts.all()); 
 
-   
 
     ////////////////////////////////////////////////////////////////////////////
+        /* Numero de reclamações registradas por 100 mil hab. */
 
     var UFDim = facts.dimension(function(d){ return d.UF; });
 
@@ -84,6 +88,7 @@ dsv("Teste1.csv", function(data){
         .renderHorizontalGridLines(true);
 
     ////////////////////////////////////////////////////////////////////////////
+      /* Distribuição dos reclamantes por faixa etária */
 
     var FaixaEtariaConsumidorDim = facts.dimension(function(d){
         if(d.FaixaEtariaConsumidor == "até 20 anos"){return "≤ 20"}
@@ -118,14 +123,24 @@ dsv("Teste1.csv", function(data){
 
 
     ///////////////////////////////////////////////////////////////////////////////
+      /* Empresas mais denunciadas */
 
-    var NomeFantasiaSindecDim = facts.dimension(function(d){return d.NomeFantasiaSindec;});
+      // GRÁFICO DE BARRAS
+
+    var NomeFantasiaSindecDim = facts.dimension(function(d){
+      if(d.NomeFantasiaSindec == "NULL" || d.NomeFantasiaSindec == "" ){
+        return d.RazaoSocialSindec;
+      }else{
+        return d.NomeFantasiaSindec;
+      }
+    });
     var NomeFantasiaSindecGroup = NomeFantasiaSindecDim.group();
+//    var NomeFantasiaSindecGroup = NomeFantasiaSindecDim.top(10).map(function(d){return d.key});
     var NomeFantasiaSindecSorted = NomeFantasiaSindecDim.group().top(10);
     var NomeFantasiaSindec_Axis = NomeFantasiaSindecSorted.map(function(d){return d.key})  
 
 
-    barChart3 
+    /*barChart3 
         .width(600)
         .height(250)
         //.margins({top: 10, right: 50, bottom: 20, left: 50})
@@ -135,22 +150,126 @@ dsv("Teste1.csv", function(data){
         .elasticY(true)
         .x(d3.scale.ordinal().domain(NomeFantasiaSindec_Axis))
         .xUnits(dc.units.ordinal)
-        .renderHorizontalGridLines(true);
+        .renderHorizontalGridLines(true);*/
+
+
+    // GRÁFICO DE LINHAS
+
+    function getTops(source_group) {
+        return {
+            all: function () {
+                return source_group.top(10);
+            }
+        };
+    }
+    var NomeFantasiaGroupTop = getTops(NomeFantasiaSindecGroup);
+
+    rowChart1  
+        .width(600)
+        .height(250)
+        //.margins({top: 10, right: 50, bottom: 20, left: 50})
+        .dimension(NomeFantasiaSindecDim)
+        .group(NomeFantasiaGroupTop)
+        .ordinalColors(['#276897'])
+        .gap(3)
+        .renderLabel(true)
+        .title(function (d) { return d.value })
+        .ordering(function(d) { return -d.value })
 
     ///////////////////////////////////////////////////////////////////////////////
 
+    /* Grupos de problema mais denunciados */
+
+    var GrupoProblemaDim = facts.dimension(function(d){
+      return d.GrupoProblema;
+    });
+
+    var GrupoProblemaGroup = GrupoProblemaDim.group();
+
+    function getTops(source_group) {
+        return {
+            all: function () {
+                return source_group.top(10);
+            }
+        };
+    }
+    var GrupoProblemaGroupTop = getTops(GrupoProblemaGroup);
+
+    rowChart2  
+        .width(600)
+        .height(250)
+        //.margins({top: 10, right: 50, bottom: 20, left: 50})
+        .dimension(GrupoProblemaDim)
+        .group(GrupoProblemaGroupTop)
+        .ordinalColors(['#276897'])
+        .gap(3)
+        .renderLabel(true)
+        .title(function (d) { return d.value })
+        .ordering(function(d) { return -d.value })
+
+    ///////////////////////////////////////////////////////////////////////////////
+
+    /* Setores mais denunciados */
+
+
+    var GrupoAssuntoDim = facts.dimension(function(d){
+          return d.GrupoAssunto;
+    });
+
+    var GrupoAssuntoGroup = GrupoAssuntoDim.group();
+
+    function getTops(source_group) {
+        return {
+            all: function () {
+                return source_group.top(10);
+            }
+        };
+    }
+    var GrupoAssuntoGroupTop = getTops(GrupoAssuntoGroup);
 
     rowChart3  
         .width(600)
         .height(250)
         //.margins({top: 10, right: 50, bottom: 20, left: 50})
-        .dimension(NomeFantasiaSindecDim)
-        .group(NomeFantasiaSindecGroup)
-        .ordinalColors(['#3182bd'])
-        .elasticX(true)
-        .xAxis().ticks(4);
+        .dimension(GrupoAssuntoDim)
+        .group(GrupoAssuntoGroupTop)
+        .ordinalColors(['#276897'])
+        .gap(3)
+        .renderLabel(true)
+        .title(function (d) { return d.value })
+        .ordering(function(d) { return -d.value })
 
+    ///////////////////////////////////////////////////////////////////////////////
+    /* Número de reclamações mensais */
 
+    var MesAtendimentoDim = facts.dimension(function(d){
+      if( d.MesAtendimento == "1" ){return "Jan";}
+      else if( d.MesAtendimento == "2" ){return "Fev";}
+      else if( d.MesAtendimento == "3" ){return "Mar";}
+      else if( d.MesAtendimento == "4" ){return "Abr";}
+      else if( d.MesAtendimento == "5" ){return "Mai";}
+      else if( d.MesAtendimento == "6" ){return "Jun";}
+      else if( d.MesAtendimento == "7" ){return "Jul";}
+      else if( d.MesAtendimento == "8" ){return "Ago";}
+      else if( d.MesAtendimento == "9" ){return "Set";}
+      else if( d.MesAtendimento == "10" ){return "Out";}
+      else if( d.MesAtendimento == "11" ){return "Nov";}
+      else if( d.MesAtendimento == "12" ){return "Dec";}
+    });
+
+    var MesAtendimentoGroup = MesAtendimentoDim.group();
+
+    barChart4 /* dc.barChart('#volume-month-chart', 'chartGroup') */
+        .width(600)
+        .height(250)
+        //.margins({top: 10, right: 50, bottom: 20, left: 50})
+        .dimension(MesAtendimentoDim)
+        .group(MesAtendimentoGroup)
+        .gap(2)
+        .x(d3.scale.ordinal().domain(MesAtendimentoGroup))
+        .xUnits(dc.units.ordinal)
+        .elasticY(true)
+        .renderHorizontalGridLines(true);
 
 
     dc.renderAll();
@@ -181,11 +300,7 @@ var TrimestreAtendimentoDim = facts.dimension(function(d){
 
 var TrimestreAtendimentoGroup = TrimestreAtendimentoDim.group();
 
-var MesAtendimentoDim = facts.dimension(function(d){
-      return d.MesAtendimento;
-});
 
-var MesAtendimentoGroup = MesAtendimentoDim.group();
 
 var HourDim = facts.dimension(function(d){
       return d3.time.hour( d.DataAtendimentoFormatado );
@@ -223,17 +338,6 @@ var GrupoAssuntoDim = facts.dimension(function(d){
 
 var GrupoAssuntoGroup = GrupoAssuntoDim.group();
 
-var CodigoProblemaDim = facts.dimension(function(d){
-      return d.CodigoProblema;
-});
-
-var CodigoProblemaGroup = CodigoProblemaDim.group();
-
-var GrupoProblemaDim = facts.dimension(function(d){
-      return d.GrupoProblema;
-});
-
-var GrupoProblemaGroup = GrupoProblemaDim.group();
 
 
 var TipoFornecedorDim = facts.dimension(function(d){
@@ -241,22 +345,6 @@ var TipoFornecedorDim = facts.dimension(function(d){
 });
 
 var TipoFornecedorGroup = TipoFornecedorDim.group();
-
-var RazaoSocialSindecDim = facts.dimension(function(d){
-      return d.RazaoSocialSindec; 
-});
-
-var RazaoSocialSindecGroup = RazaoSocialSindecDim.group();
-
-var NomeFantasiaSindecDim = facts.dimension(function(d){
-      return d.NomeFantasiaSindec; 
-});
-
-var NomeFantasiaSindecGroup = NomeFantasiaSindecDim.group();
-
-
-
-
 
 
 
