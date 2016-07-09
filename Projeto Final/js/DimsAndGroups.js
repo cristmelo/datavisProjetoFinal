@@ -25,9 +25,10 @@ var geojson = L.geoJson(brasilData, {
                 
     }).addTo(map); 
 
-console.log(map.getBounds());
 
 //Funcoes usadas pelo mapa
+
+    var estadosSelecionados = d3.map();
 
     function style(feature) {
          return {
@@ -35,7 +36,7 @@ console.log(map.getBounds());
                     opacity: 0.5,
                     color: 'white',
                     dashArray: '4',
-                    fillOpacity: 0.6,
+                    fillOpacity: 0.3,
                     fillColor: 'gray'
                 };
     }
@@ -46,10 +47,10 @@ console.log(map.getBounds());
         console.log(e.target)
 
         layer.setStyle({
-                    weight: 3,
+                    weight: 4,
                     color: '#665',
                     dashArray: '',
-                    fillOpacity: 0.7
+                    fillOpacity: 0.8
         });
 
         if (!L.Browser.ie && !L.Browser.opera) {
@@ -60,22 +61,55 @@ console.log(map.getBounds());
     }
 
     function resetHighlight(e) {
-        geojson.resetStyle(e.target);
+        if(estadosSelecionados.get(e.target._leaflet_id) == undefined){
+            geojson.resetStyle(e.target);
+        }
+        else{
+            selectedFeature(e)
+        }
+        
         //info.update();
-    }
-
-    function zoomToFeature(e) {
-        map.fitBounds(e.target.getBounds());
     }
 
     function onEachFeature(feature, layer) {
         layer.on({
                     mouseover: highlightFeature,
-                    mouseout: resetHighlight
-                    //click: zoomToFeature
+                    mouseout: resetHighlight,
+                    click: clickAction
                 });
     }
 
+
+    function selectedFeature(e) {
+        var layer = e.target;
+        console.log(e.target)
+        layer.setStyle({
+                    weight: 3,
+                    color: '',
+                    dashArray: '',
+                    fillOpacity: 0.6
+        });
+
+        if (!L.Browser.ie && !L.Browser.opera) {
+            layer.bringToFront();
+        }
+
+        //info.update(layer.feature);
+    }
+
+
+    function clickAction(e){
+        var layer = e.target
+        if(estadosSelecionados.get(layer._leaflet_id) == undefined){
+            estadosSelecionados.set(layer._leaflet_id, e);
+            selectedFeature(e);
+            
+        }
+        else{
+            estadosSelecionados.remove(layer._leaflet_id);
+            highlightFeature(e);   
+        }
+    }
 
 ///////////////////////////////////
 
