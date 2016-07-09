@@ -2,18 +2,85 @@
 
 
 // Relacionado aos mapas
-var map = L.map('mapid').setView([-11.6500,-52.9500], 4);
-L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+var map = L.map('mapid').setView([-14.500,-52.9500], 4);
+
+var mapMaxBounds = L.latLngBounds(L.latLng(5.09, -24.34),L.latLng(-32.54,-81.47));
+
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {    
                 attribution: '&copy; <a href="http://www.openstreetmap.org/">OpenStreetMap</a> contributors',
-                maxZoom: 17
+                maxZoom: 17,
+                minZoom: 4
             }).addTo(map);
 
 
+map.setMaxBounds(mapMaxBounds);
+
+map.on('drag', function() {
+    map.panInsideBounds(mapMaxBounds, { animate: false });
+});
 
 var geojson = L.geoJson(brasilData, {
-//            style: style,
-//            onEachFeature: onEachFeature
+                style: style,
+                onEachFeature: onEachFeature
+                
     }).addTo(map); 
+
+console.log(map.getBounds());
+
+//Funcoes usadas pelo mapa
+
+    function style(feature) {
+         return {
+                    weight: 2,
+                    opacity: 0.5,
+                    color: 'white',
+                    dashArray: '4',
+                    fillOpacity: 0.6,
+                    fillColor: 'gray'
+                };
+    }
+
+
+    function highlightFeature(e) {
+        var layer = e.target;
+        console.log(e.target)
+
+        layer.setStyle({
+                    weight: 3,
+                    color: '#665',
+                    dashArray: '',
+                    fillOpacity: 0.7
+        });
+
+        if (!L.Browser.ie && !L.Browser.opera) {
+            layer.bringToFront();
+        }
+
+        //info.update(layer.feature);
+    }
+
+    function resetHighlight(e) {
+        geojson.resetStyle(e.target);
+        //info.update();
+    }
+
+    function zoomToFeature(e) {
+        map.fitBounds(e.target.getBounds());
+    }
+
+    function onEachFeature(feature, layer) {
+        layer.on({
+                    mouseover: highlightFeature,
+                    mouseout: resetHighlight
+                    //click: zoomToFeature
+                });
+    }
+
+
+///////////////////////////////////
+
+
+
 
 
 
