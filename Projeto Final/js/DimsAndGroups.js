@@ -4,8 +4,6 @@
 // Relacionado aos mapas
 var map = L.map('mapid').setView([-14.500,-52.9500], 4);
 
-var mapMaxBounds = L.latLngBounds(L.latLng(5.09, -28.56),L.latLng(-32.54,-77.34));
-
 var UFsOnMap = d3.map();
 
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {    
@@ -14,11 +12,12 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
                 minZoom: 4
             }).addTo(map);
 
+var mapMaxBounds = L.latLngBounds(L.latLng(5.09,-30.32), L.latLng(-32.54,-75.58));
 
 map.setMaxBounds(mapMaxBounds);
 
 map.on('drag', function() {
-    map.panInsideBounds(mapMaxBounds, { animate: false });
+    map.panInsideBounds(mapMaxBounds, { animate: false, noMoveStart:true });
 });
 
 var geojson = L.geoJson(brasilData, {
@@ -186,20 +185,20 @@ d3.csv("populacaoPorEstado.csv", function(data){
 });
 
 
-var dsv = d3.dsv(";","text/plain");
+var dsv = d3.dsv(";","text/plain; charset=ISO-8859-1");
 
-dsv("Teste1.csv", function(data){
+dsv("output_trim1_10000_2015.csv", function(data){
     var dtgFormat = d3.time.format("%Y-%m-%d %H:%M:%S"); // ex: 2013-08-17 19:52:50
     data.forEach(function(d){
-            d.AnoAtendimento = +d.AnoAtendimento;
-            d.TrimestreAtendimento = +d.TrimestreAtendimento;
-            d.MesAtendimento = +d.MesAtendimento;
+            //d.AnoAtendimento = +d.AnoAtendimento;
+            //d.TrimestreAtendimento = +d.TrimestreAtendimento;
+            //d.MesAtendimento = +d.MesAtendimento;
             d.DataAtendimentoFormatado = dtgFormat.parse( d.DataAtendimento.substr(0,18) ); 
             d.CodigoRegiao = +d.CodigoRegiao;
             d.Regiao = d.Regiao;
             d.UF = d.UF;
-            d.CodigoTipoAtendimento = +d.CodigoTipoAtendimento;
-            d.CodigoAssunto = +d.CodigoAssunto;
+            //d.CodigoTipoAtendimento = +d.CodigoTipoAtendimento;
+            //d.CodigoAssunto = +d.CodigoAssunto;
             d.GrupoAssunto = d.GrupoAssunto;
             d.CodigoProblema = +d.CodigoProblema;
             d.DescricaoProblema = d.DescricaoProblema;
@@ -332,10 +331,10 @@ dsv("Teste1.csv", function(data){
     barChart2 
         //.width(600)
         .height(250)
-        //.margins({top: 10, right: 50, bottom: 20, left: 50})
+        .margins({top: 10, right: 50, bottom: 20, left: 50})
         .dimension(FaixaEtariaConsumidorDim)
         .group(FaixaEtariaConsumidorGroup)
-        .gap(3)
+        .gap(2)
         .elasticY(true)
         .x(d3.scale.ordinal().domain(["≤ 20", "21 a 30", "31 a 40", "41 a 50", "51 a 60", "61 a 70", "70 ≥", "Não informado"]))
         .xUnits(dc.units.ordinal)
@@ -410,7 +409,7 @@ dsv("Teste1.csv", function(data){
         return {
             all: function () {
                 return source_group.top(10);
-            }
+            }   
         };
     }
     var GrupoProblemaGroupTop = getTops(GrupoProblemaGroup);

@@ -1,0 +1,1001 @@
+AnoAtendimento;TrimestreAtendimento;MesAtendimento;DataAtendimento;CodigoRegiao;Regiao;UF;CodigoTipoAtendimento;CodigoAssunto;GrupoAssunto;CodigoProblema;GrupoProblema;SexoConsumidor;FaixaEtariaConsumidor;TipoFornecedor;RazaoSocialSindec;NomeFantasiaSindec
+2015;1;2;2015-02-12 16:25:57.000;2;Nordeste;BA;2;233;Escola ( Pré, 1º, 2º Graus e Superior );204;Problemas com Contrato;M;entre 21 a 30 anos;1;FACS SERVIÇOS EDUCACIONAIS S.A;UNIFACS
+2015;1;1;2015-01-31 09:35:11.000;3;Sudeste;SP;3;244;Hospedagem ( Hotel, Pousada, Chalé, Albergue, Etc. );192;Problemas com Desistência de Compra ou Contratação;F;entre 41 a 50 anos;1;EDEN POUSADA E RESTAURANTE;EDENBRAZIL
+2015;1;3;2015-03-09 15:35:53.000;1;Norte;AC;9;101;Aparelho Celular;102;Problemas com Garantia de Produtos;F;entre 21 a 30 anos;1;SONY BRASIL LTDA;SONY  BRASIL
+2015;1;3;2015-03-17 13:58:39.000;3;Sudeste;SP;3;250;Oficinas ( Mecânica, Funilaria, Auto-Elétrica, Borracharia );184;Problemas com Contrato;M;entre 61 a 70 anos;1;CHICO`S CARS;NULL
+2015;1;1;2015-01-16 16:47:38.000;3;Sudeste;SP;3;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 61 a 70 anos;1;NET SERVIÇOS DE COMUNICAÇÃO S/A;NULL
+2015;1;2;2015-02-04 14:36:15.000;5;Centro-oeste;GO;6;186;Telefonia Fixa;125;Vício ou Má Qualidade de Produto ou Serviço;M;entre 41 a 50 anos;1;GLOBAL VILLAGE TELECOM LTDA;GVT
+2015;1;3;2015-03-18 12:22:31.000;3;Sudeste;MG;3;94;Eletrodomésticos Linha Branca;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 61 a 70 anos;1;WHIRLPOOL S.A.;CONSUL
+2015;1;2;2015-02-25 15:09:50.000;5;Centro-oeste;GO;6;259;TV por Assinatura;194;Problemas com Cobrança;F;entre 21 a 30 anos;1;OI S.A.;OI
+2015;1;1;2015-01-06 11:28:05.000;3;Sudeste;RJ;3;125;Aquecedor / Ventilador / Ar Condicionado / Circulador de Ar;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;ITAU SEGUROS S.A GARANTECH;GARANTECH
+2015;1;1;2015-01-02 14:30:40.000;3;Sudeste;MG;6;76;Outros Contratos;28;Problemas com Cobrança;M;entre 51 a 60 anos;1;SKY BRASIL SERVIÇOS LTDA;SKY
+2015;1;3;2015-03-27 10:04:01.000;3;Sudeste;ES;6;76;Outros Contratos;56;Problemas com Contrato;M;entre 21 a 30 anos;1;BANCO SANTANDER S/A - ABN AMRO BANK - BANCO REAL;SUDAMERIS- AYMORE- REAL LEASING- BANESPA
+2015;1;3;2015-03-12 08:35:19.000;3;Sudeste;SP;3;55;Cartão de Loja;30;Problemas com Cobrança;F;entre 41 a 50 anos;1;CAEDU COMERCIO VAREJISTA DE ARTIGOS DO VEST LTDA;CAEDU
+2015;1;2;2015-02-19 15:42:36.000;3;Sudeste;MG;3;76;Outros Contratos;27;Problemas com Contrato;M;Nao Informada;1;CEMIG DISTRIBUICAO S.A;CEMIG D
+2015;1;1;2015-01-06 16:31:17.000;2;Nordeste;PB;9;102;Microcomputador / Produtos de Informática;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;LENOVO TECNOLOGIA (BRASIL) LIMITADA;LENOVO
+2015;1;3;2015-03-12 15:39:18.000;3;Sudeste;RJ;2;185;Energia Elétrica;240;Problemas com SAC;F;entre 51 a 60 anos;1;LIGHT SERVIÇOS DE ELETRICIDADE S.A;LIGHT S.A
+2015;1;3;2015-03-02 08:08:16.000;5;Centro-oeste;MS;9;284;Plano de Saúde;148;Problemas com Contrato;F;mais de 70 anos;1;CAIXA DE ASSISTENCIA DOS SERVIDORES DO ESTADO DE MATO GROSSO DO SUL;CASSEMS
+2015;1;1;2015-01-14 12:07:17.000;5;Centro-oeste;DF;2;284;Plano de Saúde;149;Problemas com Contrato;F;entre 31 a 40 anos;1;QUALICORP ADMINISTRADORA DE BENEFICIOS S/A;NULL
+2015;1;1;2015-01-22 13:24:15.000;5;Centro-oeste;GO;6;187;Telefonia Celular;143;Problemas com Contrato;M;mais de 70 anos;1;TIM CELULAR S.A.;TIM CELULAR
+2015;1;1;2015-01-20 09:19:32.000;3;Sudeste;SP;3;120;Móveis;114;Problemas na Entrega de Produtos;F;entre 41 a 50 anos;1;LOJAS FENÍCIA LTDA;NULL
+2015;1;3;2015-03-13 12:11:23.000;4;Sul;PR;2;279;Internet (Serviços);198;Problemas na Oferta;F;Nao Informada;1;GVT - GLOBAL VILLAGE TELECOM LTDA - AOP;GVT - GLOBAL VILLAGE TELECOM LTDA - AOP
+2015;1;2;2015-02-12 14:26:30.000;3;Sudeste;SP;2;187;Telefonia Celular;134;Problemas com Cobrança;M;Nao Informada;1;TELEFONICA BRASIL S/A;VIVO/TELEFÔNICA
+2015;1;1;2015-01-09 09:35:21.000;2;Nordeste;BA;3;186;Telefonia Fixa;144;Problemas com Contrato;F;entre 31 a 40 anos;1;VIVO S.A.;VIVO
+2015;1;2;2015-02-06 08:09:01.000;5;Centro-oeste;GO;9;76;Outros Contratos;27;Problemas com Contrato;M;entre 51 a 60 anos;1;CETELEM BRASIL S.A.-CREDITO FINANCIAMENTO E INVESTIMENTO;CETELEM BRASIL
+2015;1;3;2015-03-05 10:03:11.000;5;Centro-oeste;GO;6;129;Carros;107;Problemas na Entrega de Produtos;F;entre 61 a 70 anos;1;RENAUTO VEICULOS E PECAS LTDA (CNPJ BAIXADO);RENAUTO
+2015;1;3;2015-03-03 15:15:02.000;3;Sudeste;MG;9;96;Televisão / Aparelho DVD / Filmadora;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 61 a 70 anos;1;SMART TELE ELETRONICA COMERCIO E SERVICOS LTDA-ME;SMART TELE
+2015;1;1;2015-01-07 12:10:57.000;3;Sudeste;ES;3;186;Telefonia Fixa;238;Problemas com SAC;F;entre 41 a 50 anos;1;TELEMAR NORTE LESTE S/A;OI
+2015;1;3;2015-03-24 17:16:27.000;5;Centro-oeste;MS;2;76;Outros Contratos;44;Problemas na Oferta;F;entre 21 a 30 anos;1;IMOBILIARIA 2001 LTDA;IMOBILIÁRIA 2001 LTDA
+2015;1;3;2015-03-26 09:00:39.000;3;Sudeste;SP;3;186;Telefonia Fixa;134;Problemas com Cobrança;M;entre 61 a 70 anos;1;CLARO S/A;CLARO / EMBRATEL / CLAROTV
+2015;1;3;2015-03-25 16:11:24.000;3;Sudeste;SP;3;186;Telefonia Fixa;137;Problemas na Oferta;F;até 20 anos;1;CLARO S/A;CLARO / EMBRATEL / CLAROTV
+2015;1;1;2015-01-06 10:48:53.000;3;Sudeste;SP;2;259;TV por Assinatura;194;Problemas com Cobrança;F;Nao Informada;1;A.TELECOM S/A;VIVO TV
+2015;1;1;2015-01-19 12:22:42.000;3;Sudeste;SP;3;63;Financeira;31;Problemas com Cobrança;M;entre 51 a 60 anos;1;BANCO BMG S/A;
+2015;1;1;2015-01-26 16:28:28.000;3;Sudeste;SP;3;279;Internet (Serviços);194;Problemas com Cobrança;F;entre 31 a 40 anos;1;NEXTEL TELECOMUNICAÇÕES LTDA.;
+2015;1;1;2015-01-06 10:05:27.000;3;Sudeste;MG;6;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 41 a 50 anos;1;TELEFÔNICA BRASIL S.A;VIVO
+2015;1;3;2015-03-25 11:24:39.000;2;Nordeste;AL;3;76;Outros Contratos;50;Negativação Indevida de Consumidor;M;entre 31 a 40 anos;1;BANCO ITAU BBA S.A.;ITAU PROTOCOLO CENTRAL
+2015;1;3;2015-03-20 10:43:51.000;5;Centro-oeste;MS;3;76;Outros Contratos;28;Problemas com Cobrança;M;entre 51 a 60 anos;1;BANCO ITAU BBA S.A. @;
+2015;1;1;2015-01-15 13:18:01.000;3;Sudeste;SP;3;134;Produto de Uso Pessoal ( Barbeador, Depilador, Secador, Outros );105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;ELECTROLUX DO BRASIL SA;ELECTROLUX
+2015;1;1;2015-01-26 09:33:14.000;3;Sudeste;ES;10;63;Financeira;28;Problemas com Cobrança;M;entre 41 a 50 anos;1;BV FINANCEIRA SA CREDITO FINANCIAMENTO E INVESTIMENTO;BV FINANCEIRA S.A
+2015;1;2;2015-02-11 18:30:51.000;4;Sul;SC;6;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;SAMSUNG ELETRONICA DA AMAZONIA LTDA;NULL
+2015;1;2;2015-02-10 15:39:53.000;2;Nordeste;CE;6;185;Energia Elétrica;130;Problemas com Contrato;F;entre 31 a 40 anos;1;COELCE;NULL
+2015;1;2;2015-02-02 14:26:01.000;4;Sul;SC;6;117;Ferramenta ( Alicate, Cortador de Grama, Furadeira, Pá, Pincel, Etc. );114;Problemas na Entrega de Produtos;M;Nao Informada;1;GONZAGA COML MOTO PECAS;NULL
+2015;1;2;2015-02-19 14:51:32.000;3;Sudeste;SP;3;54;Cartão de Crédito;218;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;BANCO CAIXA ECONÔMICA FEDERAL;CAIXA ECONÔMICA FEDERAL
+2015;1;1;2015-01-27 11:09:09.000;2;Nordeste;CE;3;129;Carros;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 61 a 70 anos;1;FAZZA MOTORS COMERCIO DE VEICULOS LTDA;NULL
+2015;1;3;2015-03-11 08:47:42.000;4;Sul;PR;2;186;Telefonia Fixa;128;Problemas com Contrato;F;Nao Informada;1;OI FIXA - OI S/A - AOP;TELEFONIA FIXA E BANDA LARGA FIXA - GRUPO OI - AOP
+2015;1;2;2015-02-02 17:17:38.000;4;Sul;PR;2;55;Cartão de Loja;217;Problemas com Cobrança;F;entre 61 a 70 anos;1;CONSORCIO NACIONAL LUIZA S/A LTDA - AOP;GRUPO MAGAZINE LUIZA
+2015;1;2;2015-02-05 15:17:56.000;4;Sul;SC;3;132;Vestuário ( Calçado / Roupa );107;Problemas na Entrega de Produtos;M;entre 31 a 40 anos;1;SBF COMERCIO DE PRODUTOS ESPORTIVOS LTDA;CENTAURO.COM
+2015;1;2;2015-02-19 13:18:05.000;3;Sudeste;SP;3;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 61 a 70 anos;1;TELEFONICA BRASIL S/A;VIVO/TELEFÔNICA
+2015;1;3;2015-03-19 15:36:52.000;4;Sul;RS;3;102;Microcomputador / Produtos de Informática;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 41 a 50 anos;1;QBEX COMPUTADORES LTDA;QBEX COMPUTADORES
+2015;1;2;2015-02-24 16:41:07.000;3;Sudeste;ES;2;259;TV por Assinatura;184;Problemas com Contrato;F;Nao Informada;1;NET SERVICOS DE COMUNICACAO S/A;NET
+2015;1;1;2015-01-09 13:23:44.000;4;Sul;RS;3;76;Outros Contratos;28;Problemas com Cobrança;M;entre 41 a 50 anos;1;MAGAZINE LUIZA S/A;MAGAZINE LUIZA
+2015;1;2;2015-02-04 08:09:41.000;3;Sudeste;SP;3;56;Consórcios;47;Problemas na Oferta;F;entre 31 a 40 anos;1;SERMAC ADMINISTRAÇÃO DE CONSÓRCIOS LTDA-ME;
+2015;1;2;2015-02-19 11:01:40.000;1;Norte;RO;2;101;Aparelho Celular;107;Problemas na Entrega de Produtos;F;entre 31 a 40 anos;1;SAMSUNG ELETRÔNICA DA AMAZONIA LTDA;SAMSUNG
+2015;1;2;2015-02-02 13:00:02.000;3;Sudeste;ES;3;124;Móveis;115;Problemas com Desistência de Compra ou Contratação;F;entre 31 a 40 anos;1;VISION;COMUNICAÇAO VISUAL
+2015;1;2;2015-02-24 08:27:05.000;3;Sudeste;SP;3;258;Consultoria / Assessoria / Agenciamento ( Recolocação Profissional, Agência de Empregada, de Casamento, Etc. );197;Problemas na Oferta;M;entre 51 a 60 anos;1;ASSOCIACAO PAULISTA DOS BENEF DA SEG E PREVIDENCIA;APABESP - CEPAASP
+2015;1;2;2015-02-02 08:39:29.000;2;Nordeste;BA;3;120;Móveis;107;Problemas na Entrega de Produtos;F;entre 41 a 50 anos;1;VIA VAREJO S/A;CASAS BAHIA / PONTO FRIO
+2015;1;2;2015-02-05 17:33:33.000;2;Nordeste;PB;7;283;Estabelecimento comercial (supermercado, loja, padaria, locadora, frutaria, etc.);199;Problemas com Entrega de Documentos ao Consumidor;F;Nao Informada;1;COMERCIAL  DE ROUPAS S/A;COMISARIA COLOMBO
+2015;1;2;2015-02-20 16:45:09.000;3;Sudeste;SP;6;187;Telefonia Celular;134;Problemas com Cobrança;F;mais de 70 anos;1;TELEFONICA BRASIL S/A;VIVO/TELEFÔNICA
+2015;1;2;2015-02-06 09:46:48.000;4;Sul;SC;6;125;Aquecedor / Ventilador / Ar Condicionado / Circulador de Ar;105;Vício ou Má Qualidade de Produto ou Serviço;F;Nao Informada;1;WHIRLPOOL S.A;CONSUL - BRASTEMP
+2015;1;3;2015-03-13 14:30:19.000;5;Centro-oeste;GO;6;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 41 a 50 anos;1;OI MÓVEL S/A (14 BRASIL TELECOM CELULAR S/A);OI CELULAR / OI TV (CIP ELETRÔNICA)
+2015;1;2;2015-02-23 13:03:57.000;3;Sudeste;SP;3;185;Energia Elétrica;136;Problemas com Cobrança;M;entre 51 a 60 anos;1;BANDEIRANTE ENERGIA S/A;
+2015;1;3;2015-03-17 15:51:49.000;5;Centro-oeste;GO;6;185;Energia Elétrica;134;Problemas com Cobrança;M;entre 31 a 40 anos;1;CENTRAIS ELETRICAS DE GOIAS;CELG
+2015;1;3;2015-03-18 14:55:42.000;3;Sudeste;MG;6;279;Internet (Serviços);194;Problemas com Cobrança;F;entre 61 a 70 anos;1;TELERJ CELULAR S/A;VIVO
+2015;1;2;2015-02-03 15:19:27.000;3;Sudeste;SP;6;259;TV por Assinatura;203;Problemas com Contrato;F;Nao Informada;1;TELEFONICA SISTEMA DE TELIVISÃO S/A;VIVO TV/TVA
+2015;1;2;2015-02-19 14:59:46.000;4;Sul;SC;6;101;Aparelho Celular;115;Problemas com Desistência de Compra ou Contratação;F;entre 41 a 50 anos;1;LEOELETRO COMÉRCIO DE ELETRONICOS LTDA;LEOELETRO
+2015;1;1;2015-01-05 12:09:25.000;1;Norte;TO;6;185;Energia Elétrica;145;Problemas Diversos com Produtos e Serviços;M;entre 31 a 40 anos;1;ENERGISA TOCANTINS DISTRIBUIDORA DE ENERGIA S/A;ENERGISA TOCANTINS (PALMAS)
+2015;1;3;2015-03-12 10:37:23.000;3;Sudeste;SP;3;102;Microcomputador / Produtos de Informática;102;Problemas com Garantia de Produtos;M;entre 31 a 40 anos;1;LOJAS AMERICANAS S.A.;LOJAS AMERICANAS (CIP ELETRÔNICA)
+2015;1;3;2015-03-03 16:06:35.000;3;Sudeste;SP;3;259;TV por Assinatura;194;Problemas com Cobrança;F;entre 31 a 40 anos;1;SKY BRASIL SERVIÇOS LTDA;SKY DO BRASIL
+2015;1;3;2015-03-19 13:04:18.000;2;Nordeste;PE;9;282;Seguro;255;Problemas com SAC;F;entre 51 a 60 anos;1;EDITORA GLOBO S/A;
+2015;1;1;2015-01-20 12:43:01.000;2;Nordeste;PE;9;76;Outros Contratos;28;Problemas com Cobrança;M;entre 61 a 70 anos;1;CAIXA ECONOMICA FEDERAL;SR RECIFE
+2015;1;3;2015-03-17 10:48:12.000;1;Norte;AM;3;259;TV por Assinatura;255;Problemas com SAC;M;entre 21 a 30 anos;1;CLARO S.A.;CLARO
+2015;1;2;2015-02-02 11:23:06.000;2;Nordeste;PE;8;54;Cartão de Crédito;27;Problemas com Contrato;F;mais de 70 anos;1;HIPERCARD BANCO MULTIPLO S.A.;
+2015;1;2;2015-02-04 11:14:20.000;4;Sul;RS;3;276;Agências e Operadoras de viagens (pacotes turísticos);255;Problemas com SAC;M;entre 31 a 40 anos;1;BRASIL USA COMERCIALIZACAO DE RESORTS LTDA;BRASIL USA RESORTS
+2015;1;1;2015-01-05 11:38:14.000;3;Sudeste;ES;6;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 51 a 60 anos;1;TELEMAR NORTE LESTE S/A;OI
+2015;1;1;2015-01-20 11:35:25.000;2;Nordeste;PE;3;259;TV por Assinatura;194;Problemas com Cobrança;M;entre 31 a 40 anos;1;CLARO TV - EMBRATEL TVSAT TELECOMUNICACOES SA;VIA EMBRATEL - CLARO TV
+2015;1;3;2015-03-31 14:14:59.000;5;Centro-oeste;GO;6;120;Móveis;102;Problemas com Garantia de Produtos;F;entre 21 a 30 anos;1;VIA VAREJO S/A;LOJAS FISICAS CASAS BAHIA / PONTO FRIO
+2015;1;2;2015-02-20 16:59:13.000;3;Sudeste;SP;3;54;Cartão de Crédito;28;Problemas com Cobrança;M;entre 41 a 50 anos;1;BANCO BRADESCARD S/A;*IBIBANK/CARTÃO C&A/IBIODONTO/IBICARD/BANCO IBI
+2015;1;3;2015-03-13 12:57:37.000;3;Sudeste;SP;2;134;Produto de Uso Pessoal ( Barbeador, Depilador, Secador, Outros );105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 21 a 30 anos;1;SEMAX;
+2015;1;1;2015-01-08 09:21:29.000;3;Sudeste;RJ;3;55;Cartão de Loja;28;Problemas com Cobrança;F;entre 61 a 70 anos;1;LEADER S/A ADMINISTRADORA DE CARTOES DE CREDITO;LEADER S/A
+2015;1;2;2015-02-25 10:30:30.000;3;Sudeste;RJ;3;186;Telefonia Fixa;124;Problemas com Contrato;F;até 20 anos;1;OI MÓVEL S/A (ANTIGA TNL);OI
+2015;1;3;2015-03-18 16:41:34.000;4;Sul;SC;10;54;Cartão de Crédito;27;Problemas com Contrato;F;entre 41 a 50 anos;1;BANCO ITAUCARD S.A.;BANCO CITICARD/ BANCO CREDICARD
+2015;1;1;2015-01-08 16:52:59.000;5;Centro-oeste;MT;3;63;Financeira;250;Problemas com Cobrança;F;entre 41 a 50 anos;1;BANCO BMG SA;BANCO BMG
+2015;1;3;2015-03-09 16:19:00.000;4;Sul;PR;9;266;Plano de Assistência Funerária;187;Problemas Diversos com Produtos e Serviços;F;entre 41 a 50 anos;1;ORGANIZAÇÃO SOCIAL DE LUTO CURITIBA LTDA - AOP;ORGANIZAÇÃO SOCIAL DE LUTO CURITIBA LTDA - AOP
+2015;1;1;2015-01-05 11:31:02.000;5;Centro-oeste;MS;3;187;Telefonia Celular;134;Problemas com Cobrança;F;mais de 70 anos;1;AMERICEL S/A @;CLARO @
+2015;1;2;2015-02-09 18:42:56.000;3;Sudeste;SP;3;187;Telefonia Celular;137;Problemas na Oferta;F;até 20 anos;1;TIM CELULAR S/A;TIM CELULAR
+2015;1;1;2015-01-09 08:50:26.000;3;Sudeste;RJ;3;76;Outros Contratos;217;Problemas com Cobrança;F;entre 31 a 40 anos;1;BANCO BGN S.A- CETELEM;BANCO BGN S.A
+2015;1;3;2015-03-06 13:50:57.000;4;Sul;RS;6;259;TV por Assinatura;251;Problemas com SAC;M;entre 51 a 60 anos;1;SKY BRASIL SERVICOS LTDA;SKY
+2015;1;1;2015-01-02 11:59:38.000;5;Centro-oeste;GO;2;134;Produto de Uso Pessoal ( Barbeador, Depilador, Secador, Outros );102;Problemas com Garantia de Produtos;M;entre 21 a 30 anos;1;CALDAS COMERCIO DE ROUPA LITDA;CALANGO STREET WEAR
+2015;1;1;2015-01-06 15:28:24.000;3;Sudeste;SP;2;125;Aquecedor / Ventilador / Ar Condicionado / Circulador de Ar;102;Problemas com Garantia de Produtos;M;Nao Informada;1;LOJA CONSUL;
+2015;1;1;2015-01-05 16:51:07.000;4;Sul;RS;6;279;Internet (Serviços);194;Problemas com Cobrança;F;entre 21 a 30 anos;1;UNIVERSO ONLINE S/A;UOL
+2015;1;1;2015-01-26 10:00:25.000;1;Norte;PA;3;185;Energia Elétrica;134;Problemas com Cobrança;F;entre 51 a 60 anos;1;CENTRAIS ELETRICAS DO PARA S/A - CELPA;CELPA
+2015;1;2;2015-02-11 16:05:48.000;2;Nordeste;PB;9;53;Banco comercial;217;Problemas com Cobrança;F;entre 61 a 70 anos;1;PARANA BANCO S/A;
+2015;1;2;2015-02-28 09:32:09.000;2;Nordeste;BA;2;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;MICROSOFT MOBILE TECNOLOGIA LTDA;NOKIA DO BRASIL
+2015;1;1;2015-01-29 13:33:28.000;1;Norte;TO;2;259;TV por Assinatura;194;Problemas com Cobrança;M;entre 31 a 40 anos;1;SKY BRASIL SERVIÇOS LTDA;TV SKY
+2015;1;2;2015-02-09 09:19:38.000;3;Sudeste;SP;2;279;Internet (Serviços);196;Problemas com Cobrança;M;entre 61 a 70 anos;1;TELEFONICA BRASIL S/A;VIVO
+2015;1;1;2015-01-21 17:02:49.000;3;Sudeste;SP;3;54;Cartão de Crédito;28;Problemas com Cobrança;F;Nao Informada;1;MASTERCARD;
+2015;1;2;2015-02-10 16:48:23.000;5;Centro-oeste;GO;6;82;Incorporação ( Construtoras e Incorporadoras );100;Problemas com Contrato;M;entre 21 a 30 anos;1;MARCO EMPREENDIMENTOS IMOBILIARIOS LTDA;MARCO IMOBILIARIA
+2015;1;2;2015-02-25 17:01:13.000;5;Centro-oeste;GO;6;54;Cartão de Crédito;27;Problemas com Contrato;F;entre 51 a 60 anos;1;BANCO BRADESCARD S.A;(ANTIGO BANCO IBI SA, CARTÃO C&A, IBICRED, IBICARD
+2015;1;3;2015-03-03 12:56:24.000;3;Sudeste;SP;3;199;Convênio de Assistência Médica / Odontológica;221;Problemas com Contrato;F;entre 41 a 50 anos;1;SANTAMALIA SAÚDE S/A;SANTAMALIA SAÚDE S/A
+2015;1;1;2015-01-22 10:13:46.000;5;Centro-oeste;MT;3;264;Automóvel - Locação / Assistência Automobilística ( Clube do Automóvel, Etc. ) / Auto Escola;194;Problemas com Cobrança;F;até 20 anos;1;DEPARTAMENTO ESTADUAL DE TRANSITO;DETRAN MT
+2015;1;1;2015-01-28 13:37:36.000;3;Sudeste;SP;2;90;Acessório Para Vestuário ( Bolsa, Cinto, Chapéu, guarda-chuva, Jóia, Bijuteria, Luva, Etc. );102;Problemas com Garantia de Produtos;F;Nao Informada;1;SUPERMERCADO ENXUTO;
+2015;1;2;2015-02-13 09:38:19.000;3;Sudeste;SP;3;186;Telefonia Fixa;134;Problemas com Cobrança;M;entre 31 a 40 anos;1;NET SERVIÇOS DE COMUNICAÇÃO S/A;NULL
+2015;1;3;2015-03-18 13:54:05.000;3;Sudeste;RJ;6;279;Internet (Serviços);194;Problemas com Cobrança;M;entre 61 a 70 anos;1;GLOBAL VILAGE TELECOM LTDA;GVT
+2015;1;1;2015-01-26 13:46:51.000;3;Sudeste;RJ;3;183;Água / Esgoto;124;Problemas com Contrato;F;entre 51 a 60 anos;1;FAB ZONA OESTE S/A;FOZ ÁGUAS 5
+2015;1;1;2015-01-26 09:52:08.000;2;Nordeste;BA;2;183;Água / Esgoto;134;Problemas com Cobrança;F;entre 21 a 30 anos;1;EMPRESA BAIANA DE AGUAS E SANEAMENTO S.A.;EMBASA
+2015;1;1;2015-01-12 15:12:38.000;3;Sudeste;SP;3;185;Energia Elétrica;134;Problemas com Cobrança;M;entre 51 a 60 anos;1;BANDEIRANTE ENERGIA S/A;
+2015;1;1;2015-01-12 13:59:22.000;3;Sudeste;SP;2;274;Serviços Telefônicos Especiais ( Disque 900 / Erótico, Etc. );196;Problemas com Cobrança;M;Nao Informada;1;CLARO S/A;CLARO/EMBRATEL/CLARO TV
+2015;1;1;2015-01-30 13:21:20.000;3;Sudeste;SP;3;186;Telefonia Fixa;134;Problemas com Cobrança;F;Nao Informada;1;NET SERVICOS DE COMUNICACAO S/A;NET ARARAQUARA
+2015;1;2;2015-02-12 10:44:16.000;5;Centro-oeste;DF;2;102;Microcomputador / Produtos de Informática;102;Problemas com Garantia de Produtos;M;entre 51 a 60 anos;1;PROTECLINE PROTECOES LINEARES LTDA - EPP;PROTECLINE
+2015;1;2;2015-02-05 17:25:43.000;3;Sudeste;MG;9;95;Aparelho de Som;102;Problemas com Garantia de Produtos;F;mais de 70 anos;1;MAGAZINE LUIZA SA;
+2015;1;3;2015-03-19 17:07:47.000;5;Centro-oeste;DF;2;53;Banco comercial;247;Problemas com SAC;F;entre 41 a 50 anos;1;CAIXA ECONOMICA FEDERAL;CEF MATRIZ
+2015;1;2;2015-02-05 09:47:25.000;3;Sudeste;SP;2;284;Plano de Saúde;148;Problemas com Contrato;F;entre 41 a 50 anos;1;CENTRO TRASMONTANO DE SÃO PAULO;CENTRO TRASMONTANO DE SÃO PAULO
+2015;1;1;2015-01-08 10:25:14.000;2;Nordeste;MA;3;53;Banco comercial;28;Problemas com Cobrança;F;mais de 70 anos;1;BANCO BRADESCO SA;BANCO BRADESCO SA
+2015;1;2;2015-02-02 12:57:11.000;3;Sudeste;ES;6;185;Energia Elétrica;124;Problemas com Contrato;F;entre 31 a 40 anos;1;ESPIRITO SANTO CENTRAIS ELETRICAS SOCIEDADE ANONIMA;EDP ESCELSA
+2015;1;1;2015-01-08 10:36:02.000;5;Centro-oeste;GO;6;76;Outros Contratos;28;Problemas com Cobrança;F;até 20 anos;1;CARLOS SARAIVA IMPORTACAO E COMERCIO LTDA;RICARDO ELETRO
+2015;1;1;2015-01-07 17:10:23.000;3;Sudeste;MG;3;187;Telefonia Celular;134;Problemas com Cobrança;M;mais de 70 anos;1;TIM CELULAR S/A;TIM OPERADORA
+2015;1;3;2015-03-13 10:47:08.000;3;Sudeste;ES;3;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 51 a 60 anos;1;TELEFONICA BRASIL S/A;VIVO
+2015;1;3;2015-03-04 13:21:25.000;5;Centro-oeste;DF;3;288;Máquinas e Equipamentos;107;Problemas na Entrega de Produtos;F;entre 51 a 60 anos;1;NOVA PONTOCOM COMERCIO ELETRONICO S.A.;EXTRA, PONTO FRIO E CASAS BAHIA (LOJA VIRTUAL)
+2015;1;2;2015-02-05 09:10:37.000;3;Sudeste;ES;3;95;Aparelho de Som;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 21 a 30 anos;1;M.E. INDÚSTRIA ELETRÔNICA DO NORDESTE LTDA;MONDIAL
+2015;1;1;2015-01-23 14:56:56.000;2;Nordeste;MA;3;186;Telefonia Fixa;125;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;OI MOVEL S.A.;OI MOVEL
+2015;1;2;2015-02-18 15:06:18.000;4;Sul;RS;6;276;Agências e Operadoras de viagens (pacotes turísticos);188;Problemas com Contrato;M;entre 31 a 40 anos;1;DECOLAR.COM LTDA;DECOLAR.COM
+2015;1;1;2015-01-27 15:50:39.000;5;Centro-oeste;GO;6;54;Cartão de Crédito;27;Problemas com Contrato;F;entre 21 a 30 anos;1;BANCO ITAUCARD S.A.;ITAUCARD FINANCEIRA / CARTÃO UNICARD
+2015;1;3;2015-03-03 12:55:21.000;3;Sudeste;RJ;3;186;Telefonia Fixa;124;Problemas com Contrato;M;entre 31 a 40 anos;1;TELEMAR NORTE LESTE S/A OI;OI TELEFONIA FIXA
+2015;1;3;2015-03-25 11:45:24.000;5;Centro-oeste;MS;3;101;Aparelho Celular;112;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;ZURICH MINAS BRASIL SEGUROS S.A.;ZURICH SEGUROS
+2015;1;3;2015-03-04 09:00:19.000;5;Centro-oeste;GO;6;284;Plano de Saúde;221;Problemas com Contrato;M;entre 41 a 50 anos;1;SAO FRANCISCO SISTEMAS DE SAUDE SOC. EMP. LTDA;
+2015;1;1;2015-01-20 15:54:17.000;1;Norte;PA;2;185;Energia Elétrica;211;Problemas Diversos com Produtos e Serviços;F;entre 51 a 60 anos;1;CENTRAIS ELETRICAS DO PARA S/A - CELPA;CELPA
+2015;1;1;2015-01-16 14:35:14.000;5;Centro-oeste;GO;2;54;Cartão de Crédito;28;Problemas com Cobrança;F;entre 31 a 40 anos;1;BANCO DO BRASIL S.A;BANCO DO BRASIL S.A - CIP ELETRONICA
+2015;1;1;2015-01-05 11:59:11.000;2;Nordeste;BA;3;186;Telefonia Fixa;134;Problemas com Cobrança;M;entre 41 a 50 anos;1;OI MOVEL S.A.;OI
+2015;1;2;2015-02-11 12:25:35.000;1;Norte;TO;6;185;Energia Elétrica;237;Problemas com SAC;M;entre 21 a 30 anos;1;ENERGISA TOCANTINS DISTRIBUIDORA DE ENERGIA S/A;ENERGISA TOCANTINS (PALMAS)
+2015;1;2;2015-02-09 13:33:49.000;3;Sudeste;RJ;3;63;Financeira;30;Problemas com Cobrança;M;entre 41 a 50 anos;1;BANCO ITAU S.A.;ITAUBANCO
+2015;1;3;2015-03-09 16:11:25.000;4;Sul;PR;2;141;Outros Produtos Importados;105;Vício ou Má Qualidade de Produto ou Serviço;F;Nao Informada;1;BRITÂNIA ELETRODOMÉSTICOS S/A - AOP;BRITÂNIA ELETROD. - GRUPO BRITANIA PHILCO DIAMOND
+2015;1;1;2015-01-16 10:36:06.000;1;Norte;PA;6;187;Telefonia Celular;237;Problemas com SAC;F;entre 61 a 70 anos;1;TIM CELULAR S.A.;TIM CELULAR
+2015;1;2;2015-02-20 10:07:40.000;3;Sudeste;ES;6;55;Cartão de Loja;244;Problemas com SAC;M;entre 51 a 60 anos;1;BANCO ITAUCARD S.A.;ITAUCARD - CARTÕES ITAÚ
+2015;1;1;2015-01-19 15:33:14.000;2;Nordeste;CE;6;54;Cartão de Crédito;250;Problemas com Cobrança;M;entre 51 a 60 anos;1;BANCO ITAUCARD S.A.;ITAUCARD
+2015;1;3;2015-03-06 10:42:52.000;1;Norte;TO;6;187;Telefonia Celular;143;Problemas com Contrato;F;entre 51 a 60 anos;1;AMERICEL S.A.;CLARO
+2015;1;3;2015-03-30 09:30:29.000;5;Centro-oeste;MT;9;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;CASA BAHIA COMERCIAL LTDA.;CASAS BAHIA
+2015;1;2;2015-02-06 12:12:47.000;2;Nordeste;PE;9;92;Eletrodomésticos Linha Branca;107;Problemas na Entrega de Produtos;F;entre 41 a 50 anos;1;VIA VAREJO S/A;CASAS BAHIA
+2015;1;1;2015-01-21 17:11:43.000;5;Centro-oeste;DF;3;141;Outros Produtos Importados;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;COMPANHIA BRASILEIRA DE DISTRIBUIÇÃO;EXTRA HIPERMERCADOS E PÃO DE AÇUCAR
+2015;1;3;2015-03-12 11:55:10.000;2;Nordeste;RN;6;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 21 a 30 anos;1;TNL PCS S.A.;OI MÓVEL S.A.
+2015;1;3;2015-03-27 14:01:14.000;5;Centro-oeste;MS;3;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 51 a 60 anos;1;TELEFONICA BRASIL S.A.;VIVO
+2015;1;2;2015-02-26 16:22:45.000;3;Sudeste;MG;3;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 61 a 70 anos;1;TELEMAR NORTE LESTE S/A;OI
+2015;1;1;2015-01-08 15:26:50.000;4;Sul;SC;3;103;Artigo de Cozinha ( Coifa, Exaustor, Panela, Talher, Filtro de Café, Porta-Filtro, Louças, Etc. );105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;BRITANIA ELETRODOMESTICOS LTDA.;BRITANIA ELETRODOMESTICOS LTDA. - CIP
+2015;1;3;2015-03-13 15:25:24.000;4;Sul;SC;3;134;Produto de Uso Pessoal ( Barbeador, Depilador, Secador, Outros );105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;PHILCO ELETRONICOS LTDA.;PHILCO ELETRONICOS LTDA. - CIP
+2015;1;3;2015-03-03 16:25:47.000;3;Sudeste;SP;3;279;Internet (Serviços);197;Problemas na Oferta;M;entre 41 a 50 anos;1;TELEFONICA BRASIL S/A;VIVO/TELEFÔNICA
+2015;1;3;2015-03-24 10:55:44.000;5;Centro-oeste;DF;3;279;Internet (Serviços);188;Problemas com Contrato;M;entre 21 a 30 anos;1;GLOBAL VILLAGE TELECOM S.A.;GVT
+2015;1;1;2015-01-20 12:01:37.000;3;Sudeste;SP;3;259;TV por Assinatura;255;Problemas com SAC;F;entre 51 a 60 anos;1;CLARO S/A;CLARO / EMBRATEL / CLAROTV
+2015;1;3;2015-03-02 17:23:36.000;4;Sul;SC;6;102;Microcomputador / Produtos de Informática;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;NUCLEO SERVICE ELETRONICA LTDA ME;NUCLEO SERVICE
+2015;1;3;2015-03-19 13:30:30.000;3;Sudeste;ES;3;94;Eletrodomésticos Linha Branca;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 51 a 60 anos;1;LOJAS SIPOLATTI INDUSTRIA E COMERCIO LTDA;LOJAS SIPOLATTI
+2015;1;2;2015-02-03 13:52:46.000;3;Sudeste;MG;6;132;Vestuário ( Calçado / Roupa );120;Problemas com Cobrança;M;entre 21 a 30 anos;1;SR TIE UBERABA;SR TIE UBERABA
+2015;1;3;2015-03-23 11:30:45.000;2;Nordeste;PE;6;54;Cartão de Crédito;32;Problemas com Cobrança;F;Nao Informada;1;BANCO ITAUCARD S.A.;ITAUCARD / CREDICARD/UNICARD
+2015;1;2;2015-02-12 14:53:12.000;3;Sudeste;ES;6;259;TV por Assinatura;194;Problemas com Cobrança;F;entre 31 a 40 anos;1;SKY BRASIL SERVICOS LTDA;SKY
+2015;1;2;2015-02-12 14:43:02.000;5;Centro-oeste;GO;6;186;Telefonia Fixa;136;Problemas com Cobrança;F;entre 21 a 30 anos;1;GLOBAL VILLAGE TELECOM LTDA;GVT
+2015;1;2;2015-02-10 15:34:04.000;4;Sul;SC;10;54;Cartão de Crédito;27;Problemas com Contrato;F;entre 31 a 40 anos;1;BANCO ITAU BBA S.A.;BANCO ITAU BBA
+2015;1;2;2015-02-27 11:45:05.000;3;Sudeste;SP;3;105;Artigo de Foto Imagem ( Filme, Ampliador, Luneta, Flash, Máquina Fotográfica, Binóculos, Etc. );109;Problemas na Oferta;M;entre 21 a 30 anos;1;L. I. R. COMERCIO VAREJISTA DE ELETRODOMESTICOS LT;
+2015;1;2;2015-02-03 10:32:32.000;3;Sudeste;SP;3;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 51 a 60 anos;1;SKY BRASIL SERVIÇOS LTDA;SKY
+2015;1;1;2015-01-20 12:58:52.000;5;Centro-oeste;GO;3;288;Máquinas e Equipamentos;107;Problemas na Entrega de Produtos;M;entre 41 a 50 anos;1;J. M. GURGEL - EIRELI;LOJADOMECANICO.COM.BR
+2015;1;2;2015-02-03 12:09:51.000;5;Centro-oeste;MS;3;126;Produtos Doméstico ( Escada, Balança, Overloque, Máquina de Costura / Tricô, Vassoura, Escova, Rodo, Saco de Lixo, Palha de Aço );105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;WAP DO BRASIL LTDA;WAP DO BRASIL LTDA
+2015;1;1;2015-01-07 14:48:30.000;3;Sudeste;RJ;3;236;Cursos Livres Outros;184;Problemas com Contrato;F;entre 31 a 40 anos;1;BRASIL ADMINISTRACAO DE PROGRAMA EDUCACIONAL LTDA;
+2015;1;1;2015-01-09 12:33:26.000;3;Sudeste;SP;3;187;Telefonia Celular;143;Problemas com Contrato;F;Nao Informada;1;TELEFONICA BRASIL S/A;VIVO/TELEFÔNICA
+2015;1;1;2015-01-13 15:51:56.000;2;Nordeste;BA;6;279;Internet (Serviços);194;Problemas com Cobrança;F;entre 21 a 30 anos;1;OI S/A;OI
+2015;1;2;2015-02-27 10:21:14.000;3;Sudeste;SP;6;187;Telefonia Celular;134;Problemas com Cobrança;M;Nao Informada;1;TNL PCS S/A. - TELEFONIA MÓVEL(OI);OPERADORA OI
+2015;1;1;2015-01-09 11:45:26.000;3;Sudeste;MG;3;54;Cartão de Crédito;27;Problemas com Contrato;F;entre 31 a 40 anos;1;CAIXA ECONÔMICA FEDERAL;CEF MATRIZ
+2015;1;1;2015-01-06 13:24:30.000;2;Nordeste;BA;6;63;Financeira;28;Problemas com Cobrança;F;entre 61 a 70 anos;1;VIVO S/A;VIVO
+2015;1;3;2015-03-31 08:32:46.000;3;Sudeste;SP;3;186;Telefonia Fixa;134;Problemas com Cobrança;M;entre 31 a 40 anos;1;TELEFONICA BRASIL S/A;VIVO/TELEFÔNICA
+2015;1;1;2015-01-13 11:08:49.000;3;Sudeste;ES;3;53;Banco comercial;28;Problemas com Cobrança;M;entre 21 a 30 anos;1;DLD COMERCIO VAREJISTA LTDA;DADALTO
+2015;1;3;2015-03-05 15:35:58.000;3;Sudeste;ES;6;54;Cartão de Crédito;30;Problemas com Cobrança;F;entre 41 a 50 anos;1;BANCO ITAUCARD S.A.;ITAUCARD - CARTÕES ITAÚ
+2015;1;3;2015-03-20 08:57:36.000;3;Sudeste;ES;3;185;Energia Elétrica;134;Problemas com Cobrança;M;entre 41 a 50 anos;1;ESPIRITO SANTO CENTRAIS ELETRICAS SOCIEDADE ANONIMA;ESCELSA
+2015;1;3;2015-03-17 10:41:57.000;4;Sul;SC;3;53;Banco comercial;247;Problemas com SAC;F;Nao Informada;1;CAIXA ECONÔMICA FEDERAL;CAIXA ECONÔMICA FEDERAL - CIP
+2015;1;2;2015-02-20 11:49:59.000;3;Sudeste;SP;6;217;Medicamento Homeopático / Fitoterápico ( Manipulado / Industrializado );180;Problemas na Oferta;F;entre 21 a 30 anos;1;MKT7 COMÉRCIO -EIRELI;GOOD SHOP TV
+2015;1;1;2015-01-22 18:38:00.000;3;Sudeste;SP;3;53;Banco comercial;27;Problemas com Contrato;F;entre 31 a 40 anos;1;BANCO SANTANDER (BRASIL) S/A;SANTANDER
+2015;1;1;2015-01-28 10:33:34.000;3;Sudeste;ES;6;186;Telefonia Fixa;134;Problemas com Cobrança;M;entre 51 a 60 anos;1;EMPRESA BRASILEIRA DE TELECOMUNICACOES S A EMBRATE;EMBRATEL
+2015;1;3;2015-03-12 11:06:32.000;3;Sudeste;SP;3;185;Energia Elétrica;134;Problemas com Cobrança;F;entre 51 a 60 anos;1;COMPANHIA PIRATININGA DE FORÇA E LUZ;CPFL
+2015;1;3;2015-03-05 16:58:46.000;3;Sudeste;MG;6;76;Outros Contratos;28;Problemas com Cobrança;F;mais de 70 anos;1;CARTÃO PETROBRAS LOSANGO;CARTÃO PETROBRAS LOSANGO
+2015;1;3;2015-03-09 13:55:39.000;4;Sul;RS;6;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 41 a 50 anos;1;BRASIL TELECOM S/A;OI
+2015;1;2;2015-02-04 10:34:11.000;5;Centro-oeste;GO;6;259;TV por Assinatura;203;Problemas com Contrato;F;entre 31 a 40 anos;1;SKY BRASIL SERVICOS LTDA;SKY - SEDE
+2015;1;3;2015-03-03 08:27:35.000;2;Nordeste;RN;2;92;Eletrodomésticos Linha Branca;102;Problemas com Garantia de Produtos;F;entre 31 a 40 anos;1;GBS REFRIGERAÇÃO SERV E PEÇAS LTDA.;GBS REFRIGERAÇÃO SERV E PEÇAS LTDA.
+2015;1;3;2015-03-31 14:31:24.000;2;Nordeste;BA;3;101;Aparelho Celular;120;Problemas com Cobrança;M;entre 21 a 30 anos;1;TIM CELULAR S/A;TIM CELULAR
+2015;1;1;2015-01-05 11:05:12.000;3;Sudeste;ES;3;102;Microcomputador / Produtos de Informática;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 21 a 30 anos;1;LOJAS AMERICANAS S.A.;LOJAS AMERICANAS
+2015;1;2;2015-02-06 11:36:37.000;4;Sul;PR;3;249;Assistência Técnica;194;Problemas com Cobrança;M;Nao Informada;1;INFORM SYSTEM SERV DE PROT AO CREDITO NAC LTDA ME;INFORM SYSTEM SERV DE PROT AO CREDITO NAC LTDA ME
+2015;1;3;2015-03-13 13:20:29.000;2;Nordeste;AL;6;54;Cartão de Crédito;28;Problemas com Cobrança;M;entre 31 a 40 anos;1;LOJAS RIACHUELO SA;RIACHUELO
+2015;1;1;2015-01-12 14:16:35.000;4;Sul;PR;2;182;Serviços Postais;125;Vício ou Má Qualidade de Produto ou Serviço;F;Nao Informada;1;CORREIOS - ECT EMP.BRAS.CORREIOS E TELEG.- AOP;CORREIOS - REGIONAL PR
+2015;1;3;2015-03-23 15:45:06.000;3;Sudeste;SP;3;96;Televisão / Aparelho DVD / Filmadora;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;CNOVA COMÉRCIO ELETRÔNICO S/A;PONTOFRIO.COM/CASASBAHIA.COM/EXTRA.COM/BARATEIRO
+2015;1;2;2015-02-11 10:44:06.000;1;Norte;PA;6;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 31 a 40 anos;1;TELEMAR NORTE LESTE S/A;OI FIXO
+2015;1;1;2015-01-22 17:08:56.000;5;Centro-oeste;MS;2;183;Água / Esgoto;145;Problemas Diversos com Produtos e Serviços;M;entre 21 a 30 anos;1;AGUAS GUARIROBA SA @;ÁGUAS GUARIROBA @
+2015;1;1;2015-01-13 07:36:01.000;3;Sudeste;MG;6;187;Telefonia Celular;132;Problemas com Desistência de Compra ou Contratação;F;entre 51 a 60 anos;1;TIM;
+2015;1;2;2015-02-12 15:31:57.000;2;Nordeste;PB;9;82;Incorporação ( Construtoras e Incorporadoras );82;Vício ou Má Qualidade de Produto ou Serviço;F;entre 21 a 30 anos;1;IMOBILIARIA NOVAES LTDA - ME;IMOBILIARIA NOVAES
+2015;1;3;2015-03-25 17:17:17.000;3;Sudeste;MG;6;187;Telefonia Celular;136;Problemas com Cobrança;F;entre 31 a 40 anos;1;TNL PCS S/A;OI
+2015;1;3;2015-03-03 13:57:38.000;3;Sudeste;MG;6;62;Empresa de Cobrança;32;Problemas com Cobrança;M;Nao Informada;1;RECOVERY DO BRASIL CONSULTORIA S.A;
+2015;1;1;2015-01-07 14:11:57.000;5;Centro-oeste;GO;6;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 41 a 50 anos;1;CLARO S/A;CLARO
+2015;1;2;2015-02-10 16:04:49.000;3;Sudeste;MG;2;7;Água;7;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;STAR ART PHOTOS;
+2015;1;1;2015-01-28 11:18:07.000;3;Sudeste;SP;3;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 61 a 70 anos;1;TIM CELULAR S/A;TIM CELULAR
+2015;1;3;2015-03-24 15:01:11.000;4;Sul;SC;6;187;Telefonia Celular;241;Problemas com SAC;M;entre 21 a 30 anos;1;VIVO S.A.;VIVO
+2015;1;1;2015-01-20 10:06:37.000;3;Sudeste;SP;3;259;TV por Assinatura;185;Vício ou Má Qualidade de Produto ou Serviço;M;entre 61 a 70 anos;1;CLARO S/A;CLARO
+2015;1;1;2015-01-21 15:35:28.000;2;Nordeste;RN;9;102;Microcomputador / Produtos de Informática;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;QBEX;QBEX
+2015;1;3;2015-03-26 10:13:16.000;5;Centro-oeste;GO;6;259;TV por Assinatura;194;Problemas com Cobrança;M;entre 21 a 30 anos;1;EMBRATEL TV SAT TELECOMUNICAÇÕES S.A.;EMBRATEL TV SAT
+2015;1;1;2015-01-13 14:11:36.000;3;Sudeste;SP;3;74;Banco de Dados e Cadastros de Consumidores (SPC, Serasa, SCPC etc.);50;Negativação Indevida de Consumidor;M;entre 41 a 50 anos;1;SERASA S.A.;SERASA EXPERIAN
+2015;1;2;2015-02-24 12:12:00.000;2;Nordeste;CE;3;233;Escola ( Pré, 1º, 2º Graus e Superior );194;Problemas com Cobrança;F;entre 31 a 40 anos;1;IREP SOCIEDADE DE E. SUP., M. E FUNDAMENTAL LTDA;ESTÁCIO FIC
+2015;1;3;2015-03-03 10:21:20.000;3;Sudeste;SP;3;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 41 a 50 anos;1;CLARO S/A;CLARO MOVEL, FIXO, EMBRATEL E CLARO TV
+2015;1;1;2015-01-12 16:52:05.000;3;Sudeste;MG;6;187;Telefonia Celular;143;Problemas com Contrato;F;entre 51 a 60 anos;1;TIM CELULAR S/A;TIM OPERADORA
+2015;1;3;2015-03-13 14:12:14.000;4;Sul;PR;2;278;Informações sobre o Procon;205;Problemas Diversos com Produtos e Serviços;F;entre 41 a 50 anos;1;OI FIXA - OI S/A - AOP;TELEFONIA FIXA E BANDA LARGA FIXA - GRUPO OI - AOP
+2015;1;3;2015-03-05 13:32:40.000;4;Sul;SC;3;187;Telefonia Celular;135;Problemas com Cobrança;M;entre 21 a 30 anos;1;OI S.A.;OI
+2015;1;1;2015-01-05 09:02:34.000;3;Sudeste;ES;6;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 61 a 70 anos;1;TELEMAR NORTE LESTE S/A;OI
+2015;1;3;2015-03-30 08:32:13.000;2;Nordeste;PE;3;187;Telefonia Celular;127;Problemas Diversos com Produtos e Serviços;M;entre 51 a 60 anos;1;CLARO S.A.;TELEFONIA MÓVEL(CELULAR), INTERNET BANDA LARGA
+2015;1;2;2015-02-20 16:40:53.000;3;Sudeste;SP;2;53;Banco comercial;60;Vício ou Má Qualidade de Produto ou Serviço;F;entre 21 a 30 anos;1;BANCO DO BRASIL S/A;
+2015;1;3;2015-03-06 10:27:10.000;4;Sul;SC;3;103;Artigo de Cozinha ( Coifa, Exaustor, Panela, Talher, Filtro de Café, Porta-Filtro, Louças, Etc. );102;Problemas com Garantia de Produtos;M;entre 51 a 60 anos;1;BRITANIA ELETRODOMESTICOS S/A;PHILCO
+2015;1;3;2015-03-20 10:23:49.000;4;Sul;SC;6;73;Estabelecimento / Loja - Compra a Prazo;50;Negativação Indevida de Consumidor;F;entre 31 a 40 anos;1;CONQUISTA CALÇADOS;CONQUISTA CALÇADOS FAROL SHOPPING
+2015;1;3;2015-03-16 15:54:36.000;3;Sudeste;MG;6;233;Escola ( Pré, 1º, 2º Graus e Superior );254;Problemas com SAC;M;Nao Informada;1;INAP LTDA;INAP
+2015;1;1;2015-01-09 12:37:43.000;3;Sudeste;SP;2;279;Internet (Serviços);184;Problemas com Contrato;F;entre 31 a 40 anos;1;NET PIRACICABA LTDA.;NET
+2015;1;3;2015-03-09 10:17:22.000;1;Norte;AP;6;54;Cartão de Crédito;28;Problemas com Cobrança;F;entre 31 a 40 anos;1;CAIXA ECONOMICA FEDERAL;CAIXA ECONOMICA FEDERAL (CARTÕES)
+2015;1;3;2015-03-26 12:29:24.000;2;Nordeste;PE;6;76;Outros Contratos;248;Problemas com SAC;F;Nao Informada;1;CLARO S.A.;TELEFONIA MÓVEL(CELULAR), INTERNET BANDA LARGA
+2015;1;2;2015-02-06 10:49:48.000;4;Sul;RS;3;54;Cartão de Crédito;28;Problemas com Cobrança;F;entre 51 a 60 anos;1;HIPERCARD BANCO MULTIPLO S.A.;HIPERCARD | ITAU UNIBANCO
+2015;1;2;2015-02-10 08:40:25.000;4;Sul;SC;6;186;Telefonia Fixa;240;Problemas com SAC;M;entre 31 a 40 anos;1;OI S/A;OI
+2015;1;2;2015-02-27 14:23:47.000;5;Centro-oeste;MS;9;186;Telefonia Fixa;134;Problemas com Cobrança;F;mais de 70 anos;1;EMPRESA BRASILEIRA DE TELECOMUNICACOES S A EMBRATEL;EMBRATEL (TELEFONIA)
+2015;1;1;2015-01-29 10:32:10.000;1;Norte;AM;6;259;TV por Assinatura;183;Vício ou Má Qualidade de Produto ou Serviço;M;entre 61 a 70 anos;1;SKY BRASIL SERVICOS LTDA;SKY
+2015;1;1;2015-01-20 11:00:21.000;4;Sul;PR;9;94;Eletrodomésticos Linha Branca;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 61 a 70 anos;1;LOJAS SALFER S.A. - AOP;LOJAS SALFER S.A. - AOP
+2015;1;3;2015-03-02 17:02:21.000;5;Centro-oeste;GO;6;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 51 a 60 anos;1;CAIXA ECONOMICA FEDERAL;CEF MATRIZ
+2015;1;2;2015-02-09 09:26:43.000;4;Sul;SC;11;133;Combustível Automotivo ( Gasolina, Álcool, Diesel, Gás );111;Problemas na Oferta;N;Nao se aplica;1;BECKER SERVIÇOS AUTOMOTIVOS;POSTO 01
+2015;1;2;2015-02-09 14:03:03.000;3;Sudeste;RJ;3;186;Telefonia Fixa;126;Vício ou Má Qualidade de Produto ou Serviço;F;entre 61 a 70 anos;1;CLARO S.A.;CLARO
+2015;1;1;2015-01-21 15:18:48.000;5;Centro-oeste;GO;6;186;Telefonia Fixa;143;Problemas com Contrato;F;entre 21 a 30 anos;1;OI S.A. (OI FIXO);OI FIXO (BRASIL TELECOM / CIP ELETRÔNICA)
+2015;1;2;2015-02-24 13:20:30.000;3;Sudeste;SP;3;125;Aquecedor / Ventilador / Ar Condicionado / Circulador de Ar;105;Vício ou Má Qualidade de Produto ou Serviço;M;Nao Informada;1;A.F GON AR CONDICIONADO-;CLIMIX COMERCIO DE AR CONDICONADO
+2015;1;3;2015-03-26 16:26:52.000;3;Sudeste;MG;2;54;Cartão de Crédito;247;Problemas com SAC;M;entre 31 a 40 anos;1;BANCO DO BRASIL S.A.;
+2015;1;2;2015-02-23 08:11:08.000;5;Centro-oeste;MT;9;186;Telefonia Fixa;145;Problemas Diversos com Produtos e Serviços;M;entre 21 a 30 anos;1;OI SA;OI
+2015;1;1;2015-01-22 11:09:38.000;4;Sul;RS;2;54;Cartão de Crédito;247;Problemas com SAC;F;entre 51 a 60 anos;1;BANCO BRADESCARD S.A.;IBICARD - BANCO IBI
+2015;1;3;2015-03-10 13:15:10.000;3;Sudeste;RJ;3;187;Telefonia Celular;124;Problemas com Contrato;M;entre 41 a 50 anos;1;NEXTEL TELECOMUNICAÇÕES LTDA;NEXTEL
+2015;1;1;2015-01-15 10:24:17.000;3;Sudeste;ES;2;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 31 a 40 anos;1;TIM CELULAR S/A;TIM CELULAR
+2015;1;1;2015-01-06 09:30:38.000;3;Sudeste;SP;6;186;Telefonia Fixa;124;Problemas com Contrato;M;mais de 70 anos;1;TELEFONICA BRASIL S/A;VIVO FIXO
+2015;1;2;2015-02-10 14:20:54.000;5;Centro-oeste;GO;6;187;Telefonia Celular;136;Problemas com Cobrança;F;entre 41 a 50 anos;1;VIVO S/A;VIVO
+2015;1;2;2015-02-04 16:23:07.000;5;Centro-oeste;GO;3;63;Financeira;250;Problemas com Cobrança;M;entre 51 a 60 anos;1;BANCO CETELEM S.A.;(ANTIGO BANCO BGN S/A) /  CIP ELETRÔNICA
+2015;1;2;2015-02-10 13:38:53.000;4;Sul;SC;3;69;Seguro;244;Problemas com SAC;F;entre 41 a 50 anos;1;GENERALI BRASIL SEGUROS S.A;GENERALI BRASIL SEGUROS S.A
+2015;1;2;2015-02-09 16:39:52.000;3;Sudeste;MG;6;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 41 a 50 anos;1;TNL PCS S/A;OI MÓVEL
+2015;1;3;2015-03-30 14:46:23.000;5;Centro-oeste;GO;6;259;TV por Assinatura;192;Problemas com Desistência de Compra ou Contratação;F;entre 41 a 50 anos;1;SKY BRASIL SERVICOS LTDA;SKY
+2015;1;1;2015-01-13 10:25:57.000;5;Centro-oeste;GO;3;82;Incorporação ( Construtoras e Incorporadoras );100;Problemas com Contrato;F;Nao Informada;1;UNIVERSO COMERCIO E CONSTRUCOES EIRELI ME;UNIVERSO CONSTRUCOES
+2015;1;2;2015-02-26 15:54:28.000;3;Sudeste;SP;2;73;Estabelecimento / Loja - Compra a Prazo;27;Problemas com Contrato;F;entre 31 a 40 anos;1;BANCO ITAÚ UNIBANCO S.A;BANCO ITAÚ
+2015;1;2;2015-02-19 12:54:37.000;1;Norte;AC;3;96;Televisão / Aparelho DVD / Filmadora;102;Problemas com Garantia de Produtos;M;entre 31 a 40 anos;1;PHILIPS DO BRASIL LTDA;PHILIPS
+2015;1;1;2015-01-21 13:53:59.000;3;Sudeste;SP;2;185;Energia Elétrica;123;Vício ou Má Qualidade de Produto ou Serviço;M;Nao Informada;1;ELETROPAULO METROPOLITANA ELETRICIDADE DE S PAULO;ELETROPAULO METROPOLITANA
+2015;1;1;2015-01-21 13:42:13.000;4;Sul;SC;6;187;Telefonia Celular;241;Problemas com SAC;F;entre 21 a 30 anos;1;UNIVERSO ON LINE UOL;UOL
+2015;1;2;2015-02-03 15:31:52.000;3;Sudeste;SP;6;63;Financeira;32;Problemas com Cobrança;M;entre 21 a 30 anos;1;RECOVERY DO BRASIL;RECOVERY DO BRASIL
+2015;1;3;2015-03-03 14:58:55.000;4;Sul;RS;3;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;F;Nao Informada;1;GLOBAL DISTRIBUIÇÃO DE BENS DE CONSUMO LTDA;LOJAS TAQI
+2015;1;3;2015-03-31 16:19:04.000;5;Centro-oeste;DF;2;123;Móveis;107;Problemas na Entrega de Produtos;F;Nao Informada;1;M.D.F MOVÉIS LTDA;STAR MOVÉIS.
+2015;1;3;2015-03-10 16:05:04.000;5;Centro-oeste;MT;10;63;Financeira;32;Problemas com Cobrança;F;Nao Informada;1;BANCO DO BRASIL SA;AV RUBENS DE MENDONCA-CUIABA-MT AG.3499-1
+2015;1;2;2015-02-27 16:54:09.000;3;Sudeste;SP;3;186;Telefonia Fixa;134;Problemas com Cobrança;M;entre 51 a 60 anos;1;TELEFONICA BRASIL S/A;TELEFONIA FIXA/MÓVEL/TV
+2015;1;3;2015-03-23 10:37:47.000;3;Sudeste;RJ;3;186;Telefonia Fixa;132;Problemas com Desistência de Compra ou Contratação;F;entre 51 a 60 anos;1;TELEMAR NORTE LESTE S/A OI;OI TELEFONIA FIXA
+2015;1;3;2015-03-03 15:13:40.000;3;Sudeste;SP;3;236;Cursos Livres Outros;194;Problemas com Cobrança;F;entre 31 a 40 anos;1;TUCURUVI COMERCIO DE LIVROS E INFORMATICA LTDA;MCTECH
+2015;1;1;2015-01-20 14:12:47.000;4;Sul;PR;2;53;Banco comercial;249;Vício ou Má Qualidade de Produto ou Serviço;F;Nao Informada;1;BANCO BRADESCO S/A - AOP - GRUPO BRADESCO;BANCO BRADESCO S/A - AOP - GRUPO BRADESCO
+2015;1;2;2015-02-20 10:19:10.000;1;Norte;AC;8;76;Outros Contratos;27;Problemas com Contrato;M;entre 31 a 40 anos;1;BANCO VOLKSWAGEN S.A.;BANCO VOLKSWAGEN
+2015;1;3;2015-03-24 09:49:13.000;3;Sudeste;SP;2;97;Eletroportáteis ( Batedeira, Liqüidificador, Espremedor de Frutas, Etc. );106;Problemas na Entrega de Produtos;F;entre 31 a 40 anos;1;SUPERMERCADO EXTRA;
+2015;1;1;2015-01-22 12:27:24.000;2;Nordeste;MA;2;64;Empresa Privada / Montepio Pecúlio (Não Relativos ao Valor de Resgate);48;Problemas com Entrega de Documentos ao Consumidor;F;entre 31 a 40 anos;1;UNIVERSO ONLINE S/A;UOL
+2015;1;1;2015-01-26 09:17:18.000;3;Sudeste;MG;6;187;Telefonia Celular;134;Problemas com Cobrança;M;mais de 70 anos;1;VIVO S.A;VIVO
+2015;1;3;2015-03-19 17:15:37.000;3;Sudeste;ES;3;183;Água / Esgoto;124;Problemas com Contrato;M;entre 31 a 40 anos;1;COMPANHIA ESPIRITO SANTENSE DE SANEAMENTO CESAN;CESAN
+2015;1;2;2015-02-20 12:33:37.000;2;Nordeste;CE;3;103;Artigo de Cozinha ( Coifa, Exaustor, Panela, Talher, Filtro de Café, Porta-Filtro, Louças, Etc. );105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 61 a 70 anos;1;STOP SOM LTDA;NULL
+2015;1;2;2015-02-24 10:13:48.000;4;Sul;SC;3;74;Banco de Dados e Cadastros de Consumidores (SPC, Serasa, SCPC etc.);28;Problemas com Cobrança;M;Nao Informada;1;BANCO ITAUCARD S.A.;ITAUCARD
+2015;1;1;2015-01-23 09:12:41.000;4;Sul;RS;3;134;Produto de Uso Pessoal ( Barbeador, Depilador, Secador, Outros );114;Problemas na Entrega de Produtos;F;entre 31 a 40 anos;1;NATURA COSMETICOS S/A;NATURA
+2015;1;2;2015-02-27 13:36:59.000;3;Sudeste;SP;2;185;Energia Elétrica;146;Problemas com Contrato;M;entre 51 a 60 anos;1;ELETROPAULO METROPOLITANA ELETRICIDADE DE S PAULO;ELETROPAULO METROPOLITANA
+2015;1;3;2015-03-04 16:41:48.000;3;Sudeste;MG;6;76;Outros Contratos;32;Problemas com Cobrança;M;entre 21 a 30 anos;1;CLARO S.A.;CLARO
+2015;1;3;2015-03-11 16:55:19.000;3;Sudeste;RJ;3;93;Eletrodomésticos Linha Branca;105;Vício ou Má Qualidade de Produto ou Serviço;F;Nao Informada;1;VIA VAREJO S/A;CASAS BAHIA / PONTO FRIO
+2015;1;1;2015-01-08 15:52:14.000;3;Sudeste;SP;3;187;Telefonia Celular;143;Problemas com Contrato;M;entre 41 a 50 anos;1;CLARO S/A;CLARO / EMBRATEL / CLAROTV
+2015;1;3;2015-03-19 12:51:23.000;2;Nordeste;PE;6;54;Cartão de Crédito;28;Problemas com Cobrança;F;entre 41 a 50 anos;1;BANCO BRADESCARD S/A;BANCO IBI
+2015;1;3;2015-03-25 17:20:16.000;1;Norte;TO;2;279;Internet (Serviços);194;Problemas com Cobrança;M;entre 41 a 50 anos;1;BRASIL TELECOM S/A;OI - BRASIL TELECOM (TELEFONIA FIXA)
+2015;1;1;2015-01-21 09:33:26.000;2;Nordeste;CE;3;187;Telefonia Celular;241;Problemas com SAC;M;entre 41 a 50 anos;1;OI MOVEL S/A;OI MOVEL E TV
+2015;1;1;2015-01-15 10:42:28.000;3;Sudeste;SP;3;259;TV por Assinatura;184;Problemas com Contrato;F;Nao Informada;1;SKY BRASIL SERVIÇOS LTDA;SKY BRASIL
+2015;1;1;2015-01-27 10:41:47.000;3;Sudeste;SP;6;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 51 a 60 anos;1;CLARO S.A;NET
+2015;1;3;2015-03-26 11:27:37.000;2;Nordeste;PE;9;54;Cartão de Crédito;216;Problemas com Cobrança;F;entre 51 a 60 anos;1;BRADESCARD;
+2015;1;3;2015-03-09 13:57:49.000;5;Centro-oeste;DF;2;233;Escola ( Pré, 1º, 2º Graus e Superior );196;Problemas com Cobrança;F;até 20 anos;1;ASSOCIACAO RIVAIL;ASSOCIACAO RIVAIL
+2015;1;3;2015-03-12 10:12:05.000;5;Centro-oeste;DF;3;96;Televisão / Aparelho DVD / Filmadora;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 21 a 30 anos;1;VIA VAREJO S/A;PONTO FRIO E CASAS BAHIA (LOJA FÍSICA)
+2015;1;2;2015-02-26 12:51:45.000;2;Nordeste;PE;2;54;Cartão de Crédito;30;Problemas com Cobrança;F;entre 21 a 30 anos;1;LOJAS RIACHUELO S.A;
+2015;1;1;2015-01-07 12:13:16.000;1;Norte;TO;9;125;Aquecedor / Ventilador / Ar Condicionado / Circulador de Ar;106;Problemas na Entrega de Produtos;M;Nao Informada;1;MARTINS COMÉRCIO E SERVIÇOS DE DISTRIBUIÇÃO S/A;ARMAZÉM MARTINS
+2015;1;1;2015-01-21 08:22:19.000;3;Sudeste;SP;3;157;Transporte;126;Vício ou Má Qualidade de Produto ou Serviço;F;Nao Informada;1;EMPRESA DE TRANSPORTES SANTA TEREZINHA LTDA;NULL
+2015;1;1;2015-01-13 09:42:39.000;3;Sudeste;ES;2;76;Outros Contratos;30;Problemas com Cobrança;M;entre 21 a 30 anos;1;BANCO BRADESCO SA - BMC - FINASA - BANKPAR - AMEX;BRAD. CARTÕES, SAÚDE, PREV, CONS.E FINC INTERAMERI
+2015;1;1;2015-01-26 15:34:45.000;5;Centro-oeste;GO;6;57;Consórcios;32;Problemas com Cobrança;M;entre 31 a 40 anos;1;BANCO ITAÚ VEICULOS S.A.;(ANTIGO BANCO FIAT S/A)
+2015;1;2;2015-02-12 15:04:02.000;2;Nordeste;BA;3;202;Convênio de Assistência Veterinária;149;Problemas com Contrato;F;entre 41 a 50 anos;1;BRADESCO SAUDE S/A;BRADESCO SAUDE
+2015;1;2;2015-02-02 11:22:00.000;2;Nordeste;BA;3;63;Financeira;38;Problemas com Entrega de Documentos ao Consumidor;M;mais de 70 anos;1;FINASA PROMOTORA DE VENDAS LTDA.;FINASA
+2015;1;2;2015-02-04 12:05:50.000;3;Sudeste;SP;3;120;Móveis;112;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;MOVEIS ESPLANADA LTDA;
+2015;1;1;2015-01-20 12:38:51.000;1;Norte;RO;3;233;Escola ( Pré, 1º, 2º Graus e Superior );194;Problemas com Cobrança;F;entre 21 a 30 anos;1;FACULDADE METROPOLITANA;
+2015;1;3;2015-03-05 10:11:21.000;2;Nordeste;MA;2;53;Banco comercial;28;Problemas com Cobrança;F;entre 41 a 50 anos;1;BANCO ITAU BMG CONSIGNADO S.A.;BANCO ITAU / BMG
+2015;1;1;2015-01-29 15:09:48.000;5;Centro-oeste;GO;6;259;TV por Assinatura;196;Problemas com Cobrança;M;Nao Informada;1;SKY BRASIL SERVICOS LTDA;SKY
+2015;1;1;2015-01-26 13:55:51.000;3;Sudeste;MG;6;89;Acessório Para Veículo ( Alarme, Amortecedor, Câmbio, Buzina, Estofamento, Lâmpada, Bateria, etc.);106;Problemas na Entrega de Produtos;M;entre 31 a 40 anos;1;NOVAPONTOCOM COMÉRCIO ELETRÔNICO S/A;PONTO FRIO - EXTRA - CASAS BAHIA
+2015;1;3;2015-03-02 17:11:56.000;3;Sudeste;SP;3;259;TV por Assinatura;194;Problemas com Cobrança;M;entre 61 a 70 anos;1;NET SERVIÇOS DE COMUNICAÇÃO S/A;NET SÃO BERNARDO DO CAMPO
+2015;1;2;2015-02-02 12:35:09.000;1;Norte;RO;6;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 61 a 70 anos;1;VIVO TELEFONICA;VIVO CIP ELETRÔNICA
+2015;1;2;2015-02-18 16:16:47.000;3;Sudeste;MG;2;63;Financeira;28;Problemas com Cobrança;F;entre 51 a 60 anos;1;FINANCEIRA OMINI;
+2015;1;2;2015-02-25 10:14:45.000;2;Nordeste;PE;6;103;Artigo de Cozinha ( Coifa, Exaustor, Panela, Talher, Filtro de Café, Porta-Filtro, Louças, Etc. );105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 61 a 70 anos;1;ELETROSHOPPING CASA AMARELA LTDA;ELETROSHOPPING
+2015;1;1;2015-01-14 09:34:04.000;2;Nordeste;AL;3;54;Cartão de Crédito;28;Problemas com Cobrança;M;entre 61 a 70 anos;1;HIPERCARD BANCO MÚLTIPLO S/A;HIPERCARD BANCO MÚLTIPLO S/A (PRINCIPAL-CARTÃO CR)
+2015;1;3;2015-03-13 09:42:18.000;4;Sul;RS;2;259;TV por Assinatura;194;Problemas com Cobrança;F;entre 21 a 30 anos;1;NET SERVICOS DE COMUNICACAO S/A;NET NOVO HAMBURGO
+2015;1;1;2015-01-21 10:46:14.000;4;Sul;PR;9;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;C&A MODAS LTDA - AOP SHOPPING TOTAL;C&A MODAS LTDA - AOP SHOPPING TOTAL
+2015;1;3;2015-03-16 10:09:52.000;2;Nordeste;AL;3;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;M;até 20 anos;1;LOUREIRO & ALMEIDA LTDA;LOUREIRO & ALMEIDA LTDA(AGENTE AUTORIZADO CLARO)
+2015;1;3;2015-03-16 14:41:48.000;3;Sudeste;SP;3;54;Cartão de Crédito;216;Problemas com Cobrança;F;entre 41 a 50 anos;1;CAIXA ECONÔMICA FEDERAL - CEF;CEF MATRIZ
+2015;1;3;2015-03-11 11:56:56.000;2;Nordeste;PI;9;74;Banco de Dados e Cadastros de Consumidores (SPC, Serasa, SCPC etc.);28;Problemas com Cobrança;F;entre 41 a 50 anos;1;RENOVA COMPANHIA SECURITIZADORA DE C. FINANCEIROS;RENOVA
+2015;1;3;2015-03-24 16:44:14.000;3;Sudeste;ES;3;183;Água / Esgoto;128;Problemas com Contrato;F;entre 41 a 50 anos;1;COMPANHIA ESPIRITO SANTENSE DE SANEAMENTO CESAN;CESAN
+2015;1;3;2015-03-18 11:12:03.000;1;Norte;AM;9;53;Banco comercial;230;Problemas com Cobrança;F;entre 51 a 60 anos;1;BANCO BRADESCO SA;BRADESCO AG PQ 10
+2015;1;2;2015-02-07 15:58:39.000;2;Nordeste;BA;3;186;Telefonia Fixa;134;Problemas com Cobrança;M;entre 21 a 30 anos;1;TELEMAR NORTE LESTE S/A;TELEMAR - OI
+2015;1;2;2015-02-11 09:30:52.000;2;Nordeste;PE;6;54;Cartão de Crédito;27;Problemas com Contrato;M;entre 61 a 70 anos;1;HIPERCARD BANCO MULTIPLO S.A.;
+2015;1;2;2015-02-23 13:19:11.000;4;Sul;RS;3;102;Microcomputador / Produtos de Informática;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;DIGIBRAS INDUSTRIA DO BRASIL S/A;CCE
+2015;1;2;2015-02-23 09:23:19.000;3;Sudeste;SP;3;199;Convênio de Assistência Médica / Odontológica;149;Problemas com Contrato;M;mais de 70 anos;1;SAMED - SERVICOS DE ASSIS MEDICA, ODONT E HOSP S.A;
+2015;1;1;2015-01-05 15:11:28.000;1;Norte;TO;6;54;Cartão de Crédito;27;Problemas com Contrato;M;entre 51 a 60 anos;1;BANCO DO BRASIL S/A;BANCO DO BRASIL SEDE
+2015;1;1;2015-01-21 16:58:24.000;4;Sul;SC;6;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 41 a 50 anos;1;OI MOVEL SA;OI
+2015;1;3;2015-03-19 08:01:27.000;5;Centro-oeste;MS;2;122;Móveis;107;Problemas na Entrega de Produtos;F;entre 51 a 60 anos;1;MADEIRA MADEIRA;
+2015;1;1;2015-01-14 11:16:41.000;5;Centro-oeste;DF;3;73;Estabelecimento / Loja - Compra a Prazo;28;Problemas com Cobrança;F;entre 31 a 40 anos;1;LOJAS RIACHUELO;LOJAS RIACHUELO S/A
+2015;1;2;2015-02-12 12:01:56.000;3;Sudeste;RJ;9;53;Banco comercial;28;Problemas com Cobrança;M;entre 41 a 50 anos;1;HSBC (CAMPOS);HSBC
+2015;1;1;2015-01-13 08:30:14.000;5;Centro-oeste;MS;2;185;Energia Elétrica;145;Problemas Diversos com Produtos e Serviços;M;entre 61 a 70 anos;1;ENERGISA M.S. - DISTRIBUIDORA. DE ENERGIA S/A @;ENERGISA
+2015;1;3;2015-03-16 09:33:14.000;3;Sudeste;MG;9;288;Máquinas e Equipamentos;102;Problemas com Garantia de Produtos;M;entre 21 a 30 anos;1;PROSEG REPRESENTACOES E SERVICOS LTDA.;PROSEG REPRESENTACOES E SERVICOS LTDA.
+2015;1;3;2015-03-11 16:36:02.000;2;Nordeste;BA;9;186;Telefonia Fixa;128;Problemas com Contrato;F;entre 61 a 70 anos;1;TELEMAR NORTE LESTE S/A;TELEMAR - OI
+2015;1;1;2015-01-26 10:13:47.000;3;Sudeste;SP;9;102;Microcomputador / Produtos de Informática;102;Problemas com Garantia de Produtos;F;entre 41 a 50 anos;1;LENOVO TECNOLOGIA BRASIL LTDA;
+2015;1;2;2015-02-13 16:16:37.000;5;Centro-oeste;GO;3;259;TV por Assinatura;203;Problemas com Contrato;M;entre 31 a 40 anos;1;SKY BRASIL SERVICOS LTDA;SKY
+2015;1;2;2015-02-11 11:56:11.000;2;Nordeste;PE;3;274;Serviços Telefônicos Especiais ( Disque 900 / Erótico, Etc. );194;Problemas com Cobrança;M;entre 41 a 50 anos;1;OI MÓVEL S.A.;
+2015;1;3;2015-03-04 16:49:14.000;3;Sudeste;MG;3;76;Outros Contratos;27;Problemas com Contrato;M;entre 21 a 30 anos;1;ROFER CINE-FOTO DIGITAL LTDA.;FOTO FERREIRA
+2015;1;3;2015-03-24 10:17:59.000;3;Sudeste;SP;3;259;TV por Assinatura;184;Problemas com Contrato;F;entre 51 a 60 anos;1;SKY BRASIL SERVICOS LTDA;SKY
+2015;1;3;2015-03-26 08:22:10.000;5;Centro-oeste;MT;9;101;Aparelho Celular;102;Problemas com Garantia de Produtos;M;entre 61 a 70 anos;1;ROYAL & SUNALLIANCE SEGUROS (BRASIL)S.A;ROYAL & SUNALLIANCE SEGUROS
+2015;1;1;2015-01-27 13:34:29.000;3;Sudeste;SP;3;187;Telefonia Celular;143;Problemas com Contrato;M;entre 51 a 60 anos;1;OI MÓVEL S/A;OI CELULAR/OI TV
+2015;1;3;2015-03-25 13:12:23.000;1;Norte;AM;9;183;Água / Esgoto;134;Problemas com Cobrança;F;entre 51 a 60 anos;1;AMAZONAS DISTRIBUIDORA DE ENERGIA S/A;AMAZONAS ENERGIA
+2015;1;2;2015-02-23 15:36:04.000;1;Norte;TO;6;187;Telefonia Celular;123;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;14 BRASIL TELECOM CELULAR S/A;OI - BRASIL TELECOM (TELEFONIA CELULAR)
+2015;1;2;2015-02-02 17:34:35.000;3;Sudeste;MG;6;186;Telefonia Fixa;134;Problemas com Cobrança;F;Nao Informada;1;TELEMAR NORTE E LESTE S/A;TELEMAR (OI FIXO E MÓVEL, OI PAGGO, VELOX, OI NET)
+2015;1;2;2015-02-10 13:18:25.000;3;Sudeste;ES;6;54;Cartão de Crédito;37;Problemas com Cobrança;F;entre 21 a 30 anos;1;ITAU UNIBANCO S.A.;B.ITAU/CARTOES/ITAUCARD/UNICARD/CREDICARD/CITICARD
+2015;1;2;2015-02-06 14:39:19.000;3;Sudeste;SP;3;187;Telefonia Celular;134;Problemas com Cobrança;M;Nao Informada;1;CLARO S/A;CLARO MOVEL
+2015;1;2;2015-02-20 13:33:02.000;3;Sudeste;SP;3;79;Seguro;54;Problemas com Contrato;M;entre 21 a 30 anos;1;VIA VAREJO S/A;PONTO FRIO / CASAS BAHIA (LOJAS FÍSICAS)
+2015;1;3;2015-03-06 16:45:46.000;2;Nordeste;BA;9;284;Plano de Saúde;219;Problemas na Entrega de Produtos;F;entre 21 a 30 anos;1;QUALICORP ADMINISTRADORA DE BENEFICIOS S.A.;QUALICORP
+2015;1;1;2015-01-12 14:40:43.000;5;Centro-oeste;GO;6;137;Internet;117;Risco à Saúde e Segurança / Acidente de Consumo;M;entre 61 a 70 anos;1;CLARO S.A.;CLARO
+2015;1;2;2015-02-13 09:25:28.000;2;Nordeste;PE;9;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 21 a 30 anos;1;CELLPOINT LTDA;CELLPOINT
+2015;1;2;2015-02-12 14:35:21.000;3;Sudeste;SP;3;96;Televisão / Aparelho DVD / Filmadora;102;Problemas com Garantia de Produtos;F;Nao Informada;1;SAMSUNG ELETRONICA DA AMAZONIA LTDA;SAMSUNG
+2015;1;2;2015-02-06 10:10:09.000;4;Sul;RS;6;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 61 a 70 anos;1;CLARO S/A;
+2015;1;1;2015-01-23 11:22:56.000;3;Sudeste;RJ;3;186;Telefonia Fixa;132;Problemas com Desistência de Compra ou Contratação;M;entre 41 a 50 anos;1;TELEMAR NORTE LESTE S/A OI;OI TELEFONIA FIXA
+2015;1;3;2015-03-16 11:59:11.000;3;Sudeste;MG;6;182;Serviços Postais;237;Problemas com SAC;M;até 20 anos;1;TIM NORDESTE S/A;TIM NORDESTE
+2015;1;2;2015-02-26 12:32:46.000;3;Sudeste;MG;6;76;Outros Contratos;30;Problemas com Cobrança;M;entre 41 a 50 anos;1;BANCO BRADESCO SA;BRADESCO EST UNIF
+2015;1;3;2015-03-03 08:58:15.000;4;Sul;SC;6;187;Telefonia Celular;123;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;TELEFONICA BRASIL S.A;VIVO
+2015;1;3;2015-03-25 10:44:21.000;3;Sudeste;MG;6;76;Outros Contratos;28;Problemas com Cobrança;M;entre 61 a 70 anos;1;ARCOSUL TRANSPORTES E MUDANÇAS LTDA - ME;MUDANÇAS ARCOSUL
+2015;1;3;2015-03-13 16:11:09.000;3;Sudeste;MG;2;129;Carros;102;Problemas com Garantia de Produtos;M;entre 31 a 40 anos;1;NISSAN;NISSAN
+2015;1;3;2015-03-05 15:01:23.000;4;Sul;SC;6;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 31 a 40 anos;1;OI S.A;OI TELEFONIA FIXA
+2015;1;1;2015-01-20 17:48:05.000;3;Sudeste;SP;2;278;Informações sobre o Procon;205;Problemas Diversos com Produtos e Serviços;M;entre 31 a 40 anos;1;NOTA FISCAL PAULISTA;
+2015;1;2;2015-02-13 10:42:58.000;5;Centro-oeste;DF;2;94;Eletrodomésticos Linha Branca;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 21 a 30 anos;1;CARDIF DO BRASIL SEGUROS E GARANTIAS S/A;CARDIF DO BRASIL SEGUROS E GARANTIAS S/A
+2015;1;3;2015-03-16 11:35:23.000;3;Sudeste;ES;3;125;Aquecedor / Ventilador / Ar Condicionado / Circulador de Ar;102;Problemas com Garantia de Produtos;F;entre 21 a 30 anos;1;COMERCIAL SUPERAUDIO LTDA;ELETROCITY
+2015;1;2;2015-02-04 13:30:09.000;3;Sudeste;RJ;2;92;Eletrodomésticos Linha Branca;102;Problemas com Garantia de Produtos;F;mais de 70 anos;1;ELETROLUX DO BRASIL S/A;NULL
+2015;1;2;2015-02-06 17:12:15.000;2;Nordeste;BA;9;76;Outros Contratos;27;Problemas com Contrato;M;entre 31 a 40 anos;1;R J CONSTRUÇÃO E INCORPORAÇÃO LTDA;R J CONSTRUÇÃO E INCORPORAÇÃO
+2015;1;1;2015-01-20 09:38:53.000;2;Nordeste;AL;9;96;Televisão / Aparelho DVD / Filmadora;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 51 a 60 anos;1;JOSE NILTON DA SILVA LUIZ - ME;INFORGRAF
+2015;1;2;2015-02-19 10:09:34.000;3;Sudeste;ES;10;63;Financeira;32;Problemas com Cobrança;F;entre 41 a 50 anos;1;DACASA FINANCEIRA S/A - SOCIEDADE DE CREDITO FINANCIAME;DACASA FINANCEIRA
+2015;1;1;2015-01-21 16:22:47.000;5;Centro-oeste;DF;2;96;Televisão / Aparelho DVD / Filmadora;102;Problemas com Garantia de Produtos;M;entre 31 a 40 anos;1;SEMP TOSHIBA S A;SEMP TOSHIBA
+2015;1;2;2015-02-12 14:18:06.000;3;Sudeste;SP;3;82;Incorporação ( Construtoras e Incorporadoras );82;Vício ou Má Qualidade de Produto ou Serviço;M;entre 41 a 50 anos;1;SCHAHIN ENGENHARIA S.A.;SCHAHIN
+2015;1;2;2015-02-26 07:39:43.000;3;Sudeste;SP;3;186;Telefonia Fixa;123;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;CLARO S/A;CLARO / EMBRATEL / CLAROTV
+2015;1;2;2015-02-19 12:40:59.000;5;Centro-oeste;GO;3;101;Aparelho Celular;102;Problemas com Garantia de Produtos;M;entre 41 a 50 anos;1;SAMSUNG ELETRÔNICA DA AMAZÔNIA LTDA;SAMSUNG DA AMAZÔNIA
+2015;1;3;2015-03-30 10:02:29.000;2;Nordeste;PE;3;54;Cartão de Crédito;28;Problemas com Cobrança;F;entre 31 a 40 anos;1;HIPERCARD BANCO MULTIPLO S.A.;
+2015;1;3;2015-03-27 14:56:19.000;3;Sudeste;RJ;9;279;Internet (Serviços);251;Problemas com SAC;M;entre 21 a 30 anos;1;VIVO TELERJ CELULAR S.A;VIVO
+2015;1;1;2015-01-12 10:49:33.000;5;Centro-oeste;GO;3;259;TV por Assinatura;203;Problemas com Contrato;F;entre 61 a 70 anos;1;EMBRATEL TVSAT TELECOMUNICACOES SA;(CLARO TV) VIA EMBRATEL
+2015;1;2;2015-02-19 14:00:27.000;4;Sul;RS;3;96;Televisão / Aparelho DVD / Filmadora;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 51 a 60 anos;1;PHILIPS DO BRASIL LTDA;PHILIPS
+2015;1;1;2015-01-28 12:17:01.000;3;Sudeste;ES;3;141;Outros Produtos Importados;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;ELECTROLUX DO BRASIL S/A;ELECTROLUX
+2015;1;1;2015-01-28 11:10:48.000;3;Sudeste;SP;2;234;Curso de Informática;194;Problemas com Cobrança;F;entre 41 a 50 anos;1;SCHMIDHAUSSLER E BOTÁRIO LTDA-ME / MICROPRO;MICROPRO
+2015;1;3;2015-03-19 08:56:24.000;5;Centro-oeste;MT;9;279;Internet (Serviços);194;Problemas com Cobrança;M;entre 61 a 70 anos;1;UNIVERSO ONLINE S.A;UOL
+2015;1;3;2015-03-19 09:26:58.000;3;Sudeste;ES;3;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;SAMSUNG ELETRONICA DA AMAZONIA LTDA;SAMSUNG DA AMAZONIA
+2015;1;1;2015-01-08 14:56:34.000;4;Sul;RS;3;279;Internet (Serviços);194;Problemas com Cobrança;M;Nao Informada;1;CLARO S.A.;CLARO
+2015;1;2;2015-02-05 08:38:41.000;3;Sudeste;SP;3;233;Escola ( Pré, 1º, 2º Graus e Superior );196;Problemas com Cobrança;F;entre 21 a 30 anos;1;ASSOCIACAO UNIFICADA PAULISTA DE ENSINO RENOVADO OBJETIVO-ASSUPERO;UNIP
+2015;1;1;2015-01-27 17:01:17.000;3;Sudeste;SP;3;279;Internet (Serviços);194;Problemas com Cobrança;M;até 20 anos;1;UNIVERSO ONLINE S/A UOL;EMPREGOCERTO/TODAOFERTA/TODODESCONTO/BOACOMPRA
+2015;1;2;2015-02-09 10:31:44.000;5;Centro-oeste;DF;3;53;Banco comercial;51;Negativação Indevida de Consumidor;M;entre 31 a 40 anos;1;CAIXA ECONOMICA FEDERAL;CEF MATRIZ
+2015;1;3;2015-03-19 09:51:50.000;2;Nordeste;PE;6;186;Telefonia Fixa;125;Vício ou Má Qualidade de Produto ou Serviço;F;entre 61 a 70 anos;1;OI;
+2015;1;2;2015-02-20 15:15:13.000;3;Sudeste;SP;6;63;Financeira;28;Problemas com Cobrança;M;entre 61 a 70 anos;1;CAIXA ECONÔMICA FEDERAL;
+2015;1;3;2015-03-25 13:49:38.000;5;Centro-oeste;GO;6;54;Cartão de Crédito;27;Problemas com Contrato;F;entre 41 a 50 anos;1;BANCO ITAUCARD S.A.;ITAUCARD FINANCEIRA
+2015;1;2;2015-02-24 10:46:41.000;2;Nordeste;PE;6;54;Cartão de Crédito;28;Problemas com Cobrança;F;entre 61 a 70 anos;1;BANCO BRADESCARD IBI S.A.;
+2015;1;1;2015-01-06 13:28:46.000;3;Sudeste;SP;3;186;Telefonia Fixa;134;Problemas com Cobrança;M;entre 21 a 30 anos;1;CLARO S/A;CLARO MOVEL, FIXO, EMBRATEL E CLARO TV
+2015;1;2;2015-02-27 11:24:17.000;2;Nordeste;AL;3;76;Outros Contratos;28;Problemas com Cobrança;F;entre 41 a 50 anos;1;CLARO S.A.;CLARO
+2015;1;1;2015-01-09 10:46:30.000;3;Sudeste;SP;3;100;Colchão;107;Problemas na Entrega de Produtos;F;entre 21 a 30 anos;1;NOVA PONTOCOM COMÉRCIO ELETRÔNICO S/A;PONTOFRIO.COM.BR/CASASBAHIA.COM.BR/EXTRA.COM.BR
+2015;1;3;2015-03-09 12:15:34.000;2;Nordeste;PI;3;248;Diversão / Lazer / Cultura ( Teatro, Cinema, Casa Noturna, Videolocadora, Etc. );194;Problemas com Cobrança;F;entre 51 a 60 anos;1;EDITORA TRÊS LTDA.;EDITORA TRÊS
+2015;1;1;2015-01-05 09:21:25.000;2;Nordeste;CE;10;56;Consórcios;30;Problemas com Cobrança;M;entre 31 a 40 anos;1;BRISA EMPREENDIMENTOS IMOBILIARIOS LTDA;BRISA IMOBILIARIA
+2015;1;3;2015-03-31 11:45:14.000;2;Nordeste;MA;9;53;Banco comercial;28;Problemas com Cobrança;M;entre 41 a 50 anos;1;SUPERINTENDÊNCIA CAIXA ECONÔMICA FEDERAL;CAIXA ECONÔMICA FEDERAL
+2015;1;3;2015-03-19 10:05:53.000;2;Nordeste;RN;3;187;Telefonia Celular;128;Problemas com Contrato;F;entre 31 a 40 anos;1;VIVO S/A;VIVO
+2015;1;1;2015-01-13 11:21:04.000;3;Sudeste;ES;3;199;Convênio de Assistência Médica / Odontológica;236;Problemas com SAC;F;entre 61 a 70 anos;1;UNIMED VITORIA COOPERATIVA DE TRABALHO MEDICO;UNIMED VITÓRIA EST UNIF
+2015;1;3;2015-03-06 13:41:22.000;3;Sudeste;ES;2;258;Consultoria / Assessoria / Agenciamento ( Recolocação Profissional, Agência de Empregada, de Casamento, Etc. );203;Problemas com Contrato;F;entre 31 a 40 anos;1;CATHO ONLINE LTDA;CATHO ONLINE
+2015;1;3;2015-03-25 15:37:59.000;3;Sudeste;SP;3;286;Plano Odontológico;149;Problemas com Contrato;F;Nao Informada;1;ODONTOCLINIC;
+2015;1;1;2015-01-12 14:05:41.000;3;Sudeste;RJ;3;122;Móveis;107;Problemas na Entrega de Produtos;F;entre 21 a 30 anos;1;VIA VAREJO S.A;PONTO FRIO CASAS BAHIA NOVA CASA BAHIA
+2015;1;2;2015-02-06 14:18:16.000;4;Sul;SC;3;259;TV por Assinatura;184;Problemas com Contrato;M;entre 51 a 60 anos;1;SKY BRASIL SERVICOS LTDA;SKY BRASIL SERVICOS LTDA - CIP
+2015;1;2;2015-02-06 16:20:36.000;2;Nordeste;BA;3;53;Banco comercial;28;Problemas com Cobrança;M;mais de 70 anos;1;CAIXA ECONOMICA FEDERAL;CEF MATRIZ - CAIXA MASTERCARD
+2015;1;3;2015-03-26 09:07:07.000;4;Sul;PR;2;96;Televisão / Aparelho DVD / Filmadora;105;Vício ou Má Qualidade de Produto ou Serviço;M;Nao Informada;1;CEMAZ INDUSTRIA ELETRONICA DA AMAZONIA S/A - AOP;CCE RECEPTORES, MICROONDAS, DVD, HOME THEATERS
+2015;1;1;2015-01-16 11:40:51.000;4;Sul;RS;3;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;SAMSUNG ELETRÔNICA DA AMAZÔNIA LTDA;
+2015;1;3;2015-03-16 15:52:27.000;3;Sudeste;SP;3;54;Cartão de Crédito;56;Problemas com Contrato;M;entre 41 a 50 anos;1;BANCO SANTANDER (BRASIL) S/A;*SANTANDER
+2015;1;2;2015-02-24 09:05:27.000;5;Centro-oeste;GO;6;279;Internet (Serviços);251;Problemas com SAC;M;entre 31 a 40 anos;1;URBI TELECOM SERVICO DE INFORMATICA LTDA;URBI TELECOM
+2015;1;1;2015-01-19 11:16:24.000;2;Nordeste;BA;6;185;Energia Elétrica;238;Problemas com SAC;M;entre 41 a 50 anos;1;COELBA GRUPO NEOENERGIA;COELBA
+2015;1;2;2015-02-11 08:41:58.000;3;Sudeste;RJ;3;125;Aquecedor / Ventilador / Ar Condicionado / Circulador de Ar;107;Problemas na Entrega de Produtos;F;entre 21 a 30 anos;1;VIA VAREJO S.A;PONTO FRIO CASAS BAHIA NOVA CASA BAHIA
+2015;1;2;2015-02-20 15:11:40.000;5;Centro-oeste;DF;2;53;Banco comercial;28;Problemas com Cobrança;F;Nao Informada;1;ITAU UNIBANCO S/A;EST UNIF
+2015;1;2;2015-02-27 10:42:20.000;2;Nordeste;CE;3;102;Microcomputador / Produtos de Informática;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;LOJAS INSINUANTE LTDA;LOJA FÍSICA
+2015;1;3;2015-03-16 12:38:53.000;5;Centro-oeste;GO;11;53;Banco comercial;249;Vício ou Má Qualidade de Produto ou Serviço;N;Nao se aplica;1;CAIXA ECONOMICA FEDERAL;CAIXA ECONOMICA FEDERAL/CARTÕES DE CREDITO CAIXA
+2015;1;2;2015-02-27 08:29:43.000;5;Centro-oeste;MT;6;187;Telefonia Celular;136;Problemas com Cobrança;M;entre 61 a 70 anos;1;VIVO S.A;VIVO S.A
+2015;1;3;2015-03-16 15:09:42.000;4;Sul;SC;6;186;Telefonia Fixa;125;Vício ou Má Qualidade de Produto ou Serviço;M;Nao Informada;1;OI S.A;NULL
+2015;1;1;2015-01-13 13:14:06.000;5;Centro-oeste;MS;2;185;Energia Elétrica;145;Problemas Diversos com Produtos e Serviços;F;entre 41 a 50 anos;1;ENERGISA M.S. - DISTRIBUIDORA. DE ENERGIA S/A @;ENERGISA
+2015;1;1;2015-01-05 11:03:57.000;3;Sudeste;SP;3;96;Televisão / Aparelho DVD / Filmadora;102;Problemas com Garantia de Produtos;F;entre 51 a 60 anos;1;BRITANIA ELETRODOMESTICOS SA;BRITANIA / PHILCO
+2015;1;2;2015-02-20 17:34:11.000;3;Sudeste;SP;3;101;Aparelho Celular;107;Problemas na Entrega de Produtos;F;entre 41 a 50 anos;1;WMB COMÉRCIO ELETRÔNICO LTDA;WALMART.COM.BR
+2015;1;3;2015-03-16 09:43:45.000;3;Sudeste;ES;3;186;Telefonia Fixa;134;Problemas com Cobrança;M;entre 51 a 60 anos;1;TELEMAR NORTE LESTE S/A;OI - FIXO
+2015;1;2;2015-02-26 10:16:05.000;3;Sudeste;SP;6;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 31 a 40 anos;1;TIM CELULAR S/A;TIM CELULAR
+2015;1;3;2015-03-09 09:16:18.000;3;Sudeste;MG;3;244;Hospedagem ( Hotel, Pousada, Chalé, Albergue, Etc. );203;Problemas com Contrato;M;entre 21 a 30 anos;1;ROMA EMPREENDIMENTOS E TURISMO LTDA.;
+2015;1;3;2015-03-31 09:30:19.000;2;Nordeste;CE;3;102;Microcomputador / Produtos de Informática;107;Problemas na Entrega de Produtos;M;entre 21 a 30 anos;1;PAGSEGURO INTERNET LTDA;NULL
+2015;1;1;2015-01-06 11:15:42.000;2;Nordeste;CE;3;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 41 a 50 anos;1;NOKIA DO BRASIL TECNOLOGIA LTDA;NULL
+2015;1;1;2015-01-12 16:47:45.000;5;Centro-oeste;MS;3;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 31 a 40 anos;1;TELEFONICA BRASIL S.A. @;VIVO
+2015;1;3;2015-03-05 10:01:57.000;2;Nordeste;RN;6;186;Telefonia Fixa;136;Problemas com Cobrança;F;entre 51 a 60 anos;1;TELEMAR NORTE LESTE S/A.;OI FIXO
+2015;1;1;2015-01-14 08:25:23.000;5;Centro-oeste;GO;2;236;Cursos Livres Outros;195;Problemas com Cobrança;M;entre 31 a 40 anos;1;COLÉGIO VILAGE GARAVELO II;ESCOLA VILAGE GARAVELO
+2015;1;1;2015-01-16 16:34:39.000;5;Centro-oeste;MT;6;187;Telefonia Celular;136;Problemas com Cobrança;M;entre 51 a 60 anos;1;VIVO S.A;VIVO S.A
+2015;1;3;2015-03-17 13:46:04.000;3;Sudeste;ES;6;102;Microcomputador / Produtos de Informática;115;Problemas com Desistência de Compra ou Contratação;F;entre 21 a 30 anos;1;REINALDO CECILIO AZEVEDO MORAES JR;RJ INFORMATICA
+2015;1;2;2015-02-24 12:57:43.000;4;Sul;RS;6;187;Telefonia Celular;212;Problemas com Cobrança;F;entre 31 a 40 anos;1;TIM CELULAR S.A.;TIM
+2015;1;1;2015-01-28 11:50:18.000;1;Norte;AC;3;93;Eletrodomésticos Linha Branca;102;Problemas com Garantia de Produtos;F;entre 51 a 60 anos;1;ATLAS INDUSTRIA DE ELETRODOMESTICOS LTDA.;ATLAS ELETRODOMESTICOS
+2015;1;2;2015-02-25 13:55:42.000;3;Sudeste;MG;6;186;Telefonia Fixa;132;Problemas com Desistência de Compra ou Contratação;F;Nao Informada;1;TELEMAR NORTE E LESTE S/A;TELEMAR (OI FIXO E MÓVEL, OI PAGGO, VELOX, OI NET)
+2015;1;3;2015-03-26 09:00:47.000;3;Sudeste;SP;2;278;Informações sobre o Procon;205;Problemas Diversos com Produtos e Serviços;F;entre 21 a 30 anos;1;PHILIPS DO BRASIL LTDA;PHILIPS DO BRASIL
+2015;1;3;2015-03-05 14:23:46.000;4;Sul;RS;6;106;Artigo de Leitura (Jornal, Revista, Livros etc.);107;Problemas na Entrega de Produtos;F;entre 61 a 70 anos;1;EDITORA GLOBO S/A;
+2015;1;3;2015-03-10 15:54:37.000;4;Sul;PR;3;259;TV por Assinatura;203;Problemas com Contrato;M;entre 21 a 30 anos;1;SKY BRASIL SERVIÇOS LTDA - AOP;SKY BRASIL SERVIÇOS LTDA - AOP
+2015;1;3;2015-03-23 07:46:58.000;5;Centro-oeste;GO;6;186;Telefonia Fixa;126;Vício ou Má Qualidade de Produto ou Serviço;F;Nao Informada;1;BRASIL TELECOM S/A.;BRASIL TELECOM
+2015;1;3;2015-03-24 15:32:38.000;4;Sul;RS;6;186;Telefonia Fixa;128;Problemas com Contrato;M;mais de 70 anos;1;BRASIL TELECOM S/A;OI
+2015;1;3;2015-03-06 15:23:54.000;3;Sudeste;SP;6;187;Telefonia Celular;136;Problemas com Cobrança;M;entre 61 a 70 anos;1;TELEFONICA BRASIL S/A;GRUPO VIVO/TELEFÔNICA
+2015;1;3;2015-03-10 16:14:34.000;4;Sul;RS;6;187;Telefonia Celular;136;Problemas com Cobrança;M;entre 51 a 60 anos;1;CLARO S.A.;CLARO S.A
+2015;1;2;2015-02-06 16:01:32.000;4;Sul;RS;6;259;TV por Assinatura;188;Problemas com Contrato;M;entre 31 a 40 anos;1;SKY BRASIL SERVICOS LTDA;SKY BRASIL SERVIÇOS LTDA
+2015;1;3;2015-03-24 13:06:01.000;2;Nordeste;CE;3;111;Purificador de Água / Filtro;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;ESMALTEC S/A;ESMALTEC
+2015;1;1;2015-01-14 13:48:03.000;3;Sudeste;SP;3;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 51 a 60 anos;1;TNL PCS S/A. - TELEFONIA MÓVEL(OI);OPERADORA OI
+2015;1;3;2015-03-03 17:12:14.000;4;Sul;SC;6;234;Curso de Informática;203;Problemas com Contrato;M;até 20 anos;1;KIM & KELLER INCORPORACAO LTDA EPP;KIM & KELLER
+2015;1;1;2015-01-06 12:43:00.000;4;Sul;RS;3;125;Aquecedor / Ventilador / Ar Condicionado / Circulador de Ar;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 21 a 30 anos;1;PHILCO ELETRONICOS S.A;PHILCO
+2015;1;2;2015-02-10 10:05:31.000;3;Sudeste;RJ;3;185;Energia Elétrica;134;Problemas com Cobrança;M;entre 61 a 70 anos;1;LIGHT SERVIÇOS DE ELETRICIDADE S.A;LIGHT S.A
+2015;1;3;2015-03-18 09:28:40.000;4;Sul;PR;2;65;Seguro;28;Problemas com Cobrança;F;entre 21 a 30 anos;1;PANAMERICANO ADM. DE CONSORCIO LTDA - AOP;GRUPO PAN S/A (EX PANAMERICANO)
+2015;1;3;2015-03-24 10:24:45.000;1;Norte;TO;6;187;Telefonia Celular;145;Problemas Diversos com Produtos e Serviços;M;entre 41 a 50 anos;1;AMERICEL S.A.;CLARO
+2015;1;1;2015-01-09 11:53:26.000;3;Sudeste;SP;3;97;Eletroportáteis ( Batedeira, Liqüidificador, Espremedor de Frutas, Etc. );112;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;BANCO BRADESCO S/A;BRADESCO EST.UNIF.
+2015;1;2;2015-02-25 12:35:14.000;3;Sudeste;SP;2;259;TV por Assinatura;254;Problemas com SAC;M;entre 31 a 40 anos;1;NET SERVIÇOS DE COMUNICAÇÃO S/A;
+2015;1;3;2015-03-06 15:25:41.000;3;Sudeste;SP;3;53;Banco comercial;27;Problemas com Contrato;F;entre 51 a 60 anos;1;ITAÚ UNIBANCO S/A;BANCO ITAÚ/BANCO UNIBANCO
+2015;1;2;2015-02-13 12:15:33.000;3;Sudeste;SP;6;101;Aparelho Celular;107;Problemas na Entrega de Produtos;M;entre 61 a 70 anos;1;NEXTEL TELECOMUNICAÇÕES LTDA;NEXTEL
+2015;1;2;2015-02-23 12:27:52.000;3;Sudeste;MG;6;186;Telefonia Fixa;143;Problemas com Contrato;F;entre 41 a 50 anos;1;CLARO S.A.;CLARO
+2015;1;2;2015-02-27 15:23:30.000;3;Sudeste;SP;6;185;Energia Elétrica;124;Problemas com Contrato;M;Nao Informada;1;ELETROPAULO METROPOLITANA ELETRICIDADE DE S PAULO;ELETROPAULO METROPOLITANA
+2015;1;3;2015-03-23 12:41:11.000;3;Sudeste;SP;3;54;Cartão de Crédito;28;Problemas com Cobrança;M;mais de 70 anos;1;FIC - FINANCEIRA ITAÚ CBD S.A;FIC
+2015;1;3;2015-03-18 11:19:31.000;3;Sudeste;MG;6;137;Internet;111;Problemas na Oferta;F;até 20 anos;1;TELEMAR NORTE LESTE S/A;OI FIXO OU BANDA LARGA  VELOX RESIDENCIAL
+2015;1;3;2015-03-05 14:26:41.000;4;Sul;SC;6;259;TV por Assinatura;203;Problemas com Contrato;F;Nao Informada;1;SKY BRASIL SERVIÇOS LTDA;SKY
+2015;1;2;2015-02-10 12:09:32.000;1;Norte;AM;3;187;Telefonia Celular;124;Problemas com Contrato;F;entre 51 a 60 anos;1;VIVO NORTE BRASIL TELECOM S/A-VIVO;VIVO
+2015;1;2;2015-02-20 12:27:31.000;4;Sul;RS;2;217;Medicamento Homeopático / Fitoterápico ( Manipulado / Industrializado );219;Problemas na Entrega de Produtos;M;entre 51 a 60 anos;1;ADHEMAR CIRILO ALVES- ME;
+2015;1;2;2015-02-10 15:53:31.000;1;Norte;TO;6;53;Banco comercial;27;Problemas com Contrato;F;entre 31 a 40 anos;1;BANCO BRADESCO S/A;BRADESCO SEDE
+2015;1;1;2015-01-06 15:13:45.000;2;Nordeste;BA;3;122;Móveis;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;NOVA CASA BAHIA S/A;CASAS BAHIA
+2015;1;1;2015-01-15 13:30:13.000;5;Centro-oeste;DF;3;259;TV por Assinatura;194;Problemas com Cobrança;F;entre 61 a 70 anos;1;SKY BRASIL SERVIÇOS LTDA;SKY
+2015;1;2;2015-02-06 14:24:51.000;3;Sudeste;MG;6;279;Internet (Serviços);254;Problemas com SAC;F;entre 51 a 60 anos;1;OI S/A (CENTRAL DA OI PARA TODOS SERVIÇOS);OI S/A (CENTRAL DA OI PARA TODOS SERVIÇOS)
+2015;1;1;2015-01-06 12:08:10.000;3;Sudeste;RJ;3;54;Cartão de Crédito;32;Problemas com Cobrança;F;entre 61 a 70 anos;1;BANCO ITAUCARD S.A / CREDICARD;ITAUCARD - UNICARD-CREDICARD ITAU CREDICARD
+2015;1;2;2015-02-23 14:55:56.000;3;Sudeste;ES;3;101;Aparelho Celular;116;Problemas com Contrato;M;entre 21 a 30 anos;1;TELEMAR NORTE LESTE S/A;OI
+2015;1;2;2015-02-13 13:32:40.000;2;Nordeste;CE;3;54;Cartão de Crédito;57;Problemas com Cobrança;M;entre 31 a 40 anos;1;BANCO BRADESCARD S.A.;BANCO BRADESCARD
+2015;1;2;2015-02-04 11:03:37.000;3;Sudeste;SP;6;187;Telefonia Celular;136;Problemas com Cobrança;M;entre 61 a 70 anos;1;TELEFONICA BRASIL S.A.;GRUPO VIVO/TELEFÔNICA
+2015;1;1;2015-01-21 12:54:35.000;3;Sudeste;SP;3;276;Agências e Operadoras de viagens (pacotes turísticos);184;Problemas com Contrato;M;Nao Informada;1;VRG LINHAS AÉREAS S/A;VARIG/GOL
+2015;1;2;2015-02-04 11:52:16.000;1;Norte;RO;3;185;Energia Elétrica;128;Problemas com Contrato;M;entre 51 a 60 anos;1;CENTRAIS ELETRICAS DE RONDONIA S/A;ELETROBRAS
+2015;1;1;2015-01-27 13:03:36.000;3;Sudeste;SP;3;101;Aparelho Celular;107;Problemas na Entrega de Produtos;F;Nao Informada;1;FNBOX DO BRASIL SERVICOS DE INFORMATICA LTDA;SONICO DO BRASIL / RECARGAPAY.COM.BR
+2015;1;1;2015-01-16 08:39:42.000;5;Centro-oeste;DF;2;101;Aparelho Celular;102;Problemas com Garantia de Produtos;M;entre 31 a 40 anos;1;VIA VAREJO S/A;PONTO FRIO E CASAS BAHIA (LOJA FÍSICA)
+2015;1;3;2015-03-13 11:39:53.000;2;Nordeste;CE;6;54;Cartão de Crédito;28;Problemas com Cobrança;F;mais de 70 anos;1;BANCO ITAUCARD S.A.;ITAUCARD
+2015;1;1;2015-01-08 09:30:20.000;1;Norte;RO;3;283;Estabelecimento comercial (supermercado, loja, padaria, locadora, frutaria, etc.);189;Problemas com Contrato;F;entre 41 a 50 anos;1;URBANIZADOR E ADMINISTRADORA DO CEMITÉRIO PQ PVH;CEMITÉRIO RECANTO DA PAZ
+2015;1;2;2015-02-02 12:25:02.000;3;Sudeste;MG;6;183;Água / Esgoto;134;Problemas com Cobrança;F;entre 61 a 70 anos;1;AGUA GELL INDIVIDUALIZADORA E ADMINISTRADORA LTDA;AGUA GELL
+2015;1;3;2015-03-30 15:18:19.000;4;Sul;SC;3;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 21 a 30 anos;1;LG ELETRONICS DO BRASIL LTDA;LG
+2015;1;3;2015-03-23 10:31:23.000;5;Centro-oeste;GO;6;186;Telefonia Fixa;143;Problemas com Contrato;F;até 20 anos;1;OI S.A. (OI FIXO);OI FIXO (BRASIL TELECOM / CIP ELETRÔNICA)
+2015;1;3;2015-03-20 14:52:33.000;3;Sudeste;MG;6;187;Telefonia Celular;241;Problemas com SAC;F;entre 31 a 40 anos;1;TELERJ CELULAR S/A;VIVO
+2015;1;3;2015-03-25 14:41:59.000;2;Nordeste;BA;3;259;TV por Assinatura;186;Vício ou Má Qualidade de Produto ou Serviço;M;entre 21 a 30 anos;1;NET SERVIÇOS DE COMUNICAÇÃO S/A;NET SERVIÇOS
+2015;1;1;2015-01-14 12:09:56.000;3;Sudeste;RJ;3;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 61 a 70 anos;1;NEXTEL TELECOMUNICAÇÕES LTDA;NEXTEL
+2015;1;3;2015-03-05 13:33:12.000;3;Sudeste;RJ;3;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;LG ELETRONICS DO BRASIL;LG ELETRONICS
+2015;1;2;2015-02-09 14:59:02.000;3;Sudeste;SP;3;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;SONY BRASIL LTDA;SONY BRASIL LTDA
+2015;1;1;2015-01-20 11:46:47.000;3;Sudeste;ES;3;183;Água / Esgoto;134;Problemas com Cobrança;F;entre 61 a 70 anos;1;COMPANHIA ESPIRITO SANTENSE DE SANEAMENTO CESAN;CESAN
+2015;1;1;2015-01-09 16:08:28.000;3;Sudeste;SP;3;54;Cartão de Crédito;28;Problemas com Cobrança;F;entre 31 a 40 anos;1;FINANCEIRA ITAU CBD S/A CRÉDITO FINANCIAMENTO E INVESTIMENTO;FIC FINANCEIRA ITAÚ CBD / FIT
+2015;1;3;2015-03-25 10:32:58.000;3;Sudeste;SP;3;186;Telefonia Fixa;125;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;SKY BRASIL SERVIÇOS LTDA;SKY
+2015;1;2;2015-02-19 12:22:24.000;2;Nordeste;PE;6;187;Telefonia Celular;143;Problemas com Contrato;M;até 20 anos;1;TIM CELULAR S.A;TIM
+2015;1;1;2015-01-20 09:20:23.000;2;Nordeste;CE;2;58;Consórcios;27;Problemas com Contrato;M;entre 31 a 40 anos;1;CONSORCIO NACIONAL EMBRACON LTDA;NULL
+2015;1;2;2015-02-04 12:20:50.000;3;Sudeste;SP;3;212;Profissional Liberal - Dentista;180;Problemas na Oferta;F;entre 21 a 30 anos;1;MARISA ODONTO;
+2015;1;2;2015-02-12 14:04:24.000;4;Sul;SC;6;259;TV por Assinatura;194;Problemas com Cobrança;M;entre 41 a 50 anos;1;SKY BRASIL SERVIÇOS LTDA;SKY
+2015;1;2;2015-02-23 11:11:16.000;2;Nordeste;CE;3;279;Internet (Serviços);194;Problemas com Cobrança;M;entre 21 a 30 anos;1;CLARO S.A (3G E MOVEL);CLARO
+2015;1;3;2015-03-06 10:27:15.000;5;Centro-oeste;GO;3;94;Eletrodomésticos Linha Branca;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 51 a 60 anos;1;CARLOS SARAIVA IMPORTACAO E COMERCIO LTDA;RICARDO ELETRO
+2015;1;2;2015-02-19 12:03:58.000;1;Norte;AP;9;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 61 a 70 anos;1;NOKIA DO BRASIL TECNOLOGIA LTDA;NOKIA
+2015;1;1;2015-01-13 17:15:46.000;3;Sudeste;MG;3;94;Eletrodomésticos Linha Branca;115;Problemas com Desistência de Compra ou Contratação;F;Nao Informada;1;RN COMERCIO VAREJISTA S.A.;RICARDO ELETRO.COM
+2015;1;1;2015-01-20 10:54:42.000;3;Sudeste;SP;3;283;Estabelecimento comercial (supermercado, loja, padaria, locadora, frutaria, etc.);203;Problemas com Contrato;F;entre 31 a 40 anos;1;VIGZUL TECNOLOGIA E MONITORAMENTOS S/A;
+2015;1;3;2015-03-31 09:29:33.000;4;Sul;PR;3;54;Cartão de Crédito;28;Problemas com Cobrança;F;entre 41 a 50 anos;1;PERNAMBUCANAS FINANCIADORA S/A CRED FIN E INVESTIMENTO;PERNAMBUCANAS FINANCIADORA S/A CRED FIN E INVESTIM
+2015;1;3;2015-03-18 16:21:15.000;3;Sudeste;RJ;2;282;Seguro;198;Problemas na Oferta;M;entre 41 a 50 anos;1;ROYAL SUNALLIANCE SEGUROS S/A;
+2015;1;3;2015-03-11 15:30:17.000;3;Sudeste;MG;6;137;Internet;107;Problemas na Entrega de Produtos;M;entre 21 a 30 anos;1;ALPAY TECNOLOGIA DA INFORMACAO LTDA / EBANX;EBANX / ALPAY
+2015;1;1;2015-01-26 15:02:31.000;4;Sul;RS;6;186;Telefonia Fixa;128;Problemas com Contrato;F;mais de 70 anos;1;OI S/A (ANTIGA BRASIL TELECOM S.A);
+2015;1;1;2015-01-12 11:06:46.000;3;Sudeste;SP;2;76;Outros Contratos;31;Problemas com Cobrança;M;Nao Informada;1;NOTA FISCAL PAULISTA;
+2015;1;1;2015-01-28 09:21:45.000;3;Sudeste;SP;3;82;Incorporação ( Construtoras e Incorporadoras );63;Problemas com Cobrança;F;entre 31 a 40 anos;1;LGP CONSULTORIA DE BENS IMOVEIS LTDA;LGP
+2015;1;3;2015-03-31 17:02:45.000;3;Sudeste;SP;9;93;Eletrodomésticos Linha Branca;105;Vício ou Má Qualidade de Produto ou Serviço;F;mais de 70 anos;1;WHIRLPOOL S/A;MULTIBRAS BRASTEMP CONSUL
+2015;1;2;2015-02-13 18:33:43.000;5;Centro-oeste;GO;2;63;Financeira;250;Problemas com Cobrança;F;mais de 70 anos;1;BANCO BMG S/A;BANCO BMG (CIP ELETRÔNICA)
+2015;1;2;2015-02-03 09:59:13.000;3;Sudeste;ES;2;101;Aparelho Celular;107;Problemas na Entrega de Produtos;F;entre 21 a 30 anos;1;LU CUNHA STORE COM, IMP, EXP. DE ELETRONICOS LTDA;LU CUNHA STORE
+2015;1;3;2015-03-12 11:27:33.000;2;Nordeste;PB;9;140;Eletroeletrônico Importado;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;CEMAZ INDUSTRIA ELETRONICA DA AMAZONIA S/A;CCE DA AMAZÔNIA
+2015;1;2;2015-02-21 12:27:09.000;2;Nordeste;PE;3;276;Agências e Operadoras de viagens (pacotes turísticos);183;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;B2W - COMPANHIA GLOBAL DO VAREJO;
+2015;1;3;2015-03-11 14:26:40.000;3;Sudeste;SP;3;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 51 a 60 anos;1;OI MÓVEL S.A.;
+2015;1;1;2015-01-06 11:22:42.000;3;Sudeste;SP;3;276;Agências e Operadoras de viagens (pacotes turísticos);203;Problemas com Contrato;M;entre 21 a 30 anos;1;MARIA DE LOURDES CAMPOS BRAGA BOTELHO;MALU VIAGENS
+2015;1;3;2015-03-06 08:16:48.000;5;Centro-oeste;DF;11;5;Bares, Chopperias, Casas Noturnas e afins;4;Vício ou Má Qualidade de Produto ou Serviço;N;Nao se aplica;1;J B DA SILVA BANCA DE JORNAIS E REVISTAS - ME;MIX UTILIDADES E AÇOUGUE
+2015;1;1;2015-01-22 11:55:02.000;2;Nordeste;BA;3;122;Móveis;107;Problemas na Entrega de Produtos;F;entre 51 a 60 anos;1;LOJAS INSINUANTE LTDA;LOJAS INSINUANTE
+2015;1;1;2015-01-19 14:05:34.000;3;Sudeste;MG;3;82;Incorporação ( Construtoras e Incorporadoras );100;Problemas com Contrato;M;Nao Informada;1;MRV ENGENHARIA E PARTICIPACOES SA;FONTANE DI ROMA
+2015;1;1;2015-01-30 15:22:19.000;4;Sul;RS;6;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 51 a 60 anos;1;VIVO SA;VIVO
+2015;1;3;2015-03-10 09:33:25.000;4;Sul;RS;3;279;Internet (Serviços);194;Problemas com Cobrança;M;entre 51 a 60 anos;1;COMUNICACELL CELULARES LTDA;COMUNICACELL CELULARES LTDA
+2015;1;2;2015-02-24 16:04:18.000;3;Sudeste;SP;3;120;Móveis;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 21 a 30 anos;1;ESMALTEC S/A;
+2015;1;1;2015-01-07 13:59:02.000;5;Centro-oeste;GO;3;129;Carros;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;BMC HYUNDAI S/A;BMC HYUNDAI S/A
+2015;1;3;2015-03-17 14:28:30.000;5;Centro-oeste;GO;6;259;TV por Assinatura;196;Problemas com Cobrança;M;entre 31 a 40 anos;1;OI MÓVEL S/A (14 BRASIL TELECOM CELULAR S/A);OI CELULAR / OI TV (CIP ELETRÔNICA)
+2015;1;1;2015-01-23 08:56:40.000;2;Nordeste;AL;3;259;TV por Assinatura;194;Problemas com Cobrança;M;entre 21 a 30 anos;1;NET;NET E CLARO S/A
+2015;1;2;2015-02-11 12:52:53.000;2;Nordeste;AL;3;288;Máquinas e Equipamentos;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;KARCHER INDUSTRIA E COMERCIO LIMITADA;KARCHER
+2015;1;1;2015-01-21 12:32:33.000;3;Sudeste;RJ;3;186;Telefonia Fixa;123;Vício ou Má Qualidade de Produto ou Serviço;F;Nao Informada;1;CLARO FIXO-. - EMBRATEL - CLARO TV;EMBRATEL - LIVRE
+2015;1;1;2015-01-08 16:05:01.000;5;Centro-oeste;GO;2;87;Material de Construção (areia, cimento, tijolo, pregos, lajes, blocos, etc.);102;Problemas com Garantia de Produtos;F;Nao Informada;1;TEGGO - INDUSTRIA E COMERCIO LTDA - EPP;TEGGO
+2015;1;1;2015-01-28 17:37:38.000;3;Sudeste;ES;10;54;Cartão de Crédito;30;Problemas com Cobrança;F;entre 51 a 60 anos;1;TESTE 1;NULL
+2015;1;3;2015-03-10 13:25:14.000;3;Sudeste;SP;2;59;Consórcios;28;Problemas com Cobrança;M;Nao Informada;1;BANCO BRADESCO S/A;BRADESCO
+2015;1;2;2015-02-09 11:28:43.000;3;Sudeste;MG;6;259;TV por Assinatura;255;Problemas com SAC;M;entre 31 a 40 anos;1;SKY BRASIL SERVICOS LTDA;SKY
+2015;1;3;2015-03-06 13:59:01.000;4;Sul;SC;6;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 21 a 30 anos;1;SONY ERICSSON MOBILE COMMUNICATIONS DO BRASIL LTDA.;SONY ERICSSON DO BRASIL
+2015;1;1;2015-01-02 09:54:56.000;3;Sudeste;MG;6;259;TV por Assinatura;196;Problemas com Cobrança;M;entre 31 a 40 anos;1;SKY BRASIL SERVICOS LTDA;SKY
+2015;1;3;2015-03-25 09:48:54.000;3;Sudeste;RJ;3;236;Cursos Livres Outros;255;Problemas com SAC;F;entre 41 a 50 anos;1;LUA COLINGUES MAYRINCK 11819107736;TN10 ONLINE
+2015;1;3;2015-03-13 09:57:43.000;4;Sul;RS;6;53;Banco comercial;244;Problemas com SAC;M;entre 61 a 70 anos;1;CAIXA  ECONOMICA FEDERAL;CAIXA
+2015;1;3;2015-03-27 15:58:34.000;3;Sudeste;ES;2;76;Outros Contratos;30;Problemas com Cobrança;M;entre 51 a 60 anos;1;BANCO BRADESCO SA - BMC - FINASA - BANKPAR - AMEX;BRAD. CARTÕES, SAÚDE, PREV, CONS.E FINC INTERAMERI
+2015;1;1;2015-01-30 12:21:59.000;5;Centro-oeste;GO;6;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 61 a 70 anos;1;CLARO S/A;CLARO CELULAR (CIP ELETRÔNICA)
+2015;1;1;2015-01-29 15:44:28.000;3;Sudeste;MG;9;186;Telefonia Fixa;124;Problemas com Contrato;M;entre 31 a 40 anos;1;TELEMAR NORTE E LESTE S/A;TELEMAR (OI FIXO E MÓVEL, OI PAGGO, VELOX, OI NET)
+2015;1;1;2015-01-27 10:05:37.000;3;Sudeste;ES;2;102;Microcomputador / Produtos de Informática;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;COMPANHIA BRASILEIRA DE DISTRIBUICAO;EXTRA.COM
+2015;1;1;2015-01-09 12:03:42.000;3;Sudeste;SP;6;73;Estabelecimento / Loja - Compra a Prazo;28;Problemas com Cobrança;M;entre 31 a 40 anos;1;CREDILAR;
+2015;1;1;2015-01-12 10:03:12.000;2;Nordeste;RN;9;140;Eletroeletrônico Importado;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;MAGAZINE LUIZA S.A;MAGAZINE LUIZA
+2015;1;3;2015-03-30 14:12:50.000;4;Sul;RS;2;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 21 a 30 anos;1;TIM CELULAR S.A.;TIM
+2015;1;2;2015-02-10 16:22:07.000;4;Sul;SC;6;102;Microcomputador / Produtos de Informática;111;Problemas na Oferta;M;mais de 70 anos;1;TELET S/A;CLARO
+2015;1;1;2015-01-19 12:55:00.000;3;Sudeste;RJ;3;235;Curso de Línguas;194;Problemas com Cobrança;M;entre 21 a 30 anos;1;CENTRAL DE PRODUÇÕES GWUP;SKOPOS EDITORA
+2015;1;3;2015-03-13 14:50:08.000;5;Centro-oeste;GO;6;254;Serviços de Marcenaria;183;Vício ou Má Qualidade de Produto ou Serviço;M;entre 41 a 50 anos;1;LEO PINHEIRO MADEIRA;LEO
+2015;1;3;2015-03-12 09:37:33.000;2;Nordeste;BA;2;233;Escola ( Pré, 1º, 2º Graus e Superior );227;Problemas Diversos com Produtos e Serviços;F;entre 31 a 40 anos;1;FACS SERVIÇOS EDUCACIONAIS S.A;UNIFACS
+2015;1;3;2015-03-27 10:36:51.000;3;Sudeste;SP;3;132;Vestuário ( Calçado / Roupa );107;Problemas na Entrega de Produtos;M;entre 21 a 30 anos;1;SBF COMERCIO DE PRODUTOS ESPORTIVOS LTDA;
+2015;1;2;2015-02-03 07:38:29.000;2;Nordeste;CE;3;157;Transporte;123;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;TAM LINHAS AEREAS S/A.;NULL
+2015;1;1;2015-01-27 12:27:01.000;1;Norte;PA;3;54;Cartão de Crédito;31;Problemas com Cobrança;M;entre 41 a 50 anos;1;CAIXA ECONÔMICA FEDERAL;CAIXA
+2015;1;3;2015-03-30 10:53:31.000;2;Nordeste;BA;3;183;Água / Esgoto;126;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;EMPRESA BAIANA DE ÁGUAS E SANEAMENTO S/A;EMBASA
+2015;1;1;2015-01-30 14:53:40.000;3;Sudeste;SP;3;250;Oficinas ( Mecânica, Funilaria, Auto-Elétrica, Borracharia );183;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;AUTO MECÂNICA CECI;AUTO MECÂNICA CECI
+2015;1;3;2015-03-20 16:54:41.000;4;Sul;SC;6;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 51 a 60 anos;1;OI S.A.;OI
+2015;1;1;2015-01-23 11:21:42.000;5;Centro-oeste;GO;6;187;Telefonia Celular;136;Problemas com Cobrança;M;entre 31 a 40 anos;1;AMERICEL S/A;CLARO
+2015;1;2;2015-02-06 10:18:32.000;4;Sul;PR;2;54;Cartão de Crédito;28;Problemas com Cobrança;M;Nao Informada;1;BANCO ITAUCARD S/A - AOP;GRUPO ITAÚ UNIBANCO - CREDICARD  POR AQUISIÇÃO
+2015;1;2;2015-02-10 08:09:48.000;2;Nordeste;CE;2;53;Banco comercial;27;Problemas com Contrato;F;entre 41 a 50 anos;1;CAIXA ECONOMICA FEDERAL;NULL
+2015;1;3;2015-03-10 16:18:23.000;3;Sudeste;SP;2;102;Microcomputador / Produtos de Informática;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;WAL-MART BRASIL LTDA;WAL-MART
+2015;1;3;2015-03-03 11:42:10.000;3;Sudeste;SP;3;53;Banco comercial;28;Problemas com Cobrança;F;entre 41 a 50 anos;1;CAIXA ECONÔMICA FEDERAL  CEF;*CEF MATRIZ
+2015;1;1;2015-01-20 14:12:05.000;2;Nordeste;MA;3;187;Telefonia Celular;124;Problemas com Contrato;M;entre 51 a 60 anos;1;TIM CELULAR S/A;TIM
+2015;1;2;2015-02-11 12:39:29.000;3;Sudeste;SP;3;258;Consultoria / Assessoria / Agenciamento ( Recolocação Profissional, Agência de Empregada, de Casamento, Etc. );194;Problemas com Cobrança;F;entre 51 a 60 anos;1;LOPES SA TELEFONIA LTDA ME;ALEMAR TELEFONIA
+2015;1;2;2015-02-20 09:12:33.000;5;Centro-oeste;GO;6;187;Telefonia Celular;134;Problemas com Cobrança;M;mais de 70 anos;1;14 BRASIL TELECOM CELULAR S/A;OI
+2015;1;1;2015-01-08 20:13:20.000;2;Nordeste;PE;9;96;Televisão / Aparelho DVD / Filmadora;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 21 a 30 anos;1;IMAGEM E SOM SERVOÇO TECNICO COMERCIO LTDA;IMAGEM E SOM
+2015;1;1;2015-01-10 10:29:28.000;3;Sudeste;RJ;3;100;Colchão;107;Problemas na Entrega de Produtos;F;entre 31 a 40 anos;1;MAINIERI COM.MOV;NULL
+2015;1;2;2015-02-23 15:38:29.000;2;Nordeste;PB;9;102;Microcomputador / Produtos de Informática;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 21 a 30 anos;1;DIGIBRAS INDUSTRIA DO BRASIL S/A;
+2015;1;2;2015-02-12 09:49:13.000;3;Sudeste;ES;2;187;Telefonia Celular;143;Problemas com Contrato;F;entre 41 a 50 anos;1;CLARO S.A.;CLARO
+2015;1;1;2015-01-21 11:35:26.000;3;Sudeste;ES;3;122;Móveis;105;Vício ou Má Qualidade de Produto ou Serviço;F;até 20 anos;1;ARAPLAC INDUSTRIA E COMERCIO DE MOVEIS LTDA;MOVEIS ARAPLAC
+2015;1;2;2015-02-03 10:12:47.000;2;Nordeste;BA;6;186;Telefonia Fixa;123;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;TELEMAR NORTE LESTE S/A;TELEMAR - OI
+2015;1;1;2015-01-09 11:51:22.000;1;Norte;RO;3;140;Eletroeletrônico Importado;111;Problemas na Oferta;M;entre 21 a 30 anos;1;MÓVEIS ROMERA LTDA;MÓVEIS ROMERA
+2015;1;2;2015-02-05 09:46:34.000;3;Sudeste;SP;3;129;Carros;111;Problemas na Oferta;M;Nao Informada;1;MEDEIROS & SULLATO COMERCIO DE VEICULOS LTDA ME;NULL
+2015;1;2;2015-02-25 10:35:05.000;2;Nordeste;PE;9;94;Eletrodomésticos Linha Branca;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 61 a 70 anos;1;MERCOFRICON S/A;FRICON
+2015;1;2;2015-02-09 09:35:19.000;3;Sudeste;RJ;2;54;Cartão de Crédito;28;Problemas com Cobrança;F;entre 51 a 60 anos;1;HSBC-BANK BRASIL S/A;LOSANGO PROMOÇÕES E VENDAS LTDA
+2015;1;2;2015-02-23 14:46:07.000;5;Centro-oeste;GO;6;185;Energia Elétrica;134;Problemas com Cobrança;M;entre 51 a 60 anos;1;CELG DISTRIBUICAO S.A. - CELG D;CELG D
+2015;1;2;2015-02-26 14:09:42.000;5;Centro-oeste;MT;9;94;Eletrodomésticos Linha Branca;113;Problemas com Garantia de Produtos;M;entre 31 a 40 anos;1;REFRISERVICE - REFRIGERAÇÃO E CLIMATIZAÇÃO;
+2015;1;3;2015-03-12 13:51:52.000;5;Centro-oeste;DF;3;69;Seguro;27;Problemas com Contrato;F;entre 21 a 30 anos;1;ROYAL  & SUNALLIANCE SEGUROS S/A;RSA SEGUROS
+2015;1;3;2015-03-19 09:38:30.000;1;Norte;RO;6;63;Financeira;244;Problemas com SAC;F;entre 31 a 40 anos;1;ELETRO J. M S/A;NOVALAR
+2015;1;2;2015-02-05 09:21:15.000;3;Sudeste;ES;3;259;TV por Assinatura;255;Problemas com SAC;F;entre 51 a 60 anos;1;GLOBAL VILLAGE TELECOM S.A.;GVT
+2015;1;3;2015-03-02 12:51:32.000;5;Centro-oeste;MS;3;183;Água / Esgoto;134;Problemas com Cobrança;M;entre 61 a 70 anos;1;AGUAS GUARIROBA SA @;ÁGUAS GUARIROBA @
+2015;1;1;2015-01-21 10:11:58.000;3;Sudeste;MG;6;279;Internet (Serviços);194;Problemas com Cobrança;M;entre 31 a 40 anos;1;NET SERVIÇOS DE COMUNICAÇÃO S/A;NET BELO HORIZONTE
+2015;1;1;2015-01-27 11:58:12.000;3;Sudeste;SP;3;284;Plano de Saúde;150;Problemas com Entrega de Documentos ao Consumidor;F;Nao Informada;1;MULT MASTER PLANOS DE SAUDE;NULL
+2015;1;2;2015-02-19 11:02:29.000;5;Centro-oeste;DF;2;249;Assistência Técnica;193;Problemas com Garantia de Produtos;M;Nao Informada;1;LUMI;LUMI
+2015;1;2;2015-02-20 17:05:29.000;3;Sudeste;SP;3;183;Água / Esgoto;136;Problemas com Cobrança;F;entre 51 a 60 anos;1;CIA DE SANEAMENTO BÁSICO DO ESTADO DE SÃO PAULO;SABESP
+2015;1;2;2015-02-10 12:55:53.000;5;Centro-oeste;MS;3;186;Telefonia Fixa;125;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;BRASIL TELECOM S/A @;OI FIXO
+2015;1;3;2015-03-26 11:21:25.000;3;Sudeste;SP;3;186;Telefonia Fixa;134;Problemas com Cobrança;M;entre 61 a 70 anos;1;TELEFONICA BRASIL S/A;VIVO/TELEFÔNICA
+2015;1;3;2015-03-09 15:08:05.000;3;Sudeste;SP;2;186;Telefonia Fixa;144;Problemas com Contrato;M;entre 31 a 40 anos;1;TELEFONICA BRASIL S/A;VIVO
+2015;1;1;2015-01-29 09:53:06.000;2;Nordeste;CE;10;53;Banco comercial;30;Problemas com Cobrança;F;entre 31 a 40 anos;1;BANCO CITICARD S/A;CREDICARD CITI
+2015;1;3;2015-03-19 14:13:33.000;3;Sudeste;SP;3;183;Água / Esgoto;134;Problemas com Cobrança;M;entre 31 a 40 anos;1;CIA DE SANEAMENTO BÁSICO DO ESTADO DE SÃO PAULO;SABESP
+2015;1;3;2015-03-04 09:59:36.000;3;Sudeste;SP;3;19;Leite e derivados (bebidas lácteas, iogurte, queijo, manteiga, creme de leite - normal, em pó e light);10;Vício ou Má Qualidade de Produto ou Serviço;F;até 20 anos;1;MOCOCA S/A PRODUTOS ALIMENTICIOS;MOCOCA
+2015;1;3;2015-03-20 15:23:01.000;3;Sudeste;ES;3;274;Serviços Telefônicos Especiais ( Disque 900 / Erótico, Etc. );194;Problemas com Cobrança;F;entre 41 a 50 anos;1;VIVO S.A.;VIVO
+2015;1;2;2015-02-12 10:52:06.000;3;Sudeste;SP;3;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 61 a 70 anos;1;TIM CELULAR S/A;TIM CELULAR
+2015;1;1;2015-01-05 12:44:44.000;3;Sudeste;SP;2;101;Aparelho Celular;102;Problemas com Garantia de Produtos;M;entre 31 a 40 anos;1;VIRGINIA SURETY COMPANHIA DE SEGUROS DO BRASIL;
+2015;1;1;2015-01-21 11:34:45.000;2;Nordeste;AL;9;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;MASTER ELETRONICA DE BRINQUEDOS LTDA;LASER ELETRO MAGAZINE
+2015;1;1;2015-01-19 11:03:09.000;2;Nordeste;AL;3;95;Aparelho de Som;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 41 a 50 anos;1;BRITANIA ELETRODOMESTICOS LTDA.;BRITANIA / PHILCO
+2015;1;1;2015-01-28 11:26:27.000;1;Norte;RO;2;140;Eletroeletrônico Importado;102;Problemas com Garantia de Produtos;M;entre 31 a 40 anos;1;B2W COMPANHIA GLOBAL DO VAREJO;AMERICANAS.COM / SUBMARINO / SHOPTIME
+2015;1;2;2015-02-02 12:58:09.000;1;Norte;TO;6;186;Telefonia Fixa;145;Problemas Diversos com Produtos e Serviços;M;entre 41 a 50 anos;1;BRASIL TELECOM S/A;OI - BRASIL TELECOM (TELEFONIA FIXA)
+2015;1;3;2015-03-13 14:38:09.000;5;Centro-oeste;MT;10;63;Financeira;30;Problemas com Cobrança;F;entre 31 a 40 anos;1;CALCARD ADMINISTRADORA DE CARTOES LTDA;CALCARD
+2015;1;3;2015-03-31 10:05:38.000;2;Nordeste;MA;3;63;Financeira;28;Problemas com Cobrança;F;entre 31 a 40 anos;1;SKY BRASIL SERVICOS LTDA;SKY
+2015;1;2;2015-02-09 09:18:57.000;2;Nordeste;MA;2;54;Cartão de Crédito;28;Problemas com Cobrança;M;entre 61 a 70 anos;1;CREDICARD ITAU;CREDICARD ITAU
+2015;1;1;2015-01-27 09:30:13.000;4;Sul;SC;9;186;Telefonia Fixa;126;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;OI S.A.;OI
+2015;1;2;2015-02-04 09:17:49.000;4;Sul;SC;11;218;Cosméticos ( Pó Facial / Talco / Creme e Loção de Beleza e de Barbear / Batom / Sombra / Bronzeadores / Protetor Solar / Depilador / Esmalte / Clareador e Tintu;157;Problemas na Oferta;N;Nao se aplica;1;SILVANE FRIEDRICH BAUKAT;ERVA DOCE
+2015;1;3;2015-03-24 17:46:06.000;5;Centro-oeste;MT;3;183;Água / Esgoto;134;Problemas com Cobrança;F;entre 31 a 40 anos;1;CAB CUIABA S/A - CONCESSIONARIA DE SERVICOS PUBLICOS DE AGUA E ESGOTO;CAB CUIABA
+2015;1;1;2015-01-07 11:07:11.000;3;Sudeste;SP;3;236;Cursos Livres Outros;197;Problemas na Oferta;M;entre 31 a 40 anos;1;SOARES E SANTOS DESENVOLVIMENTO LTDA - ME;
+2015;1;3;2015-03-11 09:19:55.000;3;Sudeste;ES;2;54;Cartão de Crédito;28;Problemas com Cobrança;M;entre 61 a 70 anos;1;BANCO BRADESCO SA;BRADESCO EST. UNIF. (MATRIZ)
+2015;1;3;2015-03-04 11:30:43.000;4;Sul;PR;9;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;MAGAZINE LUÍZA S/A - GRUPO MAGAZINE LUIZA -  AOP;MAGAZINE LUÍZA S/A - GRUPO MAGAZINE LUIZA -  AOP
+2015;1;3;2015-03-10 15:09:03.000;3;Sudeste;RJ;3;101;Aparelho Celular;116;Problemas com Contrato;F;entre 21 a 30 anos;1;NEXTEL TELECOMUNICAÇÕES LTDA;NEXTEL
+2015;1;3;2015-03-23 12:50:51.000;3;Sudeste;RJ;6;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 31 a 40 anos;1;VIVO TELERJ CELULAR S.A;VIVO
+2015;1;1;2015-01-20 15:04:30.000;3;Sudeste;SP;6;76;Outros Contratos;28;Problemas com Cobrança;F;entre 41 a 50 anos;1;S615;
+2015;1;3;2015-03-20 10:48:01.000;3;Sudeste;ES;9;101;Aparelho Celular;102;Problemas com Garantia de Produtos;M;Nao Informada;1;MICROSOFT MOBILE TECNOLOGIA LTDA;NOKIA DO BRASIL TECNOLOGIA LTDA
+2015;1;1;2015-01-29 16:59:35.000;3;Sudeste;SP;2;63;Financeira;28;Problemas com Cobrança;F;entre 21 a 30 anos;1;BANCO SANTANDER (BRASIL) S/A;*SANTANDER
+2015;1;1;2015-01-16 10:09:29.000;3;Sudeste;RJ;3;259;TV por Assinatura;184;Problemas com Contrato;M;Nao Informada;1;SKY BRASIL SERVIÇOS LTDA.;SKY
+2015;1;3;2015-03-23 16:29:02.000;3;Sudeste;SP;6;259;TV por Assinatura;194;Problemas com Cobrança;F;entre 41 a 50 anos;1;NET SÃO PAULO LTDA;
+2015;1;3;2015-03-04 15:56:53.000;5;Centro-oeste;GO;6;187;Telefonia Celular;136;Problemas com Cobrança;M;entre 31 a 40 anos;1;TIM CELULAR S/A;
+2015;1;2;2015-02-04 12:27:29.000;5;Centro-oeste;DF;3;54;Cartão de Crédito;27;Problemas com Contrato;M;entre 41 a 50 anos;1;CARTAO BRB S/A;NULL
+2015;1;1;2015-01-27 16:28:57.000;5;Centro-oeste;DF;2;53;Banco comercial;28;Problemas com Cobrança;F;mais de 70 anos;1;BANCO DO BRASIL SA;DIRECAO GERAL
+2015;1;3;2015-03-20 09:29:05.000;5;Centro-oeste;MT;6;186;Telefonia Fixa;143;Problemas com Contrato;M;Nao Informada;1;VIVO S.A.;VIVO
+2015;1;3;2015-03-24 13:19:40.000;2;Nordeste;CE;3;185;Energia Elétrica;134;Problemas com Cobrança;F;entre 41 a 50 anos;1;COMPANHIA ENERGETICA DO CEARA;COELCE
+2015;1;3;2015-03-16 09:18:28.000;4;Sul;RS;6;90;Acessório Para Vestuário ( Bolsa, Cinto, Chapéu, guarda-chuva, Jóia, Bijuteria, Luva, Etc. );105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;DROGARIA  SAO FRANCISCO;SAO FRANCISCO
+2015;1;3;2015-03-04 09:04:49.000;2;Nordeste;RN;9;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 61 a 70 anos;1;LOJAS AMERICANAS;LOJAS AMERICANAS
+2015;1;2;2015-02-12 08:42:29.000;3;Sudeste;MG;6;94;Eletrodomésticos Linha Branca;102;Problemas com Garantia de Produtos;F;entre 61 a 70 anos;1;ITAU SEGUROS S/A;ITAU SEGUROS / GARANTECH
+2015;1;2;2015-02-27 14:43:38.000;5;Centro-oeste;GO;6;62;Empresa de Cobrança;27;Problemas com Contrato;F;entre 21 a 30 anos;1;RENOVA COMPANHIA SECURITIZADORA DE CREDITOS FINAN;(RECOVERY)
+2015;1;3;2015-03-10 09:07:36.000;3;Sudeste;SP;3;283;Estabelecimento comercial (supermercado, loja, padaria, locadora, frutaria, etc.);183;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;BARCELONA COMÉRCIO VAREJISTA E ATACADISTA S/A;ASSAÍ
+2015;1;2;2015-02-05 14:59:50.000;3;Sudeste;MG;3;279;Internet (Serviços);203;Problemas com Contrato;M;entre 31 a 40 anos;1;STARWEB TELECOMUNICACOES LTDA ME;STARWEB
+2015;1;2;2015-02-06 16:05:50.000;4;Sul;SC;6;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 51 a 60 anos;1;TIM CELULAR S.A.;TIM SUL
+2015;1;1;2015-01-29 12:02:53.000;3;Sudeste;SP;3;259;TV por Assinatura;188;Problemas com Contrato;F;entre 41 a 50 anos;1;SKY BRASIL SERVIÇOS LTDA;SKY
+2015;1;1;2015-01-30 16:26:26.000;5;Centro-oeste;GO;2;130;Carros;102;Problemas com Garantia de Produtos;M;entre 21 a 30 anos;1;SUMITOMO RUBBER DO BRASIL LTDA;(PNEUS DUNLOP / FALKEN)
+2015;1;2;2015-02-13 11:19:35.000;1;Norte;AM;9;101;Aparelho Celular;122;Problemas com Contrato;F;entre 41 a 50 anos;1;AIG SEGUROS BRASIL S.A.;AIG SEGUROS BRASIL
+2015;1;2;2015-02-13 11:58:19.000;2;Nordeste;PE;3;137;Internet;113;Problemas com Garantia de Produtos;F;entre 41 a 50 anos;1;TELEMAR NORTE LESTE S.A.;OI FIXO
+2015;1;2;2015-02-12 14:10:04.000;4;Sul;RS;6;54;Cartão de Crédito;28;Problemas com Cobrança;M;Nao Informada;1;HIPERCARD ADMINISTRADORA DE CARTAO DE CREDITO LTDA;NULL
+2015;1;3;2015-03-04 17:08:47.000;5;Centro-oeste;GO;6;186;Telefonia Fixa;143;Problemas com Contrato;M;entre 41 a 50 anos;1;OI S.A. (OI FIXO);OI FIXO (BRASIL TELECOM / CIP ELETRÔNICA)
+2015;1;2;2015-02-02 16:08:01.000;2;Nordeste;PE;9;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;ELSYS COMERCIO E SERVICOS DE EQUIPAMENTOS ELETRO-ELETRONICOS LTDA;NULL
+2015;1;1;2015-01-12 12:52:59.000;3;Sudeste;SP;2;117;Ferramenta ( Alicate, Cortador de Grama, Furadeira, Pá, Pincel, Etc. );107;Problemas na Entrega de Produtos;F;Nao Informada;1;MAGAZINE LUIZA S/A;
+2015;1;3;2015-03-19 14:38:42.000;5;Centro-oeste;GO;6;259;TV por Assinatura;203;Problemas com Contrato;M;entre 51 a 60 anos;1;N E T SERVIÇOS DE COMUNICAÇÃO S/A (CNPJ BAIXADO);NET (NÃO NOTIFICAR)
+2015;1;1;2015-01-24 08:04:52.000;3;Sudeste;SP;3;186;Telefonia Fixa;123;Vício ou Má Qualidade de Produto ou Serviço;M;entre 41 a 50 anos;1;TELEFONICA BRASIL S/A;VIVO/TELEFÔNICA
+2015;1;1;2015-01-23 08:37:00.000;3;Sudeste;SP;3;233;Escola ( Pré, 1º, 2º Graus e Superior );196;Problemas com Cobrança;F;entre 21 a 30 anos;1;FACULDADES METROPOLITANAS UNIDAS ASSOCIACAO EDUCACIONAL;FMU
+2015;1;1;2015-01-13 12:25:45.000;3;Sudeste;MG;6;187;Telefonia Celular;136;Problemas com Cobrança;M;entre 21 a 30 anos;1;TIM CELULAR S.A.;
+2015;1;3;2015-03-16 11:10:23.000;4;Sul;PR;2;76;Outros Contratos;27;Problemas com Contrato;M;Nao Informada;1;BANCO ALPHA;BANCO ALPHA
+2015;1;3;2015-03-25 15:51:00.000;3;Sudeste;MG;2;185;Energia Elétrica;136;Problemas com Cobrança;F;Nao Informada;1;ENERGISA MINAS GERAIS - DISTRIBUIDORA DE ENERGIA S.A.;EST UNIF
+2015;1;1;2015-01-05 12:42:38.000;2;Nordeste;BA;9;139;Eletrodoméstico Importado;107;Problemas na Entrega de Produtos;M;entre 51 a 60 anos;1;COMERCIO ELETRONICO LIQUIDA MAIS EIRELI;LIQUIDA MAIS
+2015;1;2;2015-02-09 11:41:56.000;5;Centro-oeste;GO;6;185;Energia Elétrica;134;Problemas com Cobrança;M;entre 51 a 60 anos;1;CELG DISTRIBUICAO S.A. - CELG D;CELG D
+2015;1;2;2015-02-25 09:45:59.000;3;Sudeste;SP;3;249;Assistência Técnica;185;Vício ou Má Qualidade de Produto ou Serviço;F;mais de 70 anos;1;CLAUDINEI MARCIO GONÇALVES & CIA LTDA - ME;LOJAS BRASLAR - LOJA 1
+2015;1;3;2015-03-11 15:48:23.000;3;Sudeste;ES;3;137;Internet;116;Problemas com Contrato;M;entre 21 a 30 anos;1;VIVO S.A.;VIVO
+2015;1;2;2015-02-13 13:34:48.000;5;Centro-oeste;MS;9;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;DIGIBRAS INDUSTRIA DO BRASIL S/A @;CCE AMAZONIA S/A - TV LCD,LED,PLASMA E EQ DE INFO@
+2015;1;2;2015-02-06 13:22:27.000;3;Sudeste;MG;6;92;Eletrodomésticos Linha Branca;260;Risco à Saúde e Segurança / Acidente de Consumo;F;entre 41 a 50 anos;1;RICARDO ELETRO DIVINOPOLIS LTDA;RICARDO ELETRO
+2015;1;2;2015-02-28 09:22:10.000;3;Sudeste;ES;3;279;Internet (Serviços);194;Problemas com Cobrança;F;entre 31 a 40 anos;1;NET SERVICOS DE COMUNICACAO S/A;NET
+2015;1;3;2015-03-10 09:22:11.000;3;Sudeste;SP;2;278;Informações sobre o Procon;205;Problemas Diversos com Produtos e Serviços;M;entre 61 a 70 anos;1;MENDELSON FELIPE FERREIRA - ME;INOVA VIDROS
+2015;1;2;2015-02-23 15:42:07.000;4;Sul;SC;6;102;Microcomputador / Produtos de Informática;102;Problemas com Garantia de Produtos;M;entre 41 a 50 anos;1;DIGIBRAS INDUSTRIA DO BRASIL S/A;CCE DA AMAZONIA
+2015;1;1;2015-01-05 12:51:16.000;3;Sudeste;SP;3;96;Televisão / Aparelho DVD / Filmadora;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;CDF CENTRAL DE FUNCIONAMENTO TEC. E PARTICÕES LTDA;SERVIÇO TÉCNICO PESSOAL CASAS BAHIA
+2015;1;3;2015-03-12 13:52:52.000;3;Sudeste;SP;2;284;Plano de Saúde;210;Problemas na Oferta;F;entre 61 a 70 anos;1;S316 - RETORNO;
+2015;1;1;2015-01-14 11:03:51.000;2;Nordeste;PE;3;105;Artigo de Foto Imagem ( Filme, Ampliador, Luneta, Flash, Máquina Fotográfica, Binóculos, Etc. );107;Problemas na Entrega de Produtos;F;entre 31 a 40 anos;1;PAG SEGURO;PAG SEGURO
+2015;1;1;2015-01-12 10:15:33.000;4;Sul;SC;6;249;Assistência Técnica;194;Problemas com Cobrança;M;entre 41 a 50 anos;1;JORNAL A NOTICIA LTDA;JORNAL A NOTICIA
+2015;1;1;2015-01-07 11:01:05.000;3;Sudeste;SP;3;186;Telefonia Fixa;124;Problemas com Contrato;M;até 20 anos;1;NET SERVIÇOS DE COMUNICAÇÃO S/A;NULL
+2015;1;2;2015-02-19 11:39:08.000;3;Sudeste;SP;3;236;Cursos Livres Outros;203;Problemas com Contrato;F;entre 31 a 40 anos;1;SMARTDATA SANTO AMARO TREINAMENTOS LTDA EPP;
+2015;1;2;2015-02-04 10:09:45.000;2;Nordeste;BA;3;53;Banco comercial;28;Problemas com Cobrança;M;entre 51 a 60 anos;1;ITAU UNIBANCO S.A.;BANCO ITAU UNIBANCO
+2015;1;1;2015-01-12 14:03:58.000;2;Nordeste;BA;3;185;Energia Elétrica;240;Problemas com SAC;F;entre 41 a 50 anos;1;COMPANHIA DE ELETRICIDADE DO ESTADO DA BAHIA;COELBA
+2015;1;2;2015-02-12 16:40:45.000;1;Norte;PA;2;185;Energia Elétrica;134;Problemas com Cobrança;F;entre 51 a 60 anos;1;CENTRAIS ELETRICAS DO PARA S/A - CELPA;CELPA
+2015;1;1;2015-01-30 16:24:04.000;3;Sudeste;MG;9;55;Cartão de Loja;28;Problemas com Cobrança;M;entre 31 a 40 anos;1;BANCO CSF S/A;BANCO CARREFOUR/CARTÃO CARREFOUR
+2015;1;1;2015-01-30 13:41:26.000;3;Sudeste;MG;6;259;TV por Assinatura;205;Problemas Diversos com Produtos e Serviços;F;entre 31 a 40 anos;1;CLARO S.A.;
+2015;1;3;2015-03-30 14:18:49.000;3;Sudeste;MG;6;54;Cartão de Crédito;28;Problemas com Cobrança;F;entre 61 a 70 anos;1;AVISTA S/A ADMINISTRADORA DE CARTOES DE CREDITO;A VISTA ADMINISTRADORA DE CARTÕES DE CRÉDITO LTDA
+2015;1;3;2015-03-13 10:40:09.000;4;Sul;PR;2;244;Hospedagem ( Hotel, Pousada, Chalé, Albergue, Etc. );205;Problemas Diversos com Produtos e Serviços;F;entre 31 a 40 anos;1;OI FIXA - OI S/A - AOP;TELEFONIA FIXA E BANDA LARGA FIXA - GRUPO OI - AOP
+2015;1;3;2015-03-03 13:43:02.000;5;Centro-oeste;GO;3;288;Máquinas e Equipamentos;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;COMPANHIA BRASILEIRA DE DISTRIBUIÇÃO;PÃO DE AÇÚCAR / EXTRA (LOJAS FÍSICAS)
+2015;1;2;2015-02-03 17:04:54.000;3;Sudeste;MG;6;54;Cartão de Crédito;247;Problemas com SAC;F;entre 21 a 30 anos;1;CAIXA ECONOMICA FEDERAL;AGENCIA SUL DAS GERAES
+2015;1;1;2015-01-20 10:15:13.000;2;Nordeste;BA;3;186;Telefonia Fixa;135;Problemas com Cobrança;M;entre 61 a 70 anos;1;TELEMAR NORTE LESTE S/A;TELEMAR - OI
+2015;1;3;2015-03-24 17:46:45.000;2;Nordeste;BA;3;54;Cartão de Crédito;28;Problemas com Cobrança;F;entre 31 a 40 anos;1;BANCO ITAU BMG CONSIGNADO S.A.;BANCO ITAU BMG CONSIGNADO
+2015;1;3;2015-03-26 14:40:58.000;3;Sudeste;SP;2;187;Telefonia Celular;136;Problemas com Cobrança;F;Nao Informada;1;TELEFONICA BRASIL S.A.;VIVO
+2015;1;3;2015-03-28 09:58:50.000;3;Sudeste;RJ;3;122;Móveis;107;Problemas na Entrega de Produtos;M;entre 21 a 30 anos;1;ETNA COMERCIO DE MOVEIS E ARTIGOS PARA DECORACAO LTDA.;ETNA
+2015;1;1;2015-01-29 12:46:40.000;3;Sudeste;ES;6;96;Televisão / Aparelho DVD / Filmadora;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 41 a 50 anos;1;SEMP TOSHIBA S. A. - FILIAL;SEMP TOSHIBA S. A. - FILIAL
+2015;1;1;2015-01-27 15:56:17.000;4;Sul;RS;6;259;TV por Assinatura;203;Problemas com Contrato;F;Nao Informada;1;SKY BRASIL SERVIÇOS LTDA;SKY
+2015;1;2;2015-02-02 09:49:42.000;5;Centro-oeste;MS;6;63;Financeira;32;Problemas com Cobrança;M;entre 21 a 30 anos;1;BV FINANCEIRA SA CFI;BV FINANCEIRA CREDITO FINANCIAMENTO E INVESTIMENTO
+2015;1;3;2015-03-27 11:04:51.000;2;Nordeste;PB;9;96;Televisão / Aparelho DVD / Filmadora;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 41 a 50 anos;1;PHILCO ELETRONICOS LTDA.;PHILCO
+2015;1;2;2015-02-09 09:09:16.000;3;Sudeste;SP;2;284;Plano de Saúde;159;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;SANTA CASA CLINICAS;
+2015;1;1;2015-01-15 15:34:18.000;3;Sudeste;SP;3;286;Plano Odontológico;161;Risco à Saúde e Segurança / Acidente de Consumo;F;entre 41 a 50 anos;1;CLINICA DE ORTODONTIA ORTO FACIL LTDA;CLINICA MAIS SORRISO
+2015;1;1;2015-01-30 09:52:59.000;5;Centro-oeste;GO;6;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 21 a 30 anos;1;TIM CELULAR S.A.;TIM
+2015;1;2;2015-02-20 15:42:46.000;3;Sudeste;ES;2;259;TV por Assinatura;196;Problemas com Cobrança;M;Nao Informada;1;EMPRESA BRASILEIRA DE TELECOMUNICACOES S A EMBRATEL;CLARO TV /CLARO FIXO
+2015;1;1;2015-01-06 09:43:21.000;3;Sudeste;SP;3;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 41 a 50 anos;1;MICROSOFT MOBILE TECNOLOGIA LTDA;NOKIA
+2015;1;3;2015-03-04 09:20:39.000;5;Centro-oeste;GO;6;54;Cartão de Crédito;28;Problemas com Cobrança;F;entre 61 a 70 anos;1;BANCO CSF S/A;(BANCO CARREFOUR / CARTÃO CARREFOUR)
+2015;1;1;2015-01-16 10:07:36.000;2;Nordeste;PE;9;96;Televisão / Aparelho DVD / Filmadora;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;IBYTE INDUSTRIA E COMERCIO DE COMPUTADORES;
+2015;1;1;2015-01-20 16:23:24.000;5;Centro-oeste;GO;3;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 41 a 50 anos;1;VIVO S.A.;VIVO
+2015;1;3;2015-03-03 15:38:05.000;3;Sudeste;MG;6;187;Telefonia Celular;134;Problemas com Cobrança;M;Nao Informada;1;VIVO S.A.;VIVO
+2015;1;3;2015-03-05 10:48:47.000;4;Sul;PR;2;141;Outros Produtos Importados;116;Problemas com Contrato;F;Nao Informada;1;SHOPFATO COMÉRCIO ELETRÔNICO S/A;SHOPFATO.COM.BR
+2015;1;3;2015-03-16 11:12:57.000;3;Sudeste;SP;6;278;Informações sobre o Procon;205;Problemas Diversos com Produtos e Serviços;M;mais de 70 anos;1;NOTA FISCAL PAULISTA - SECRETARIA DA FAZENDA;NOTA FISCAL PAULISTA
+2015;1;3;2015-03-30 10:50:21.000;2;Nordeste;PE;3;53;Banco comercial;28;Problemas com Cobrança;F;Nao Informada;1;EKT LOJAS DE DEPARTAMENTO LTDA;ELEKTRA
+2015;1;1;2015-01-23 14:38:14.000;5;Centro-oeste;DF;3;186;Telefonia Fixa;124;Problemas com Contrato;F;entre 51 a 60 anos;1;OI S.A.;OI
+2015;1;1;2015-01-12 08:54:56.000;3;Sudeste;SP;3;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 61 a 70 anos;1;TELEFONICA BRASIL S/A;VIVO/TELEFÔNICA
+2015;1;2;2015-02-20 14:03:25.000;5;Centro-oeste;MT;6;76;Outros Contratos;28;Problemas com Cobrança;M;mais de 70 anos;1;BRASIL TELECOM S.A;OI FIXO
+2015;1;3;2015-03-18 10:26:20.000;3;Sudeste;SP;3;187;Telefonia Celular;136;Problemas com Cobrança;F;entre 41 a 50 anos;1;TIM CELULAR S/A;
+2015;1;2;2015-02-05 17:22:09.000;4;Sul;SC;6;187;Telefonia Celular;240;Problemas com SAC;M;entre 41 a 50 anos;1;VIVO S.A.;VIVO
+2015;1;1;2015-01-09 11:52:06.000;5;Centro-oeste;DF;3;236;Cursos Livres Outros;184;Problemas com Contrato;F;entre 21 a 30 anos;1;TAGUATINGA CURSOS E CONCURSOS LTDA;GRAN CURSOS
+2015;1;1;2015-01-20 09:26:00.000;5;Centro-oeste;GO;6;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 51 a 60 anos;1;AMERICEL S/A - CLARO;CLARO
+2015;1;1;2015-01-21 10:08:01.000;2;Nordeste;PE;3;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 21 a 30 anos;1;VIVO - TELEFÔNICA BRASIL S.A.;VIVO
+2015;1;1;2015-01-09 11:55:54.000;3;Sudeste;ES;6;279;Internet (Serviços);185;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;CLARO S.A;CLARO
+2015;1;3;2015-03-13 14:11:11.000;5;Centro-oeste;DF;6;187;Telefonia Celular;240;Problemas com SAC;F;entre 51 a 60 anos;1;TIM CELULAR S/A;TIM
+2015;1;1;2015-01-12 10:35:51.000;3;Sudeste;MG;6;187;Telefonia Celular;143;Problemas com Contrato;F;entre 61 a 70 anos;1;CLARO S/A;CLARO
+2015;1;1;2015-01-15 15:55:26.000;5;Centro-oeste;GO;10;53;Banco comercial;31;Problemas com Cobrança;F;entre 51 a 60 anos;1;FINANCEIRA ALFA S.A. CREDITO, FINANCIAMENTO E INVESTIMENTOS;
+2015;1;3;2015-03-27 10:56:28.000;3;Sudeste;MG;3;123;Móveis;106;Problemas na Entrega de Produtos;M;Nao Informada;1;VIA VAREJO S/A;LOJA PONTO FRIO, GLOBEX, NOVA CASAS BAHIA, BARTIRA
+2015;1;2;2015-02-13 14:20:39.000;3;Sudeste;SP;9;237;Academia de Ginástica / Natação / Esportes;203;Problemas com Contrato;M;entre 41 a 50 anos;1;BIO COMPANY ACADEMIA LTDA ME;NULL
+2015;1;1;2015-01-05 15:12:38.000;4;Sul;RS;3;76;Outros Contratos;27;Problemas com Contrato;F;entre 41 a 50 anos;1;OI S/A (ANTIGA BRASIL TELECOM S.A);
+2015;1;1;2015-01-09 11:06:00.000;3;Sudeste;MG;6;94;Eletrodomésticos Linha Branca;102;Problemas com Garantia de Produtos;F;entre 61 a 70 anos;1;LUIZASEG SEGUROS S/A;LUIZASEG
+2015;1;1;2015-01-21 09:41:13.000;3;Sudeste;SP;3;53;Banco comercial;28;Problemas com Cobrança;M;entre 61 a 70 anos;1;ITAÚ UNIBANCO S/A;*BANCO ITAÚ/BANCO UNIBANCO
+2015;1;2;2015-02-20 11:18:19.000;3;Sudeste;ES;3;54;Cartão de Crédito;60;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;IBI PROMOTORA DE VENDAS LTDA.;IBI CARD
+2015;1;2;2015-02-26 16:21:14.000;3;Sudeste;RJ;3;83;Condomínio;100;Problemas com Contrato;M;entre 41 a 50 anos;1;MRV ENGENHARIA E PARTICIPACOES SA;
+2015;1;2;2015-02-20 10:18:39.000;2;Nordeste;AL;3;187;Telefonia Celular;134;Problemas com Cobrança;F;Nao Informada;1;TIM NORDESTE S/A;TIM NORDESTE
+2015;1;3;2015-03-26 10:49:42.000;2;Nordeste;PE;6;54;Cartão de Crédito;27;Problemas com Contrato;M;entre 41 a 50 anos;1;BANCO ITAUCARD S.A.;BANCO ITAUCARD S.A - CREDICARD S.A - CITICARD S.A
+2015;1;2;2015-02-19 12:33:20.000;3;Sudeste;MG;6;186;Telefonia Fixa;143;Problemas com Contrato;F;entre 31 a 40 anos;1;TELEFÔNICA BRASIL S/A;VIVO (DDD MINAS GERAIS)
+2015;1;1;2015-01-12 16:15:27.000;5;Centro-oeste;GO;6;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 31 a 40 anos;1;TELEFÔNICA BRASIL S.A.;(ANTIGA VIVO S/A - CIP ELETRÔNICA)
+2015;1;3;2015-03-30 13:32:56.000;3;Sudeste;SP;3;186;Telefonia Fixa;136;Problemas com Cobrança;M;entre 51 a 60 anos;1;TELEFONICA BRASIL S/A;VIVO/TELEFÔNICA
+2015;1;1;2015-01-30 13:27:18.000;2;Nordeste;PE;9;123;Móveis;107;Problemas na Entrega de Produtos;F;entre 31 a 40 anos;1;VIA VAREJO S/A;CASAS BAHIA
+2015;1;3;2015-03-30 17:10:59.000;3;Sudeste;SP;3;259;TV por Assinatura;183;Vício ou Má Qualidade de Produto ou Serviço;M;entre 41 a 50 anos;1;SKY BRASIL SERVIÇOS LTDA;SKY
+2015;1;1;2015-01-14 14:51:18.000;3;Sudeste;SP;2;199;Convênio de Assistência Médica / Odontológica;149;Problemas com Contrato;F;entre 31 a 40 anos;1;CENTRO TRASMONTANO DE SAO PAULO;
+2015;1;1;2015-01-15 14:30:45.000;3;Sudeste;MG;6;183;Água / Esgoto;134;Problemas com Cobrança;F;Nao Informada;1;COPASA;COPASA
+2015;1;2;2015-02-12 13:10:52.000;3;Sudeste;ES;2;187;Telefonia Celular;143;Problemas com Contrato;M;entre 41 a 50 anos;1;VIVO S.A.;VIVO
+2015;1;1;2015-01-26 14:25:40.000;3;Sudeste;MG;6;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 61 a 70 anos;1;TNL PCS S/A;OI
+2015;1;2;2015-02-09 10:36:46.000;1;Norte;TO;6;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 61 a 70 anos;1;AMERICEL S.A.;CLARO
+2015;1;1;2015-01-16 10:19:12.000;3;Sudeste;SP;6;276;Agências e Operadoras de viagens (pacotes turísticos);203;Problemas com Contrato;F;entre 61 a 70 anos;1;LUIZ PASSEIOS;LUIZ PASSEIOS
+2015;1;3;2015-03-23 11:13:11.000;1;Norte;PA;3;103;Artigo de Cozinha ( Coifa, Exaustor, Panela, Talher, Filtro de Café, Porta-Filtro, Louças, Etc. );105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;M.K. ELETRODOMÉSTICOS LTDA;MONDIAL
+2015;1;2;2015-02-28 08:21:41.000;3;Sudeste;SP;3;186;Telefonia Fixa;143;Problemas com Contrato;F;entre 51 a 60 anos;1;TELEFONICA BRASIL S/A;VIVO/TELEFÔNICA
+2015;1;3;2015-03-04 11:46:45.000;5;Centro-oeste;DF;3;96;Televisão / Aparelho DVD / Filmadora;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;SEMP TOSHIBA S A;SEMP TOSHIBA
+2015;1;2;2015-02-26 14:27:45.000;3;Sudeste;SP;3;186;Telefonia Fixa;134;Problemas com Cobrança;M;entre 21 a 30 anos;1;TELEFONICA BRASIL S/A;VIVO/TELEFÔNICA
+2015;1;1;2015-01-21 09:56:00.000;2;Nordeste;CE;2;140;Eletroeletrônico Importado;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 61 a 70 anos;1;ISRAEL ELETRO. COMERC.DE ELETRICOS E ELETRO. LTDA;ISRAEL ELETRONICOS
+2015;1;3;2015-03-20 09:09:08.000;2;Nordeste;SE;9;123;Móveis;106;Problemas na Entrega de Produtos;F;entre 21 a 30 anos;1;LOJA ITAPOÃ;
+2015;1;2;2015-02-09 09:41:03.000;4;Sul;SC;3;74;Banco de Dados e Cadastros de Consumidores (SPC, Serasa, SCPC etc.);50;Negativação Indevida de Consumidor;M;entre 41 a 50 anos;1;SERASA;SERASA
+2015;1;3;2015-03-18 15:43:56.000;4;Sul;SC;6;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 61 a 70 anos;1;TELEFÔNICA BRASIL S.A;VIVO S.A
+2015;1;1;2015-01-21 18:35:47.000;3;Sudeste;SP;3;82;Incorporação ( Construtoras e Incorporadoras );63;Problemas com Cobrança;F;Nao Informada;1;R.A. ASSESSORIA ILIMITADA EM IMOVEIS S/C LTDA;SOLO URBANO
+2015;1;2;2015-02-10 14:44:06.000;3;Sudeste;ES;2;187;Telefonia Celular;143;Problemas com Contrato;F;entre 41 a 50 anos;1;CLARO S.A.;CLARO
+2015;1;2;2015-02-05 09:36:08.000;4;Sul;SC;6;186;Telefonia Fixa;123;Vício ou Má Qualidade de Produto ou Serviço;M;Nao Informada;1;OI S/A.;NULL
+2015;1;3;2015-03-13 13:24:25.000;5;Centro-oeste;MS;2;233;Escola ( Pré, 1º, 2º Graus e Superior );194;Problemas com Cobrança;M;entre 21 a 30 anos;1;ANHANGUERA EDUCACIONAL S.A.;UNIFICADA
+2015;1;3;2015-03-02 12:21:30.000;3;Sudeste;MG;9;129;Carros;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 41 a 50 anos;1;GRANDE MINAS COMERCIO DE VEICULOS LTDA;GRANDE MINAS
+2015;1;2;2015-02-27 14:32:05.000;4;Sul;SC;6;187;Telefonia Celular;134;Problemas com Cobrança;F;Nao Informada;1;OI S.A.;OI
+2015;1;2;2015-02-27 15:32:23.000;4;Sul;PR;2;259;TV por Assinatura;194;Problemas com Cobrança;F;entre 41 a 50 anos;1;VIVO CELULAR S/A - AOP;VIVO CELULAR -(GRUPO TELEFÔNICA BR S/A )
+2015;1;1;2015-01-17 11:31:57.000;5;Centro-oeste;DF;3;140;Eletroeletrônico Importado;106;Problemas na Entrega de Produtos;M;entre 21 a 30 anos;1;NOVA PONTOCOM COMERCIO ELETRONICO S.A.;EXTRA, PONTO FRIO E CASAS BAHIA (LOJA VIRTUAL)
+2015;1;2;2015-02-23 16:03:19.000;3;Sudeste;SP;3;186;Telefonia Fixa;134;Problemas com Cobrança;M;entre 41 a 50 anos;1;CLARO S/A;CLARO / EMBRATEL / CLAROTV
+2015;1;1;2015-01-08 09:54:17.000;1;Norte;RO;3;64;Empresa Privada / Montepio Pecúlio (Não Relativos ao Valor de Resgate);245;Problemas com SAC;M;Nao Informada;1;MECANICA E FUNILARIA 2 IRMÃOS;
+2015;1;1;2015-01-23 11:06:25.000;5;Centro-oeste;GO;6;279;Internet (Serviços);203;Problemas com Contrato;F;entre 41 a 50 anos;1;TECNET INTERNET BANDA LARGA;TECNET
+2015;1;2;2015-02-04 12:51:16.000;3;Sudeste;RJ;6;256;Serviços de Vidraçaria;183;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;COMPANHIA DO VIDRO;COMPANHIA DO VIDRO
+2015;1;3;2015-03-24 10:45:19.000;2;Nordeste;PE;3;186;Telefonia Fixa;123;Vício ou Má Qualidade de Produto ou Serviço;M;entre 41 a 50 anos;1;TELEMAR NORTE LESTE S/A - OI FIXO;OI FIXO
+2015;1;3;2015-03-03 12:25:09.000;2;Nordeste;PI;3;102;Microcomputador / Produtos de Informática;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;MEGA CELULARES;NULL
+2015;1;1;2015-01-16 15:38:49.000;3;Sudeste;SP;2;96;Televisão / Aparelho DVD / Filmadora;116;Problemas com Contrato;M;Nao Informada;1;VIA VAREJO S/A;CASAS BAHIA / PONTO FRIO LOJA FÍSICA
+2015;1;1;2015-01-19 11:42:59.000;5;Centro-oeste;GO;6;57;Consórcios;27;Problemas com Contrato;F;entre 21 a 30 anos;1;GMAC ADMINISTRADORA DE CONSORCIOS LTDA.;CONSORCIO NACIONAL CHEVROLET
+2015;1;1;2015-01-22 09:13:35.000;5;Centro-oeste;MS;6;63;Financeira;32;Problemas com Cobrança;M;entre 21 a 30 anos;1;BV FINANCEIRA SA CFI;BV FINANCEIRA CREDITO FINANCIAMENTO E INVESTIMENTO
+2015;1;1;2015-01-07 09:23:08.000;5;Centro-oeste;MS;2;259;TV por Assinatura;194;Problemas com Cobrança;F;entre 41 a 50 anos;1;SKY BRASIL SERVICOS LTDA;SKY
+2015;1;1;2015-01-23 11:43:58.000;2;Nordeste;RN;9;103;Artigo de Cozinha ( Coifa, Exaustor, Panela, Talher, Filtro de Café, Porta-Filtro, Louças, Etc. );115;Problemas com Desistência de Compra ou Contratação;M;entre 21 a 30 anos;1;DURVAL JOSÉ DANTAS - FILIAL 50;A MARÉ MANSA
+2015;1;2;2015-02-10 11:03:40.000;5;Centro-oeste;GO;6;96;Televisão / Aparelho DVD / Filmadora;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 21 a 30 anos;1;A ELETRONICA ASSISTENCIA TÉCNICA;A ELETRONICA
+2015;1;3;2015-03-18 12:21:41.000;4;Sul;RS;6;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 31 a 40 anos;1;GLOBAL VILLAGE TELECOM LTDA;GVT
+2015;1;3;2015-03-11 09:49:14.000;3;Sudeste;SP;3;53;Banco comercial;28;Problemas com Cobrança;F;entre 41 a 50 anos;1;ITAÚ UNIBANCO S/A;BANCO ITAÚ/BANCO UNIBANCO
+2015;1;3;2015-03-10 13:33:20.000;3;Sudeste;SP;6;137;Internet;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 51 a 60 anos;1;CLARO S.A.;CLARO / EMBRATEL / CLARO TV
+2015;1;1;2015-01-28 08:34:35.000;2;Nordeste;CE;9;94;Eletrodomésticos Linha Branca;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;ESMALTEC S/A;ESMALTEC
+2015;1;3;2015-03-12 17:39:11.000;2;Nordeste;RN;6;259;TV por Assinatura;203;Problemas com Contrato;M;entre 41 a 50 anos;1;CLARO S/A.;BSE
+2015;1;1;2015-01-06 10:08:49.000;4;Sul;SC;6;102;Microcomputador / Produtos de Informática;102;Problemas com Garantia de Produtos;M;entre 21 a 30 anos;1;SPACE TECH INDUSTRIA COMERCIO IMPORTACAO EXPORTACAO DE EQUIPAMENTOS DE INFORMATICA LTDA;SPACEBR
+2015;1;2;2015-02-06 14:15:35.000;3;Sudeste;SP;3;187;Telefonia Celular;134;Problemas com Cobrança;F;Nao Informada;1;TELEFONICA BRASIL S/A;VIVO/TELEFÔNICA
+2015;1;2;2015-02-11 13:52:15.000;5;Centro-oeste;GO;6;279;Internet (Serviços);194;Problemas com Cobrança;F;entre 41 a 50 anos;1;UNIVERSO ONLINE S/A;UOL
+2015;1;1;2015-01-29 13:43:37.000;4;Sul;RS;6;236;Cursos Livres Outros;255;Problemas com SAC;M;entre 31 a 40 anos;1;CFC LINCK;CFC LINCK
+2015;1;3;2015-03-20 11:09:21.000;2;Nordeste;BA;3;94;Eletrodomésticos Linha Branca;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 21 a 30 anos;1;SALVADOR REFRIGERACAO ELETRODOMESTICO SERVICO E COMERCIO LTDA;SALVADOR REFRIGERAÇÃO
+2015;1;1;2015-01-28 14:48:00.000;3;Sudeste;MG;6;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 31 a 40 anos;1;TELEFONICA BRASIL/VIVO;TELEFONICA BRASIL/VIVO
+2015;1;3;2015-03-20 17:58:16.000;4;Sul;SC;3;186;Telefonia Fixa;124;Problemas com Contrato;F;entre 61 a 70 anos;1;OI S/A;OI S/A
+2015;1;3;2015-03-02 12:53:39.000;2;Nordeste;PE;3;54;Cartão de Crédito;28;Problemas com Cobrança;M;entre 41 a 50 anos;1;HSBC BANK BRASIL S.A. - BANCO MULTIPLO;HSBC
+2015;1;2;2015-02-10 17:41:12.000;3;Sudeste;SP;2;278;Informações sobre o Procon;205;Problemas Diversos com Produtos e Serviços;F;Nao Informada;1;NOTA FISCAL PAULISTA;NOTA FISCAL PAULISTA
+2015;1;2;2015-02-05 10:07:20.000;5;Centro-oeste;GO;6;279;Internet (Serviços);203;Problemas com Contrato;F;entre 61 a 70 anos;1;N E T SERVIÇOS DE COMUNICAÇÃO S/A (CNPJ BAIXADO);NET (NÃO NOTIFICAR)
+2015;1;2;2015-02-18 14:15:37.000;4;Sul;SC;9;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 41 a 50 anos;1;OI S.A.;OI
+2015;1;2;2015-02-26 15:05:19.000;3;Sudeste;RJ;3;96;Televisão / Aparelho DVD / Filmadora;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 21 a 30 anos;1;BRITANIA ELETRODOMESTICOS S/A - PHILCO;BRITANIA ELETRODOMESTICOS S/A - PHILCO
+2015;1;3;2015-03-16 16:37:23.000;5;Centro-oeste;GO;6;63;Financeira;50;Negativação Indevida de Consumidor;F;entre 31 a 40 anos;1;RENOVA COMPANHIA SECURITIZADORA S.A;RENOVA COMP SEC DE CRED FINANCEIROS S.A
+2015;1;1;2015-01-06 11:45:09.000;3;Sudeste;SP;3;187;Telefonia Celular;143;Problemas com Contrato;M;entre 41 a 50 anos;1;CLARO S.A.;CLARO / EMBRATEL / CLARO TV
+2015;1;3;2015-03-06 12:46:04.000;3;Sudeste;SP;3;283;Estabelecimento comercial (supermercado, loja, padaria, locadora, frutaria, etc.);184;Problemas com Contrato;M;entre 51 a 60 anos;1;HUGO FERNANDO WATZECK;HFW INFORMATICA
+2015;1;3;2015-03-10 12:06:56.000;2;Nordeste;AL;9;102;Microcomputador / Produtos de Informática;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 21 a 30 anos;1;MULTILASER INDUSTRIAL LTDA.;FAX POINT
+2015;1;1;2015-01-15 09:26:56.000;3;Sudeste;SP;6;180;Cemitério;144;Problemas com Contrato;M;mais de 70 anos;1;ORGANIZAÇÃO CAMPO SANTO LTDA;CAMPO SANTO
+2015;1;1;2015-01-08 15:14:57.000;5;Centro-oeste;GO;6;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 31 a 40 anos;1;TIM CELULAR S.A.;TIM CELULAR S.A.
+2015;1;1;2015-01-23 15:22:54.000;4;Sul;SC;3;141;Outros Produtos Importados;111;Problemas na Oferta;F;entre 51 a 60 anos;1;TELEPOST MARK  PROMOÇOES E INCENTIVO LTDA;TELEPOST MARK  PROMOÇOES E INCENTIVO LTDA
+2015;1;3;2015-03-12 11:54:27.000;1;Norte;RO;9;96;Televisão / Aparelho DVD / Filmadora;102;Problemas com Garantia de Produtos;M;entre 41 a 50 anos;1;SONY ERICSON MOBILE DO BRASIL;SONY MOBILE
+2015;1;3;2015-03-05 09:56:55.000;4;Sul;RS;3;122;Móveis;114;Problemas na Entrega de Produtos;M;mais de 70 anos;1;STYLLUS MÓVEIS;
+2015;1;3;2015-03-10 14:39:55.000;3;Sudeste;RJ;3;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 61 a 70 anos;1;TELEMAR NORTE LESTE S/A OI;OI TELEFONIA FIXA
+2015;1;2;2015-02-19 11:23:07.000;3;Sudeste;SP;2;278;Informações sobre o Procon;205;Problemas Diversos com Produtos e Serviços;F;entre 21 a 30 anos;1;NOTA FISCAL PAULISTA;
+2015;1;1;2015-01-10 11:15:18.000;3;Sudeste;SP;3;53;Banco comercial;60;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;CAIXA ECONÔMICA FEDERAL;NULL
+2015;1;3;2015-03-23 10:30:58.000;3;Sudeste;SP;3;101;Aparelho Celular;102;Problemas com Garantia de Produtos;F;entre 31 a 40 anos;1;SONY MOBILE COMMUNICATIONS DO BRASIL LTDA;CELULAR SONY ERICSSON
+2015;1;2;2015-02-09 15:39:07.000;3;Sudeste;ES;3;94;Eletrodomésticos Linha Branca;102;Problemas com Garantia de Produtos;F;Nao Informada;1;LOJAS SIPOLATTI INDUSTRIA E COMERCIO LTDA;LOJAS SIPOLATTI
+2015;1;1;2015-01-27 10:04:06.000;3;Sudeste;ES;2;53;Banco comercial;217;Problemas com Cobrança;M;entre 61 a 70 anos;1;TESTE 1;NULL
+2015;1;1;2015-01-13 14:42:08.000;5;Centro-oeste;GO;3;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 41 a 50 anos;1;SAMSUNG ELETRÔNICA DA AMAZÔNIA LTDA;SAMSUNG DA AMAZÔNIA
+2015;1;1;2015-01-16 15:32:32.000;3;Sudeste;SP;2;259;TV por Assinatura;194;Problemas com Cobrança;F;entre 31 a 40 anos;1;SKY BRASIL SERVIÇOS S/A;SKY
+2015;1;3;2015-03-19 14:08:42.000;4;Sul;SC;3;53;Banco comercial;28;Problemas com Cobrança;F;entre 51 a 60 anos;1;BANCO ITAU CONSIGNADO SA;ITAU CONSIGNADO
+2015;1;3;2015-03-31 15:44:31.000;3;Sudeste;SP;2;278;Informações sobre o Procon;205;Problemas Diversos com Produtos e Serviços;F;entre 41 a 50 anos;1;NENHUM;
+2015;1;2;2015-02-14 10:58:16.000;5;Centro-oeste;DF;3;69;Seguro;54;Problemas com Contrato;F;entre 21 a 30 anos;1;L.I.R. COMERCIO VAREJISTA DE ELETRODOMESTICOS LTDA;RICARDO ELETRO (LOJAS FÍSICAS)
+2015;1;1;2015-01-30 17:07:04.000;2;Nordeste;PB;7;252;Instalação ( Hidráulica / Elétrica ) / Perfuração / Pavimentação / Impermeabilização;185;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;SÓ FRIO;
+2015;1;1;2015-01-30 17:05:33.000;3;Sudeste;SP;3;53;Banco comercial;249;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;BANCO SANTANDER;
+2015;1;2;2015-02-10 13:19:59.000;3;Sudeste;MG;3;96;Televisão / Aparelho DVD / Filmadora;120;Problemas com Cobrança;M;entre 31 a 40 anos;1;HSBC BANK BRASIL S/A - BANCO MÚLTIPLO;HSBC/CARTÃO FÁCIL
+2015;1;2;2015-02-12 16:44:03.000;4;Sul;SC;3;76;Outros Contratos;28;Problemas com Cobrança;F;entre 21 a 30 anos;1;ITAJAI FORMAÇÃO PROFISSIONAL LTDA;MICROMIX CURSOS
+2015;1;1;2015-01-05 14:07:00.000;3;Sudeste;MG;6;187;Telefonia Celular;128;Problemas com Contrato;F;entre 51 a 60 anos;1;TELEMAR NORTE LESTE S/A;OI
+2015;1;1;2015-01-22 10:52:42.000;3;Sudeste;RJ;3;183;Água / Esgoto;134;Problemas com Cobrança;F;entre 51 a 60 anos;1;COMPANHIA ESTADUAL DE AGUAS E ESGOTOS CEDAE;CEDAE
+2015;1;3;2015-03-12 09:54:28.000;4;Sul;SC;9;81;Loteamento;93;Problemas com Cobrança;M;entre 41 a 50 anos;1;IMOBILIARIA TIMBO LTDA;IMOBILIARIA TIMBO
+2015;1;3;2015-03-11 15:22:49.000;4;Sul;RS;3;236;Cursos Livres Outros;184;Problemas com Contrato;F;entre 31 a 40 anos;1;ANT - ASSOCIACAO NACIONAL DOS TERAPEUTAS;SOCIEDADE BRASILEIRA DE MEDICINA ALTERNATIVA
+2015;1;2;2015-02-23 10:35:08.000;5;Centro-oeste;DF;2;137;Internet;105;Vício ou Má Qualidade de Produto ou Serviço;F;Nao Informada;1;MERCADO LIVRE.COM;MERCADO LIVRE.COM
+2015;1;1;2015-01-28 10:53:08.000;3;Sudeste;ES;3;76;Outros Contratos;27;Problemas com Contrato;F;entre 61 a 70 anos;1;BANCO BGN S/A;BANCO BGN
+2015;1;2;2015-02-19 13:26:57.000;4;Sul;PR;2;57;Consórcios;27;Problemas com Contrato;F;Nao Informada;1;BANCO BRADESCO S/A -CONSORCIOS-AOP-GRUPO BRADESCO;BANCO BRADESCO S/A -CONSORCIOS-AOP-GRUPO BRADESCO
+2015;1;1;2015-01-19 10:09:17.000;2;Nordeste;BA;3;186;Telefonia Fixa;134;Problemas com Cobrança;F;mais de 70 anos;1;CLARO S.A.;CLARO
+2015;1;3;2015-03-05 14:04:38.000;4;Sul;PR;3;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 51 a 60 anos;1;OI FIXA - OI S/A - AOP;TELEFONIA FIXA E BANDA LARGA FIXA - GRUPO OI - AOP
+2015;1;2;2015-02-19 16:01:10.000;3;Sudeste;MG;6;259;TV por Assinatura;183;Vício ou Má Qualidade de Produto ou Serviço;M;Nao Informada;1;SKY BRASIL SERVIÇOS LTDA;SKY BRASIL SERVIÇOS LTDA
+2015;1;3;2015-03-18 11:39:21.000;5;Centro-oeste;GO;2;236;Cursos Livres Outros;255;Problemas com SAC;F;até 20 anos;1;CENTRO TECNOLOGICO CAMBURY LTDA;FACULDADE CAMBURY
+2015;1;2;2015-02-26 14:05:47.000;3;Sudeste;SP;3;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 41 a 50 anos;1;NET SERVIÇOS DE COMUNICAÇÃO S/A;NULL
+2015;1;3;2015-03-27 12:59:44.000;2;Nordeste;PE;3;183;Água / Esgoto;135;Problemas com Cobrança;F;Nao Informada;1;COMPANHIA PERNAMBUCANA DE SANEAMENTO - COMPESA;DIRETORIA COMERCIAL E DE ATENDIMENTO - END. ÚNICO
+2015;1;3;2015-03-23 16:14:45.000;3;Sudeste;SP;3;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;VIA VAREJO S/A;PONTO FRIO / CASAS BAHIA
+2015;1;1;2015-01-06 13:51:17.000;3;Sudeste;MG;6;63;Financeira;50;Negativação Indevida de Consumidor;M;entre 61 a 70 anos;1;LOSANGO DIVINÓPOLIS;NULL
+2015;1;3;2015-03-25 11:30:35.000;1;Norte;RO;2;71;Venda Programada;248;Problemas com SAC;M;entre 41 a 50 anos;1;ERONILDO GONÇALVES;
+2015;1;2;2015-02-09 13:01:30.000;3;Sudeste;ES;10;54;Cartão de Crédito;30;Problemas com Cobrança;M;entre 41 a 50 anos;1;BANCO ITAUCARD S.A.;ITAUCARD - CARTÕES ITAÚ - CITICARD
+2015;1;3;2015-03-23 15:45:18.000;4;Sul;RS;2;76;Outros Contratos;32;Problemas com Cobrança;M;entre 21 a 30 anos;1;CADILE COMÉRCIO DE CALÇADOS LTDA;CADILE´S
+2015;1;2;2015-02-02 09:16:03.000;1;Norte;AC;6;53;Banco comercial;28;Problemas com Cobrança;F;entre 61 a 70 anos;1;BANCO ITAUCARD S.A.;ITAUCARD FINANCEIRA (CREDICARD)
+2015;1;2;2015-02-13 14:20:19.000;3;Sudeste;SP;6;93;Eletrodomésticos Linha Branca;102;Problemas com Garantia de Produtos;M;entre 61 a 70 anos;1;ESMALTEC S/A;ESMALTEC
+2015;1;3;2015-03-30 15:04:09.000;4;Sul;SC;3;90;Acessório Para Vestuário ( Bolsa, Cinto, Chapéu, guarda-chuva, Jóia, Bijuteria, Luva, Etc. );105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;TECHNOS SA;NULL
+2015;1;1;2015-01-20 16:55:40.000;3;Sudeste;MG;6;76;Outros Contratos;28;Problemas com Cobrança;F;entre 31 a 40 anos;1;BANCO SANTANDER (BRASIL) S.A.;SANTANDER
+2015;1;3;2015-03-10 09:21:11.000;1;Norte;AC;6;259;TV por Assinatura;203;Problemas com Contrato;F;entre 31 a 40 anos;1;SKY BRASIL SERVICOS LTDA;SKY
+2015;1;1;2015-01-15 10:07:06.000;2;Nordeste;PB;9;102;Microcomputador / Produtos de Informática;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 51 a 60 anos;1;QBEX COMPUTADORES LTDA;QBEX
+2015;1;2;2015-02-09 08:46:56.000;4;Sul;RS;6;259;TV por Assinatura;185;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;SKY BRASIL SERVICOS LTDA;SKY
+2015;1;1;2015-01-29 09:33:26.000;5;Centro-oeste;GO;3;101;Aparelho Celular;102;Problemas com Garantia de Produtos;F;entre 41 a 50 anos;1;FUJIOKA ELETRO IMAGEM S.A;FUJIOKA MATRIZ (CIP ELETRÔNICA)
+2015;1;3;2015-03-30 08:24:30.000;5;Centro-oeste;GO;2;101;Aparelho Celular;102;Problemas com Garantia de Produtos;M;entre 31 a 40 anos;1;BRITANIA ELETRODOMESTICOS LTDA;(PHILCO / CIP ELETRÔNICA)
+2015;1;1;2015-01-26 10:56:23.000;3;Sudeste;MG;6;54;Cartão de Crédito;28;Problemas com Cobrança;F;Nao Informada;1;MARISA LOJAS VAREJISTAS LTDA;LOJAS MARISA
+2015;1;2;2015-02-18 12:38:07.000;3;Sudeste;SP;2;278;Informações sobre o Procon;205;Problemas Diversos com Produtos e Serviços;M;entre 41 a 50 anos;1;NOTA FISCAL PAULISTA;
+2015;1;2;2015-02-02 17:05:07.000;3;Sudeste;SP;3;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 31 a 40 anos;1;NEXTEL TELECOMUNICAÇÕES LTDA;NEXTEL
+2015;1;3;2015-03-26 15:42:37.000;5;Centro-oeste;GO;6;63;Financeira;32;Problemas com Cobrança;M;entre 31 a 40 anos;1;BANCO BRADESCO FINANCIAMENTOS S.A.;
+2015;1;1;2015-01-06 09:51:39.000;1;Norte;RO;3;106;Artigo de Leitura (Jornal, Revista, Livros etc.);115;Problemas com Desistência de Compra ou Contratação;F;entre 21 a 30 anos;1;EDITORA ABRIL S A;EDITORA ABRIL
+2015;1;3;2015-03-06 12:55:42.000;5;Centro-oeste;DF;3;120;Móveis;112;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;L.I.R. COMERCIO VAREJISTA DE ELETRODOMESTICOS LTDA;RICARDO ELETRO (LOJAS FÍSICAS)
+2015;1;3;2015-03-03 13:00:27.000;3;Sudeste;RJ;3;55;Cartão de Loja;248;Problemas com SAC;M;entre 41 a 50 anos;1;BANCO IBI S/A- BANCO MULTIPLO (IBIBANK);IBI CRED
+2015;1;3;2015-03-10 12:56:27.000;3;Sudeste;SP;2;96;Televisão / Aparelho DVD / Filmadora;102;Problemas com Garantia de Produtos;M;entre 51 a 60 anos;1;PHILIPS DO BRASIL LTDA;PHILIPS
+2015;1;1;2015-01-28 14:48:17.000;5;Centro-oeste;MT;6;187;Telefonia Celular;143;Problemas com Contrato;F;entre 21 a 30 anos;1;VIVO S.A.;VIVO
+2015;1;3;2015-03-19 15:28:14.000;3;Sudeste;SP;3;53;Banco comercial;27;Problemas com Contrato;M;entre 31 a 40 anos;1;CAIXA ECONOMICA FEDERAL;CEF MATRIZ
+2015;1;2;2015-02-24 10:41:19.000;3;Sudeste;SP;3;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 51 a 60 anos;1;SKY BRASIL SERVIÇOS LTDA;SKY
+2015;1;2;2015-02-27 14:05:44.000;3;Sudeste;SP;2;53;Banco comercial;27;Problemas com Contrato;M;entre 21 a 30 anos;1;ITAÚ UNIBANCO S/A;BANCO ITAÚ/BANCO UNIBANCO
+2015;1;3;2015-03-25 13:17:18.000;2;Nordeste;BA;6;58;Consórcios;30;Problemas com Cobrança;M;entre 21 a 30 anos;1;ADMINISTRADORA DE CONSORCIO NACIONAL HONDA LTDA;CONSORCIO NACIONAL HONDA
+2015;1;1;2015-01-28 13:23:02.000;2;Nordeste;MA;3;96;Televisão / Aparelho DVD / Filmadora;102;Problemas com Garantia de Produtos;M;entre 61 a 70 anos;1;SEMP TOSHIBA AMAZONAS;SEMP TOSHIBA
+2015;1;1;2015-01-13 14:25:03.000;3;Sudeste;MG;3;279;Internet (Serviços);194;Problemas com Cobrança;F;mais de 70 anos;1;UNIVERSO ONLINE S/A;UOL
+2015;1;1;2015-01-30 10:02:15.000;3;Sudeste;SP;3;186;Telefonia Fixa;124;Problemas com Contrato;M;entre 61 a 70 anos;1;TELEFÔNICA BRASIL S. A.;VIVO
+2015;1;2;2015-02-12 15:53:14.000;4;Sul;SC;6;183;Água / Esgoto;134;Problemas com Cobrança;M;entre 31 a 40 anos;1;COMPANHIA CATARINENSE DE AGUAS E SANEAMENTO;CASAN
+2015;1;2;2015-02-18 14:55:57.000;3;Sudeste;SP;3;259;TV por Assinatura;194;Problemas com Cobrança;F;entre 41 a 50 anos;1;TELEFONICA BRASIL S/A;VIVO/TELEFÔNICA
+2015;1;2;2015-02-09 11:17:08.000;5;Centro-oeste;DF;2;259;TV por Assinatura;185;Vício ou Má Qualidade de Produto ou Serviço;F;Nao Informada;1;BRT SERVICOS DE INTERNET S/A;OI
+2015;1;2;2015-02-20 16:39:00.000;5;Centro-oeste;DF;2;54;Cartão de Crédito;50;Negativação Indevida de Consumidor;M;Nao Informada;1;CETELEM BRASIL S.A.-CREDITO FINANCIAMENTO E INVESTIMENTO;CETELEM BRASIL S/A CREDITO E FINANCIAMENTO
+2015;1;3;2015-03-10 16:31:52.000;3;Sudeste;MG;9;101;Aparelho Celular;107;Problemas na Entrega de Produtos;M;entre 31 a 40 anos;1;SAMSUNG ELETRONICA DA AMAZONIA LTDA;SAMSUNG DA AMAZONIA
+2015;1;2;2015-02-18 17:20:46.000;3;Sudeste;SP;3;53;Banco comercial;51;Negativação Indevida de Consumidor;F;entre 61 a 70 anos;1;BANCO BMG SA;
+2015;1;1;2015-01-30 09:46:41.000;3;Sudeste;SP;3;199;Convênio de Assistência Médica / Odontológica;149;Problemas com Contrato;M;entre 61 a 70 anos;1;UNIMED DE TAUBATÉ COOPERATIVA DE TRABALHO MÉDICO;UNIMED TAUBATÉ
+2015;1;3;2015-03-04 14:32:56.000;3;Sudeste;SP;3;284;Plano de Saúde;165;Problemas na Oferta;F;entre 51 a 60 anos;1;AMIL ASSISTENCIA MEDICA INTERNACIONAL S/A;AMIL /  MEDIAL SAÚDE
+2015;1;2;2015-02-03 12:52:39.000;2;Nordeste;PB;6;279;Internet (Serviços);194;Problemas com Cobrança;F;entre 61 a 70 anos;1;TVP JOÃO PESSOA S/A;NET JOÃO PESSOA
+2015;1;3;2015-03-05 08:03:35.000;5;Centro-oeste;MS;3;259;TV por Assinatura;194;Problemas com Cobrança;M;entre 41 a 50 anos;1;CLARO TV;CLARO TV
+2015;1;2;2015-02-05 14:32:58.000;1;Norte;AM;3;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 21 a 30 anos;1;SAMSUNG ELETRÔNICA DA AMAZÔNIA LTDA;SAMSUNG ELETRÔNICA DA AMAZÔNIA LTDA
+2015;1;3;2015-03-26 15:34:49.000;4;Sul;RS;3;97;Eletroportáteis ( Batedeira, Liqüidificador, Espremedor de Frutas, Etc. );105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;MULTILASER INDUSTRIAL LTDA;MIRAGE
+2015;1;1;2015-01-16 13:41:14.000;3;Sudeste;SP;3;279;Internet (Serviços);196;Problemas com Cobrança;F;até 20 anos;1;CLARO S.A.;CLARO MÓVEL/EMBRATEL/CLARO TV
+2015;1;3;2015-03-23 15:27:15.000;3;Sudeste;MG;3;96;Televisão / Aparelho DVD / Filmadora;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 21 a 30 anos;1;BRITANIA INDUSTRIA E COMERCIO LTDA.;BRITÂNIA ELETRONICOS
+2015;1;2;2015-02-20 15:27:25.000;5;Centro-oeste;DF;2;137;Internet;102;Problemas com Garantia de Produtos;F;Nao Informada;1;VIA VAREJO S/A;PONTO FRIO E CASAS BAHIA (LOJA FÍSICA)
+2015;1;1;2015-01-27 11:25:27.000;3;Sudeste;SP;3;93;Eletrodomésticos Linha Branca;105;Vício ou Má Qualidade de Produto ou Serviço;F;mais de 70 anos;1;WHIRLPOOL S.A.;BRASTEMP - CONSUL
+2015;1;1;2015-01-27 14:03:24.000;4;Sul;SC;6;101;Aparelho Celular;102;Problemas com Garantia de Produtos;F;entre 41 a 50 anos;1;ILHA CELL COMERCIO DE EQUIPAMENTOS DE TELEFONIA E COMUNICACAO LTDA ME;ILHA CELL
+2015;1;1;2015-01-13 09:57:01.000;3;Sudeste;SP;3;276;Agências e Operadoras de viagens (pacotes turísticos);201;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;OCEANAIR LINHAS AÉREAS LTDA;AVIANCA
+2015;1;3;2015-03-18 10:37:18.000;3;Sudeste;SP;3;186;Telefonia Fixa;136;Problemas com Cobrança;F;entre 61 a 70 anos;1;EMPRESA BRASILEIRA DE TELECOMUNICAÇÕES S.A.;EMBRATEL
+2015;1;2;2015-02-06 13:22:02.000;3;Sudeste;SP;2;76;Outros Contratos;27;Problemas com Contrato;F;entre 31 a 40 anos;1;NENHUM;
+2015;1;2;2015-02-04 09:43:05.000;3;Sudeste;SP;3;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 61 a 70 anos;1;VIVO TELEFÔNICA BRASIL S.A.;VIVO
+2015;1;1;2015-01-22 16:50:40.000;5;Centro-oeste;DF;2;82;Incorporação ( Construtoras e Incorporadoras );71;Problemas com Cobrança;M;entre 31 a 40 anos;1;OI S.A.;OI
+2015;1;3;2015-03-27 12:27:25.000;2;Nordeste;PE;3;185;Energia Elétrica;134;Problemas com Cobrança;F;entre 21 a 30 anos;1;COMPANHIA ENERGETICA DE PERNAMBUCO;CELPE
+2015;1;2;2015-02-28 11:14:47.000;3;Sudeste;RJ;3;53;Banco comercial;50;Negativação Indevida de Consumidor;M;entre 41 a 50 anos;1;ADMINISTRADORA DE CARTÃO DE CREDITO BRADESCO;CARTÕES BRADESCO
+2015;1;2;2015-02-12 15:03:41.000;5;Centro-oeste;GO;6;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 41 a 50 anos;1;CLARO S/A;CLARO CELULAR (CIP ELETRÔNICA)
+2015;1;1;2015-01-05 16:27:50.000;3;Sudeste;SP;3;82;Incorporação ( Construtoras e Incorporadoras );99;Problemas com Cobrança;M;entre 31 a 40 anos;1;TRISUL S/A;
+2015;1;3;2015-03-04 11:40:49.000;2;Nordeste;CE;6;186;Telefonia Fixa;134;Problemas com Cobrança;M;até 20 anos;1;TELEMAR NORTE LESTE S/A;OI FIXO
+2015;1;2;2015-02-09 12:58:40.000;5;Centro-oeste;GO;6;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 21 a 30 anos;1;AMERICEL S/A - CLARO;CLARO
+2015;1;1;2015-01-13 14:41:18.000;3;Sudeste;SP;3;101;Aparelho Celular;107;Problemas na Entrega de Produtos;F;até 20 anos;1;MAGAZINE LUIZA S/A;MAGAZINELUIZA.COM.BR
+2015;1;3;2015-03-05 12:27:39.000;4;Sul;SC;6;54;Cartão de Crédito;28;Problemas com Cobrança;M;entre 61 a 70 anos;1;CAIXA ECONOMICA FEDERAL;CEF MATRIZ
+2015;1;3;2015-03-12 14:13:57.000;3;Sudeste;MG;3;187;Telefonia Celular;124;Problemas com Contrato;M;Nao Informada;1;TIM NORDESTE S/A;TIM NORDESTE
+2015;1;3;2015-03-12 16:52:22.000;5;Centro-oeste;GO;6;187;Telefonia Celular;136;Problemas com Cobrança;F;entre 21 a 30 anos;1;AMERICEL S/A;CLARO / CIP ELETRÔNICA
+2015;1;3;2015-03-20 09:31:26.000;2;Nordeste;PE;9;54;Cartão de Crédito;28;Problemas com Cobrança;F;entre 51 a 60 anos;1;LEADER S/A ADMINISTRADORA DE CARTOES DE CREDITO;
+2015;1;1;2015-01-14 09:39:39.000;3;Sudeste;MG;6;259;TV por Assinatura;203;Problemas com Contrato;M;Nao Informada;1;SKY BRASIL SERVICOS LTDA;SKY
+2015;1;1;2015-01-28 10:23:06.000;2;Nordeste;BA;3;183;Água / Esgoto;134;Problemas com Cobrança;M;entre 61 a 70 anos;1;EMPRESA BAIANA DE ÁGUAS E SANEAMENTO S/A;EMBASA
+2015;1;3;2015-03-26 09:17:59.000;3;Sudeste;SP;3;186;Telefonia Fixa;123;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;TELEFONICA BRASIL S/A;VIVO/TELEFÔNICA
+2015;1;3;2015-03-09 16:32:57.000;4;Sul;SC;6;76;Outros Contratos;27;Problemas com Contrato;F;entre 51 a 60 anos;1;BANCO SANTANDER (BRASIL) S.A.;NULL
+2015;1;2;2015-02-19 12:30:16.000;5;Centro-oeste;DF;3;145;Motos;116;Problemas com Contrato;F;entre 21 a 30 anos;1;COMERCIAL DE ALIMENTOS SANTA MARIA LTDA;SUPERMERCADO BARATUDO
+2015;1;1;2015-01-09 15:43:58.000;5;Centro-oeste;MT;6;140;Eletroeletrônico Importado;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;LG ELECTRONICS;LG
+2015;1;3;2015-03-04 09:55:02.000;3;Sudeste;ES;6;102;Microcomputador / Produtos de Informática;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 21 a 30 anos;1;MULTILASER INDUSTRIAL LTDA;MULTILASER INDUSTRIAL LTDA
+2015;1;2;2015-02-24 12:52:09.000;3;Sudeste;SP;3;132;Vestuário ( Calçado / Roupa );107;Problemas na Entrega de Produtos;F;entre 21 a 30 anos;1;SAPATARIA MADRE PAULINA;
+2015;1;3;2015-03-09 11:31:36.000;1;Norte;TO;9;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 31 a 40 anos;1;AMERICEL S.A.;CLARO
+2015;1;3;2015-03-17 12:50:02.000;3;Sudeste;SP;3;185;Energia Elétrica;126;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;ELETROPAULO METROPOLITANA ELETRICIDADE DE S PAULO;ELETROPAULO METROPOLITANA
+2015;1;3;2015-03-02 10:46:55.000;3;Sudeste;SP;3;54;Cartão de Crédito;28;Problemas com Cobrança;F;entre 41 a 50 anos;1;BANCO ITAUCARD S/A;
+2015;1;3;2015-03-05 11:12:23.000;1;Norte;RO;2;119;Material de Escritório / Escola ( Arquivo, Borracha, Clipes, Grampeador, Sulfite, Caderno, Caneta, Apontador, Etc. );115;Problemas com Desistência de Compra ou Contratação;M;entre 21 a 30 anos;1;EDITORA BRASIL;EDIT BRASIL
+2015;1;2;2015-02-10 12:36:38.000;3;Sudeste;SP;2;259;TV por Assinatura;194;Problemas com Cobrança;F;entre 51 a 60 anos;1;NET SERVIÇOS DE COMUNICAÇÃO S/A;NET SÃO BERNARDO DO CAMPO
+2015;1;3;2015-03-24 10:07:03.000;4;Sul;SC;6;66;Seguro;56;Problemas com Contrato;M;Nao Informada;1;APROVESC;NULL
+2015;1;2;2015-02-26 12:23:14.000;3;Sudeste;SP;3;92;Eletrodomésticos Linha Branca;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;MADSON ELETROMETALÚRGICA LTDA;SUGGAR
+2015;1;1;2015-01-20 08:49:21.000;2;Nordeste;BA;3;100;Colchão;111;Problemas na Oferta;F;entre 61 a 70 anos;1;LOJAS INSINUANTE LTDA;LOJAS INSINUANTE
+2015;1;2;2015-02-10 13:33:34.000;4;Sul;SC;6;187;Telefonia Celular;238;Problemas com SAC;M;mais de 70 anos;1;TNL PCS S/A;OI TELEFONIA MÓVEL E OI TV
+2015;1;1;2015-01-26 15:09:30.000;2;Nordeste;MA;3;186;Telefonia Fixa;125;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;OI MOVEL S.A.;OI MOVEL
+2015;1;2;2015-02-23 11:29:16.000;3;Sudeste;MG;6;259;TV por Assinatura;194;Problemas com Cobrança;F;entre 41 a 50 anos;1;SKY BRASIL SERVIÇOS LTDA;SKY BRASIL SERVIÇOS LTDA
+2015;1;1;2015-01-26 09:29:34.000;2;Nordeste;PE;3;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 21 a 30 anos;1;ROMERO CELL;
+2015;1;2;2015-02-18 13:50:08.000;3;Sudeste;SP;6;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 31 a 40 anos;1;TELEFONICA BRASIL S/A;VIVO/TELEFÔNICA
+2015;1;3;2015-03-17 14:16:13.000;5;Centro-oeste;GO;3;141;Outros Produtos Importados;113;Problemas com Garantia de Produtos;M;entre 51 a 60 anos;1;WMB COMERCIO ELETRONICO LTDA.;WMB COMERCIO ELETRONICO LTDA.
+2015;1;2;2015-02-25 10:06:12.000;2;Nordeste;BA;3;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 21 a 30 anos;1;PLL SALVADOR SERVICE CELULARES LTDA;PLL SALVADOR SERVICE
+2015;1;2;2015-02-27 13:10:28.000;5;Centro-oeste;MS;3;76;Outros Contratos;28;Problemas com Cobrança;M;mais de 70 anos;1;BANCO BRADESCO SA @;BRADESCO EST UNIF
+2015;1;2;2015-02-26 16:32:44.000;2;Nordeste;MA;2;54;Cartão de Crédito;28;Problemas com Cobrança;F;Nao Informada;1;BANCO BRADESCARD IBI S.A.;BRADESCARD
+2015;1;2;2015-02-27 16:02:28.000;5;Centro-oeste;MT;6;88;Acessório para Aparelho Eletrônico/Pilha/Elétrico (Agulha, fone de ouvido, bateria, etc.);105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;LOJAS AMERICANAS;AMERICANAS MATRIZ- LOJA FISICA
+2015;1;2;2015-02-03 15:34:01.000;4;Sul;SC;3;63;Financeira;247;Problemas com SAC;M;entre 41 a 50 anos;1;EMPRESA CATARINENSE DE SUPERMERCADOS LTDA.;COMPREFORT ATACADISTA
+2015;1;2;2015-02-09 11:51:48.000;3;Sudeste;ES;6;187;Telefonia Celular;145;Problemas Diversos com Produtos e Serviços;M;até 20 anos;1;VIVO S.A.;VIVO
+2015;1;1;2015-01-08 14:42:07.000;5;Centro-oeste;GO;2;102;Microcomputador / Produtos de Informática;102;Problemas com Garantia de Produtos;M;entre 51 a 60 anos;1;FUJIOKA ELETRO IMAGEM S.A;FUJIOKA MATRIZ (CIP ELETRÔNICA)
+2015;1;1;2015-01-06 10:57:43.000;4;Sul;RS;6;76;Outros Contratos;28;Problemas com Cobrança;M;entre 51 a 60 anos;1;CLARO S.A.;CLARO
+2015;1;3;2015-03-30 16:14:04.000;3;Sudeste;RJ;3;119;Material de Escritório / Escola ( Arquivo, Borracha, Clipes, Grampeador, Sulfite, Caderno, Caneta, Apontador, Etc. );107;Problemas na Entrega de Produtos;F;entre 31 a 40 anos;1;GDM ARTIGOS EVANGELICOS LTDA -EPP;A PIONEIRA EVANGELICA
+2015;1;1;2015-01-20 10:14:40.000;3;Sudeste;MG;6;102;Microcomputador / Produtos de Informática;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 61 a 70 anos;1;LENOVO TECNOLOGIA (BRASIL) LIMITADA;LENOVO TECNOLOGIA (BRASIL) LIMITADA
+2015;1;1;2015-01-28 13:20:30.000;5;Centro-oeste;DF;3;259;TV por Assinatura;203;Problemas com Contrato;F;mais de 70 anos;1;SKY BRASIL SERVIÇOS LTDA;SKY
+2015;1;3;2015-03-18 10:05:28.000;3;Sudeste;SP;9;63;Financeira;217;Problemas com Cobrança;F;entre 61 a 70 anos;1;PARANÁ BANCO S/A;BANCO PARANÁ
+2015;1;1;2015-01-20 12:08:37.000;1;Norte;AM;3;183;Água / Esgoto;134;Problemas com Cobrança;F;entre 51 a 60 anos;1;ÁGUAS DO AMAZONAS S/A - MANAUS AMBIENTAL;MANAUS AMBIENTAL S/A
+2015;1;1;2015-01-29 11:23:51.000;2;Nordeste;MA;3;233;Escola ( Pré, 1º, 2º Graus e Superior );199;Problemas com Entrega de Documentos ao Consumidor;F;entre 31 a 40 anos;1;VIP FORMATURAS E EVENTOS LTDA;VIP FORMATURAS E VENTOS
+2015;1;1;2015-01-21 12:06:52.000;3;Sudeste;SP;3;245;Clubes / Uso Compartilhado ( Lazer, Recreação, Férias, Etc. );203;Problemas com Contrato;M;entre 61 a 70 anos;1;SOLUÇÃO ASSESSORIA DE COBRANÇA;THERMAS DE SÃO PAULO/ MAGIC CITY
+2015;1;3;2015-03-19 14:26:30.000;5;Centro-oeste;MT;3;53;Banco comercial;32;Problemas com Cobrança;M;entre 31 a 40 anos;1;BANCO ITAU S/A;
+2015;1;1;2015-01-05 10:01:20.000;5;Centro-oeste;MS;9;101;Aparelho Celular;260;Risco à Saúde e Segurança / Acidente de Consumo;F;entre 31 a 40 anos;1;MOTOROLA INDUSTRIAL LTDA @;
+2015;1;3;2015-03-05 09:36:21.000;1;Norte;TO;9;53;Banco comercial;48;Problemas com Entrega de Documentos ao Consumidor;M;entre 61 a 70 anos;1;BV FINANCEIRA S/A CRÉDITO FINANCIAMENTO E INVESTIM;BV FINANCEIRA
+2015;1;3;2015-03-12 16:35:12.000;3;Sudeste;SP;3;187;Telefonia Celular;124;Problemas com Contrato;M;entre 61 a 70 anos;1;TIM CELULAR S/A;TIM CELULAR
+2015;1;1;2015-01-30 16:41:29.000;3;Sudeste;RJ;2;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 21 a 30 anos;1;TELEFÔNICA BRASIL S/A;VIVO S/A
+2015;1;3;2015-03-16 08:40:27.000;3;Sudeste;SP;3;233;Escola ( Pré, 1º, 2º Graus e Superior );194;Problemas com Cobrança;F;entre 21 a 30 anos;1;UNIESP UNIAO DAS INSTITUICOES EDUCACIONAIS DO ESTADO DE SAO PAULO LTDA;UNIESP / UNIESP.EDU.BR
+2015;1;3;2015-03-10 13:24:33.000;4;Sul;RS;6;76;Outros Contratos;250;Problemas com Cobrança;M;entre 31 a 40 anos;1;BANCO PANAMERICANO SA;PANAMERICANO
+2015;1;2;2015-02-24 11:21:10.000;3;Sudeste;MG;6;63;Financeira;28;Problemas com Cobrança;F;entre 61 a 70 anos;1;VIA VAREJO S. A.;PONTO FRIO/CASAS BAHIA
+2015;1;3;2015-03-12 16:21:23.000;3;Sudeste;SP;2;101;Aparelho Celular;102;Problemas com Garantia de Produtos;M;Nao Informada;1;MOTOROLA MOBILITY COMERCIO DE PRODUTOS ELETRONICOS;MOTOROLA
+2015;1;2;2015-02-23 17:32:18.000;1;Norte;TO;6;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 61 a 70 anos;1;14 BRASIL TELECOM CELULAR S/A;OI - BRASIL TELECOM (TELEFONIA CELULAR)
+2015;1;1;2015-01-20 11:06:14.000;3;Sudeste;ES;2;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 21 a 30 anos;1;TELEFÔNICA BRASIL S/A;VIVO
+2015;1;1;2015-01-21 15:12:40.000;2;Nordeste;CE;3;76;Outros Contratos;28;Problemas com Cobrança;M;entre 61 a 70 anos;1;SELEÇÕES READERS DIGEST BRASIL LTDA;NULL
+2015;1;2;2015-02-05 14:00:43.000;5;Centro-oeste;MT;3;233;Escola ( Pré, 1º, 2º Graus e Superior );196;Problemas com Cobrança;M;entre 51 a 60 anos;1;ALBA PARTICIPAÇOES LTDA;UNOPAR   / SETOR JURIDICO
+2015;1;3;2015-03-31 11:11:06.000;3;Sudeste;MG;3;236;Cursos Livres Outros;203;Problemas com Contrato;F;entre 61 a 70 anos;1;VIRTUAL MONTES INFORMÁTICA LTDA;NULL
+2015;1;2;2015-02-27 09:52:34.000;2;Nordeste;PE;9;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 61 a 70 anos;1;TELEMAR NORTE LESTE S/A - OI FIXO;OI FIXO
+2015;1;3;2015-03-31 16:56:04.000;3;Sudeste;SP;3;279;Internet (Serviços);194;Problemas com Cobrança;M;entre 51 a 60 anos;1;CLARO S/A (INTERNET);CLARO
+2015;1;3;2015-03-04 14:58:58.000;2;Nordeste;AL;9;130;Carros;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 61 a 70 anos;1;PEUGEOT-CITROEN DO BRASIL AUTOMOVEIS LTDA;CITROEN
+2015;1;3;2015-03-17 13:17:30.000;1;Norte;AM;9;96;Televisão / Aparelho DVD / Filmadora;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 21 a 30 anos;1;CCE DA AMAZÔNIA S/A;LENOVO TECNOLOGIA (BRASIL) LTDA.
+2015;1;3;2015-03-27 09:56:23.000;5;Centro-oeste;GO;2;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 61 a 70 anos;1;NOVO MUNDO MOVEIS E UTILIDADES LTDA;WWW.NOVOMUNDO.COM.BR / CIP ELETRÔNICA
+2015;1;3;2015-03-25 08:32:56.000;1;Norte;PA;2;185;Energia Elétrica;136;Problemas com Cobrança;F;entre 41 a 50 anos;1;CENTRAIS ELETRICAS DO PARA S/A - CELPA;CELPA
+2015;1;2;2015-02-23 13:45:35.000;3;Sudeste;RJ;2;132;Vestuário ( Calçado / Roupa );105;Vício ou Má Qualidade de Produto ou Serviço;M;Nao Informada;1;SCOTSMAN RIO MODA LTDA;SCOTSMAN
+2015;1;3;2015-03-02 14:20:54.000;3;Sudeste;ES;2;186;Telefonia Fixa;143;Problemas com Contrato;M;entre 21 a 30 anos;1;TELEFÔNICA BRASIL;VIVO
+2015;1;1;2015-01-15 16:06:11.000;3;Sudeste;SP;2;278;Informações sobre o Procon;205;Problemas Diversos com Produtos e Serviços;F;entre 41 a 50 anos;1;NOTA FISCAL PAULISTA - SECRETARIA DA FAZENDA;
+2015;1;1;2015-01-14 11:05:32.000;3;Sudeste;SP;3;76;Outros Contratos;27;Problemas com Contrato;F;entre 61 a 70 anos;1;BANCO BRADESCO S/A;BRADESCO
+2015;1;1;2015-01-02 11:38:28.000;2;Nordeste;MA;3;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 21 a 30 anos;1;TELEFONICA BRASIL S.A;VIVO
+2015;1;1;2015-01-05 18:44:57.000;3;Sudeste;SP;2;286;Plano Odontológico;180;Problemas na Oferta;F;entre 31 a 40 anos;1;HAPPY DENT;HAPPY DENT
+2015;1;3;2015-03-02 15:58:45.000;3;Sudeste;SP;6;187;Telefonia Celular;126;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;TELEFONICA BRASIL S/A;GRUPO VIVO/TELEFONICA
+2015;1;1;2015-01-20 11:05:17.000;5;Centro-oeste;GO;2;76;Outros Contratos;38;Problemas com Entrega de Documentos ao Consumidor;M;entre 31 a 40 anos;1;MURIAL EMPREENDIMENTOS  IMOBILIARIOS LTDA;
+2015;1;3;2015-03-11 13:20:56.000;3;Sudeste;MG;2;7;Água;7;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;CAIXA ECONOMICA FEDERAL;CAIXA ECONOMICA FEDERAL
+2015;1;3;2015-03-17 11:04:29.000;3;Sudeste;SP;3;101;Aparelho Celular;102;Problemas com Garantia de Produtos;F;entre 21 a 30 anos;1;MOTOROLA MOBILITY COM. DE PROD. ELETRONICOS LTDA;MOTOROLA
+2015;1;2;2015-02-10 15:35:09.000;3;Sudeste;SP;3;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 21 a 30 anos;1;TELEFONICA BRASIL S/A;VIVO / TELEFÔNICA
+2015;1;1;2015-01-26 17:20:51.000;3;Sudeste;MG;6;132;Vestuário ( Calçado / Roupa );105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 41 a 50 anos;1;NIKE DO BRASIL COMERCIO E PARTICIPAÇOES LTDA;NIKE
+2015;1;3;2015-03-17 14:43:49.000;3;Sudeste;SP;2;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 61 a 70 anos;1;BCP TELECOMUNICAÇÕES;CLARO MÓVEL
+2015;1;2;2015-02-25 16:05:01.000;4;Sul;RS;3;95;Aparelho de Som;260;Risco à Saúde e Segurança / Acidente de Consumo;F;entre 31 a 40 anos;1;PHILCO ELETRÔNICOS S/A;PHILCO
+2015;1;3;2015-03-13 15:09:20.000;5;Centro-oeste;MT;10;63;Financeira;32;Problemas com Cobrança;F;entre 21 a 30 anos;1;DISMOBRAS IMPORTACAO, EXPORTACAO E DISTRIBUICAO DE MOVEIS E ELETRODOMESTICOS LTDA;CITY LAR
+2015;1;1;2015-01-07 09:11:39.000;3;Sudeste;MG;6;63;Financeira;31;Problemas com Cobrança;M;entre 31 a 40 anos;1;BANCO PANAMERICANO S/A.;PANAMERICANO
+2015;1;1;2015-01-09 09:59:06.000;3;Sudeste;MG;3;76;Outros Contratos;36;Problemas Diversos com Produtos e Serviços;M;entre 21 a 30 anos;1;CAIXA ECONOMICA FEDERAL;CAIXA ECONOMICA FEDERAL
+2015;1;3;2015-03-30 10:47:35.000;5;Centro-oeste;GO;6;284;Plano de Saúde;149;Problemas com Contrato;M;mais de 70 anos;1;PLAMHEG -PLANO DE ASSISTENCIA MEDICA E HOSPITALAR DO ESTADO DE GOIAS S/C LTDA;PLAMHEG
+2015;1;3;2015-03-02 14:38:31.000;3;Sudeste;RJ;3;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 31 a 40 anos;1;BCP S/A - CLARO;CLARO
+2015;1;3;2015-03-16 09:21:47.000;5;Centro-oeste;MT;6;187;Telefonia Celular;145;Problemas Diversos com Produtos e Serviços;F;entre 51 a 60 anos;1;VIVO;VIVO
+2015;1;3;2015-03-10 12:14:03.000;2;Nordeste;BA;6;96;Televisão / Aparelho DVD / Filmadora;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;SEMP TOSHIBA AMAZONAS SA;
+2015;1;2;2015-02-09 15:58:42.000;5;Centro-oeste;GO;9;102;Microcomputador / Produtos de Informática;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 21 a 30 anos;1;REGIA COMERCIO DE INFORMATICA LTDA;PRIMETEK COMPUTADORES
+2015;1;1;2015-01-20 10:16:54.000;5;Centro-oeste;MS;9;187;Telefonia Celular;134;Problemas com Cobrança;M;Nao Informada;1;AMERICEL S/A @;CLARO @
+2015;1;1;2015-01-21 08:41:09.000;5;Centro-oeste;GO;9;102;Microcomputador / Produtos de Informática;102;Problemas com Garantia de Produtos;F;entre 51 a 60 anos;1;NOVO MUNDO MÓVEIS E UTILIDADES LTDA.;NOVO MUNDO
+2015;1;3;2015-03-04 13:04:51.000;3;Sudeste;RJ;3;124;Móveis;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;VIA VAREJO S.A;PONTO FRIO CASAS BAHIA NOVA CASA BAHIA
+2015;1;2;2015-02-04 12:47:13.000;1;Norte;AC;6;63;Financeira;32;Problemas com Cobrança;M;entre 21 a 30 anos;1;MATHEUS TELO - ME;BIG LOJAS (FILIAL)
+2015;1;2;2015-02-13 16:13:55.000;1;Norte;AC;2;53;Banco comercial;30;Problemas com Cobrança;M;entre 41 a 50 anos;1;BANCO CRUZEIRO DO SUL S/A;BANCO CRUZEIRO DO SUL
+2015;1;1;2015-01-26 09:43:11.000;2;Nordeste;BA;6;259;TV por Assinatura;194;Problemas com Cobrança;F;entre 31 a 40 anos;1;CLARO S.A.;CLARO
+2015;1;2;2015-02-09 18:09:24.000;2;Nordeste;MA;3;63;Financeira;28;Problemas com Cobrança;M;entre 41 a 50 anos;1;BANCO DO BRASIL SA;OUVIDORIA BANCO DO BRASIL
+2015;1;3;2015-03-19 14:53:36.000;3;Sudeste;ES;3;88;Acessório para Aparelho Eletrônico/Pilha/Elétrico (Agulha, fone de ouvido, bateria, etc.);105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 61 a 70 anos;1;LG ELECTRONICS DO BRASIL LTDA;LG ELETRONICS
+2015;1;1;2015-01-13 14:35:51.000;2;Nordeste;BA;3;259;TV por Assinatura;251;Problemas com SAC;F;entre 31 a 40 anos;1;GLOBAL VILLAGE TELECOM LTDA.;GLOBAL VILLAGE TELECOM - GVT
+2015;1;1;2015-01-23 14:49:54.000;3;Sudeste;MG;3;88;Acessório para Aparelho Eletrônico/Pilha/Elétrico (Agulha, fone de ouvido, bateria, etc.);107;Problemas na Entrega de Produtos;F;entre 41 a 50 anos;1;NOVA PONTOCOM COMÉRCIO ELETRÔNICO S.A.;PONTO FRIO.COM/ EXTRA.COM/CASAS BAHIA.COM
+2015;1;1;2015-01-27 11:35:25.000;3;Sudeste;RJ;3;120;Móveis;115;Problemas com Desistência de Compra ou Contratação;F;entre 61 a 70 anos;1;VIA VAREJO S.A;PONTO FRIO CASAS BAHIA NOVA CASA BAHIA
+2015;1;2;2015-02-19 16:23:26.000;1;Norte;AC;2;63;Financeira;217;Problemas com Cobrança;M;entre 31 a 40 anos;1;PROASP - PROGRAMA DE ASSISTENCIA DOS SERV.PUB.DO B;PROASP
+2015;1;2;2015-02-12 15:53:49.000;3;Sudeste;ES;2;112;Brinquedos;115;Problemas com Desistência de Compra ou Contratação;F;Nao Informada;1;POLIMPORT - COMERCIO E EXPORTACAO LTDA;POLISHOP
+2015;1;3;2015-03-02 12:31:44.000;1;Norte;RO;3;129;Carros;102;Problemas com Garantia de Produtos;M;entre 41 a 50 anos;1;GENERAL MOTORS DO BRASIL LTDA;GENERAL MOTORS
+2015;1;1;2015-01-26 17:37:56.000;3;Sudeste;RJ;3;259;TV por Assinatura;194;Problemas com Cobrança;M;entre 41 a 50 anos;1;NET RIO LTDA;NET RIO LTDA
+2015;1;2;2015-02-03 15:26:04.000;3;Sudeste;MG;6;186;Telefonia Fixa;135;Problemas com Cobrança;F;entre 41 a 50 anos;1;TELEFONICA BRASIL/VIVO;TELEFONICA BRASIL/VIVO
+2015;1;2;2015-02-27 10:09:23.000;4;Sul;RS;2;90;Acessório Para Vestuário ( Bolsa, Cinto, Chapéu, guarda-chuva, Jóia, Bijuteria, Luva, Etc. );105;Vício ou Má Qualidade de Produto ou Serviço;F;Nao Informada;1;LOJA DATELLI;
+2015;1;3;2015-03-31 12:36:04.000;3;Sudeste;SP;3;56;Consórcios;27;Problemas com Contrato;F;entre 61 a 70 anos;1;FINAMA ADMINISTRADORA DE CONSÓRCIO LTDA;FINAMA
+2015;1;3;2015-03-26 13:53:26.000;4;Sul;RS;6;187;Telefonia Celular;137;Problemas na Oferta;M;entre 41 a 50 anos;1;CLARO S.A.;CLARO S.A
+2015;1;1;2015-01-09 12:11:18.000;3;Sudeste;ES;3;96;Televisão / Aparelho DVD / Filmadora;107;Problemas na Entrega de Produtos;M;entre 51 a 60 anos;1;CNOVA COMERCIO ELETRONICO S/A;PONTO FRIO.COM CASAS BAHIA.COM BARATEIRO.COM EXTRA
+2015;1;2;2015-02-20 10:02:34.000;3;Sudeste;SP;3;81;Loteamento;85;Problemas com Contrato;M;entre 51 a 60 anos;1;LANTOR EMPREENDIMENTOS IMOBILIARIOS LTDA;LANTOR EMPREENDIMENTOS IMOBILIARIOS LTDA
+2015;1;1;2015-01-14 12:59:19.000;1;Norte;RO;9;101;Aparelho Celular;102;Problemas com Garantia de Produtos;M;entre 21 a 30 anos;1;FLEXTRONICS INTERNACIONAL TECNOLOGIA LTDA;MOTOROLA DO BRASIL
+2015;1;3;2015-03-03 11:43:57.000;3;Sudeste;MG;6;259;TV por Assinatura;183;Vício ou Má Qualidade de Produto ou Serviço;M;entre 51 a 60 anos;1;SKY BRASIL SERVIÇOS LTDA;SKY BRASIL SERVIÇOS LTDA
+2015;1;3;2015-03-23 07:58:14.000;3;Sudeste;SP;3;187;Telefonia Celular;123;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;TIM CELULAR S/A;TIM CELULAR
+2015;1;1;2015-01-30 14:39:05.000;2;Nordeste;RN;6;186;Telefonia Fixa;136;Problemas com Cobrança;M;mais de 70 anos;1;VIVO S/A;VIVO
+2015;1;3;2015-03-04 09:34:34.000;2;Nordeste;AL;3;259;TV por Assinatura;194;Problemas com Cobrança;F;mais de 70 anos;1;NET  - TV E SERVIÇOS;ANTIGA BIG TV
+2015;1;1;2015-01-13 11:06:41.000;5;Centro-oeste;GO;6;94;Eletrodomésticos Linha Branca;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;NOVO MUNDO MÓVEIS E UTILIDADES LTDA;NOVO MUNDO
+2015;1;2;2015-02-20 13:01:14.000;2;Nordeste;PB;9;140;Eletroeletrônico Importado;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;DIGIBRAS INDUSTRIA DO BRASIL S/A (CCE);NULL
+2015;1;1;2015-01-21 10:24:44.000;3;Sudeste;RJ;3;54;Cartão de Crédito;28;Problemas com Cobrança;F;entre 51 a 60 anos;1;BANCO ITAU S.A.;ITAUBANCO
+2015;1;2;2015-02-13 16:35:11.000;3;Sudeste;MG;6;54;Cartão de Crédito;28;Problemas com Cobrança;M;entre 41 a 50 anos;1;BANCO ITAUCARD S.A.;ITAUCARD FINANCEIRA (CARTÕES DE CRÉDITO DO ITAÚ)
+2015;1;2;2015-02-03 11:49:55.000;2;Nordeste;PE;7;45;Chocolate (em pó, barra, tabletes, bombons);3;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;LOJAS AMERICANAS S/A;LOJAS AMERICANAS
+2015;1;3;2015-03-17 18:31:51.000;4;Sul;SC;3;123;Móveis;102;Problemas com Garantia de Produtos;F;entre 51 a 60 anos;1;ZURICH MINAS BRASIL SEGUROS S.A.;MINAS-BRASIL SEGURADORA
+2015;1;2;2015-02-02 13:12:32.000;3;Sudeste;RJ;3;279;Internet (Serviços);184;Problemas com Contrato;F;Nao Informada;1;TELEMAR NORTE LESTE S/A OI;OI TELEFONIA FIXA
+2015;1;3;2015-03-18 10:20:30.000;3;Sudeste;MG;6;187;Telefonia Celular;144;Problemas com Contrato;M;Nao Informada;1;TELEFONICA BRASIL S/A;VIVO
+2015;1;3;2015-03-31 16:31:20.000;3;Sudeste;SP;3;76;Outros Contratos;27;Problemas com Contrato;M;entre 41 a 50 anos;1;BANCO DO BRASIL S/A;
+2015;1;3;2015-03-03 09:33:45.000;4;Sul;SC;3;279;Internet (Serviços);194;Problemas com Cobrança;M;até 20 anos;1;UNIVERSO ONLINE S.A;UOL S.A
+2015;1;3;2015-03-11 13:40:56.000;5;Centro-oeste;MS;9;54;Cartão de Crédito;28;Problemas com Cobrança;M;entre 41 a 50 anos;1;BANCO DO BRASIL SA;BANCO DO BRASIL DO SHOPPING AVENIDA CENTER
+2015;1;3;2015-03-02 16:59:41.000;5;Centro-oeste;GO;2;76;Outros Contratos;27;Problemas com Contrato;M;entre 21 a 30 anos;1;ASSOCIACAO UNIFICADA PAULISTA DE ENSINO RENOVADO OBJETIVO-ASSUPERO;ASSUPERO - FACULDADE UNIP
+2015;1;2;2015-02-19 09:55:20.000;1;Norte;RO;6;76;Outros Contratos;248;Problemas com SAC;F;entre 21 a 30 anos;1;VIVO TELEFONICA;VIVO CIP ELETRÔNICA
+2015;1;2;2015-02-20 11:07:08.000;2;Nordeste;BA;3;53;Banco comercial;28;Problemas com Cobrança;M;entre 61 a 70 anos;1;ITAU UNIBANCO S.A.;BANCO ITAU UNIBANCO
+2015;1;3;2015-03-23 08:38:38.000;3;Sudeste;SP;6;66;Seguro;27;Problemas com Contrato;M;entre 31 a 40 anos;1;AYMORÉ CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.;SANTANDER FINANCIAMENTOS
+2015;1;3;2015-03-20 16:28:49.000;3;Sudeste;MG;6;54;Cartão de Crédito;28;Problemas com Cobrança;M;Nao Informada;1;BANCO ITAÚCARD S/A;CARTÃO UNICARD
+2015;1;2;2015-02-10 15:45:05.000;1;Norte;TO;6;119;Material de Escritório / Escola ( Arquivo, Borracha, Clipes, Grampeador, Sulfite, Caderno, Caneta, Apontador, Etc. );102;Problemas com Garantia de Produtos;M;entre 51 a 60 anos;1;EPSON DO BRASIL INDÚSTRIA E COMÉRCIO LIMITADA;EPSON DO BRASIL
+2015;1;3;2015-03-23 14:35:33.000;5;Centro-oeste;DF;2;187;Telefonia Celular;124;Problemas com Contrato;F;Nao Informada;1;CLARO S/A;CLARO
+2015;1;1;2015-01-23 15:34:32.000;4;Sul;SC;9;53;Banco comercial;28;Problemas com Cobrança;M;entre 21 a 30 anos;1;EXTRA.COM;EXTRA.COM
+2015;1;1;2015-01-15 17:00:27.000;3;Sudeste;SP;3;129;Carros;105;Vício ou Má Qualidade de Produto ou Serviço;F;Nao Informada;1;FORD MOTOR COMPANY BRASIL S/A;FORD
+2015;1;2;2015-02-18 17:05:05.000;5;Centro-oeste;MS;9;63;Financeira;28;Problemas com Cobrança;M;entre 51 a 60 anos;1;CONSORCIO NACIONAL VOLKSWAGEN -ADMINISTRADORA DE CONSORCIO LTDA;CONSORCIO NACIONAL VOLKSWAGEN @
+2015;1;3;2015-03-23 13:18:12.000;3;Sudeste;SP;3;185;Energia Elétrica;134;Problemas com Cobrança;M;entre 51 a 60 anos;1;ELETROPAULO METROPOLITANA ELETRICIDADE DE S PAULO;ELETROPAULO METROPOLITANA
+2015;1;1;2015-01-12 11:45:17.000;3;Sudeste;SP;3;101;Aparelho Celular;102;Problemas com Garantia de Produtos;F;entre 41 a 50 anos;1;MAGAZINE LUIZA S.A.;LOJAS MAGAZINE LUIZA / MAGAZINELUIZA.COM.BR
+2015;1;3;2015-03-13 09:51:07.000;2;Nordeste;RN;9;282;Seguro;184;Problemas com Contrato;F;entre 21 a 30 anos;1;ICATU CAPITALIZAÇÃO S/A;GARANTIA PLUS REPARO
+2015;1;1;2015-01-19 18:02:40.000;3;Sudeste;SP;3;53;Banco comercial;28;Problemas com Cobrança;M;entre 51 a 60 anos;1;ITAÚ UNIBANCO S/A;BANCO ITAÚ/BANCO UNIBANCO
+2015;1;2;2015-02-20 17:25:55.000;4;Sul;SC;3;186;Telefonia Fixa;124;Problemas com Contrato;M;entre 41 a 50 anos;1;OI S.A. (TELEFONIA FIXA);OI
+2015;1;3;2015-03-06 10:15:27.000;5;Centro-oeste;GO;6;54;Cartão de Crédito;27;Problemas com Contrato;F;entre 51 a 60 anos;1;BRB CREDITO FINANCIAMENTO E INVESTIMENTO SA;FINANCEIRA BRB
+2015;1;3;2015-03-27 15:40:48.000;3;Sudeste;MG;6;186;Telefonia Fixa;126;Vício ou Má Qualidade de Produto ou Serviço;F;entre 41 a 50 anos;1;CLARO S/A;CLARO
+2015;1;3;2015-03-27 10:19:56.000;1;Norte;AC;6;259;TV por Assinatura;203;Problemas com Contrato;M;entre 21 a 30 anos;1;EMBRATEL TVSAT TELECOMUNICACOES LTDA;EMBRATEL TVSAT (CLARO TV)
+2015;1;1;2015-01-21 15:40:47.000;3;Sudeste;SP;3;129;Carros;102;Problemas com Garantia de Produtos;F;entre 31 a 40 anos;1;FIAT AUTOMÓVEIS S/A;
+2015;1;1;2015-01-13 15:54:23.000;2;Nordeste;PB;9;108;Artigo Esportivo / Lazer ( Bola, Raquete, Rede, Cotoveleira, Arma, Baralho, Roleta, Etc. );107;Problemas na Entrega de Produtos;F;até 20 anos;1;SBF COMERCIO DE PRODUTOS ESPORTIVOS LTDA;CENTAURO
+2015;1;3;2015-03-17 10:34:03.000;2;Nordeste;PE;9;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;CELLPOINT LTDA;CELLPOINT
+2015;1;3;2015-03-10 16:35:57.000;5;Centro-oeste;MS;9;140;Eletroeletrônico Importado;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;DELL COMPUTADORES DO BRASIL LTDA;
+2015;1;2;2015-02-06 13:15:46.000;5;Centro-oeste;DF;3;66;Seguro;27;Problemas com Contrato;M;entre 21 a 30 anos;1;BRADESCO ADMINISTRADORA DE CONSORCIOS LTDA.;NULL
+2015;1;1;2015-01-29 10:16:52.000;3;Sudeste;RJ;3;101;Aparelho Celular;107;Problemas na Entrega de Produtos;F;entre 31 a 40 anos;1;EXTRA.COM;
+2015;1;3;2015-03-17 16:13:42.000;3;Sudeste;RJ;6;53;Banco comercial;247;Problemas com SAC;F;entre 31 a 40 anos;1;ITAU SEGUROS S/A;
+2015;1;3;2015-03-04 15:51:49.000;1;Norte;TO;6;186;Telefonia Fixa;243;Vício ou Má Qualidade de Produto ou Serviço;F;mais de 70 anos;1;BRASIL TELECOM S/A;OI - BRASIL TELECOM (TELEFONIA FIXA)
+2015;1;3;2015-03-11 11:36:15.000;4;Sul;SC;6;279;Internet (Serviços);255;Problemas com SAC;M;entre 61 a 70 anos;1;TERRA NETWORKS BRASIL S/A;PROVEDOR TERRA
+2015;1;1;2015-01-19 08:52:10.000;3;Sudeste;SP;3;101;Aparelho Celular;107;Problemas na Entrega de Produtos;F;entre 51 a 60 anos;1;SARAIVA E SICILIANO  S/A;LIVRARIA SARAIVA
+2015;1;3;2015-03-20 14:58:40.000;4;Sul;SC;6;266;Plano de Assistência Funerária;255;Problemas com SAC;M;entre 61 a 70 anos;1;APS SISTEMAS LTDA. - EPP;ODONTOPLUS SAÚDE
+2015;1;2;2015-02-26 08:28:54.000;3;Sudeste;SP;6;185;Energia Elétrica;124;Problemas com Contrato;F;Nao Informada;1;ELETROPAULO METROPOLITANA ELETRICIDADE DE S PAULO;ELETROPAULO METROPOLITANA
+2015;1;3;2015-03-05 09:47:30.000;2;Nordeste;CE;3;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 21 a 30 anos;1;MOTOROLA DO BRASIL;MOTOROLA
+2015;1;2;2015-02-04 12:10:50.000;4;Sul;SC;9;186;Telefonia Fixa;143;Problemas com Contrato;M;entre 51 a 60 anos;1;EMBRATEL EMP. BRAS. DE TELECOM. S/A;NULL
+2015;1;3;2015-03-27 13:56:07.000;4;Sul;PR;2;278;Informações sobre o Procon;205;Problemas Diversos com Produtos e Serviços;M;Nao Informada;1;CLINIPAM CLINICA PARAN. ASSIST. MÉDICA LTDA - AOP;CLINIPAM CLINICA PARAN. ASSIST. MÉDICA LTDA - AOP
+2015;1;2;2015-02-03 11:13:08.000;3;Sudeste;MG;6;76;Outros Contratos;28;Problemas com Cobrança;M;entre 21 a 30 anos;1;AVISTA S/A ADMINISTRADORA DE CARTOES DE CREDITO;AVISTA
+2015;1;2;2015-02-24 12:54:20.000;3;Sudeste;SP;2;264;Automóvel - Locação / Assistência Automobilística ( Clube do Automóvel, Etc. ) / Auto Escola;194;Problemas com Cobrança;F;entre 51 a 60 anos;1;SISTEMA INTEGRADO DE MONIT. VEIC. PATR. E PES. LTD;SIM RASTREAMAENTO
+2015;1;2;2015-02-10 10:48:19.000;1;Norte;AC;8;101;Aparelho Celular;102;Problemas com Garantia de Produtos;F;entre 51 a 60 anos;1;BENCHIMOL IRMAO & CIA LTDA;BEMOL RIO BRANCO
+2015;1;3;2015-03-27 16:01:07.000;3;Sudeste;SP;3;63;Financeira;56;Problemas com Contrato;M;entre 41 a 50 anos;1;BANCO DO BRASIL S/A;
+2015;1;3;2015-03-24 18:31:09.000;5;Centro-oeste;GO;2;102;Microcomputador / Produtos de Informática;102;Problemas com Garantia de Produtos;F;entre 31 a 40 anos;1;CARLOS SARAIVA IMPORTACAO E COMERCIO LTDA;RICARDO ELETRO
+2015;1;2;2015-02-02 15:42:52.000;2;Nordeste;SE;3;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 51 a 60 anos;1;NET SERVIÇOS DE COMUNICAÇÃO S/A;
+2015;1;3;2015-03-11 10:38:45.000;2;Nordeste;CE;3;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;M;entre 51 a 60 anos;1;WILLAMS BARBOZA DOS SANTOS -  ME;TECNO ASSISTENCIA TECNICA
+2015;1;1;2015-01-15 10:08:41.000;3;Sudeste;MG;6;187;Telefonia Celular;123;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;OI S.A;OI
+2015;1;1;2015-01-13 11:04:19.000;3;Sudeste;SP;3;186;Telefonia Fixa;134;Problemas com Cobrança;M;Nao Informada;1;TELEFONICA BRASIL S/A;VIVO/TELEFÔNICA
+2015;1;1;2015-01-23 17:42:43.000;3;Sudeste;RJ;3;186;Telefonia Fixa;240;Problemas com SAC;F;Nao Informada;1;TELEMAR NORTE LESTE S/A;OI
+2015;1;1;2015-01-22 14:17:22.000;3;Sudeste;SP;2;186;Telefonia Fixa;136;Problemas com Cobrança;F;entre 51 a 60 anos;1;TELEFONICA BRASIL S/A;VIVO
+2015;1;2;2015-02-24 12:47:37.000;3;Sudeste;MG;3;54;Cartão de Crédito;28;Problemas com Cobrança;M;entre 61 a 70 anos;1;BANCO IBI S.A. - BANCO MULTIPLO;IBIBANK BANCO BRADESCARD
+2015;1;1;2015-01-27 13:44:55.000;5;Centro-oeste;MT;9;57;Consórcios;62;Problemas com Contrato;F;entre 31 a 40 anos;1;FIAT ADMINISTRADORA DE CONSORCIOS LTDA.;CONSÓRCIO FIAT
+2015;1;3;2015-03-27 12:28:11.000;5;Centro-oeste;GO;3;81;Loteamento;91;Problemas com Cobrança;M;entre 31 a 40 anos;1;GUARDIA ADMINISTRACAO IMOBILIARIA LTDA;GUARDIA IMOVEIS
+2015;1;1;2015-01-13 12:33:43.000;3;Sudeste;SP;3;73;Estabelecimento / Loja - Compra a Prazo;60;Vício ou Má Qualidade de Produto ou Serviço;F;entre 21 a 30 anos;1;AD29 MODAS LTDA-ME;AD29 MODAS
+2015;1;1;2015-01-14 10:45:59.000;1;Norte;AM;9;92;Eletrodomésticos Linha Branca;105;Vício ou Má Qualidade de Produto ou Serviço;F;Nao Informada;1;BENCHIMOL IRMAO & CIA LTDA;BEMOL TORQUATO
+2015;1;2;2015-02-03 16:22:47.000;2;Nordeste;BA;9;132;Vestuário ( Calçado / Roupa );105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;LOJAS RIACHUELO S/A;RIACHUELO
+2015;1;2;2015-02-03 12:36:22.000;3;Sudeste;SP;6;187;Telefonia Celular;134;Problemas com Cobrança;F;entre 51 a 60 anos;1;TIM CELULAR S/A;TIM
+2015;1;2;2015-02-19 10:20:25.000;2;Nordeste;PE;3;54;Cartão de Crédito;28;Problemas com Cobrança;F;entre 41 a 50 anos;1;BANCO ITAUCARD S.A.;ITAUCARD / CREDICARD/UNICARD
+2015;1;1;2015-01-28 12:07:32.000;3;Sudeste;RJ;3;101;Aparelho Celular;116;Problemas com Contrato;F;mais de 70 anos;1;TELEMAR NORTE LESTE S/A OI;OI TELEFONIA FIXA
+2015;1;3;2015-03-04 13:54:09.000;4;Sul;PR;3;187;Telefonia Celular;134;Problemas com Cobrança;F;mais de 70 anos;1;TIM CELULAR S/A - AOP - E REVENDAS PRÓPRIAS - AOP;TIM CELULAR S/A - AOP - E REVENDAS PRÓPRIAS - AOP
+2015;1;1;2015-01-16 12:59:39.000;4;Sul;RS;6;53;Banco comercial;231;Problemas com Cobrança;F;mais de 70 anos;1;ITAÚ;
+2015;1;1;2015-01-21 14:18:25.000;3;Sudeste;SP;6;187;Telefonia Celular;134;Problemas com Cobrança;M;entre 41 a 50 anos;1;TELEFONICA BRASIL S.A.;VIVO
+2015;1;1;2015-01-09 09:56:35.000;2;Nordeste;PE;9;102;Microcomputador / Produtos de Informática;107;Problemas na Entrega de Produtos;F;entre 61 a 70 anos;1;SARAIVA E SICILIANO S/A;SARAIVA
+2015;1;1;2015-01-07 16:22:35.000;2;Nordeste;MA;6;54;Cartão de Crédito;32;Problemas com Cobrança;F;entre 41 a 50 anos;1;HIPERCARD ADMINISTRADORA DE CARTAO DE CREDITO LTDA;HIPERCARD
+2015;1;1;2015-01-08 14:55:39.000;5;Centro-oeste;GO;6;285;Plano de Saúde;165;Problemas na Oferta;F;entre 21 a 30 anos;1;UNIMED RIO VERDE COOPERATIVA DE TRAB.MEDICO LTDA;UNIMED RIO VERDE
+2015;1;1;2015-01-13 14:44:04.000;2;Nordeste;PE;6;76;Outros Contratos;30;Problemas com Cobrança;F;entre 21 a 30 anos;1;BANCO ITAUCRED FINANCIAMENTOS S.A.;
+2015;1;3;2015-03-03 13:36:08.000;5;Centro-oeste;MS;6;186;Telefonia Fixa;143;Problemas com Contrato;F;entre 41 a 50 anos;1;OI S.A.;OI FIXO/INTERNET
+2015;1;3;2015-03-10 10:17:56.000;5;Centro-oeste;MT;3;274;Serviços Telefônicos Especiais ( Disque 900 / Erótico, Etc. );194;Problemas com Cobrança;M;entre 61 a 70 anos;1;FALKLAND TECNOLOGIA EM TELECOMUNICACOES LTDA.;FALKLAND
+2015;1;3;2015-03-12 08:51:24.000;3;Sudeste;MG;3;279;Internet (Serviços);194;Problemas com Cobrança;F;entre 41 a 50 anos;1;BRASIL TELECOMUNICAÇÕES S/A;
+2015;1;3;2015-03-18 16:34:56.000;3;Sudeste;MG;6;53;Banco comercial;218;Vício ou Má Qualidade de Produto ou Serviço;F;entre 51 a 60 anos;1;BANCO DO BRASIL S/A - OUVIDORIA EXTERNA (CENTRAL);BANCO DO BRASIL S/A - OUVIDORIA EXTERNA (CENTRAL)
+2015;1;2;2015-02-24 11:52:45.000;3;Sudeste;SP;3;134;Produto de Uso Pessoal ( Barbeador, Depilador, Secador, Outros );107;Problemas na Entrega de Produtos;F;entre 51 a 60 anos;1;NOVA PONTOCOM COMÉRCIO ELETRÔNICO S/A;PONTOFRIO.COM.BR/CASASBAHIA.COM.BR/EXTRA.COM.BR
+2015;1;1;2015-01-06 12:35:37.000;1;Norte;AM;9;236;Cursos Livres Outros;197;Problemas na Oferta;F;entre 31 a 40 anos;1;EDIT BRASIL COMERCIO DE LIVROS LTDA;
+2015;1;3;2015-03-04 16:45:50.000;3;Sudeste;SP;3;53;Banco comercial;218;Vício ou Má Qualidade de Produto ou Serviço;M;entre 31 a 40 anos;1;BANCO BRADESCO S/A;BRADESCO
+2015;1;2;2015-02-19 09:38:04.000;3;Sudeste;ES;3;97;Eletroportáteis ( Batedeira, Liqüidificador, Espremedor de Frutas, Etc. );105;Vício ou Má Qualidade de Produto ou Serviço;F;Nao Informada;1;COMERCIAL SUPERAUDIO LTDA;NULL
+2015;1;3;2015-03-24 15:41:27.000;2;Nordeste;PE;3;63;Financeira;28;Problemas com Cobrança;F;entre 61 a 70 anos;1;BV FINANCEIRA S.A CREDITO FINAN E INVESTIMENTO;VOTORANTIM BV FINANCEIRA
+2015;1;2;2015-02-24 13:39:47.000;4;Sul;SC;6;259;TV por Assinatura;255;Problemas com SAC;M;entre 31 a 40 anos;1;OI S.A.;OI - TELEFONIA FIXA
+2015;1;3;2015-03-27 13:22:21.000;3;Sudeste;RJ;3;125;Aquecedor / Ventilador / Ar Condicionado / Circulador de Ar;105;Vício ou Má Qualidade de Produto ou Serviço;F;Nao Informada;1;SPRINGER CARRIER LTDA;SPRINGER CARRIER
+2015;1;3;2015-03-04 09:24:48.000;3;Sudeste;SP;2;102;Microcomputador / Produtos de Informática;102;Problemas com Garantia de Produtos;F;Nao Informada;1;SIGHTGPS, IMPORT. E REPRES. LTDA - NAVCITY;NAVCITY
+2015;1;3;2015-03-26 09:26:03.000;3;Sudeste;SP;3;89;Acessório Para Veículo ( Alarme, Amortecedor, Câmbio, Buzina, Estofamento, Lâmpada, Bateria, etc.);116;Problemas com Contrato;M;entre 61 a 70 anos;1;FCA FIAT CHRYSLER AUTOMÓVEIS BRASIL LTDA.;FIAT
+2015;1;3;2015-03-05 14:51:48.000;3;Sudeste;MG;3;187;Telefonia Celular;143;Problemas com Contrato;F;entre 61 a 70 anos;1;NET SERVIÇOS DE COMUNICAÇÃO S/A;NET
+2015;1;2;2015-02-02 10:41:47.000;3;Sudeste;MG;6;55;Cartão de Loja;28;Problemas com Cobrança;F;entre 31 a 40 anos;1;CASAS BAHIA;
+2015;1;3;2015-03-06 10:12:58.000;4;Sul;SC;3;288;Máquinas e Equipamentos;102;Problemas com Garantia de Produtos;F;entre 31 a 40 anos;1;NORDTECH MAQUINAS E MOTORES LTDA;NORDTECH
+2015;1;1;2015-01-26 11:07:07.000;2;Nordeste;BA;3;187;Telefonia Celular;124;Problemas com Contrato;M;Nao Informada;1;CLARO S.A.;CLARO
+2015;1;3;2015-03-17 08:45:29.000;4;Sul;SC;6;101;Aparelho Celular;105;Vício ou Má Qualidade de Produto ou Serviço;F;entre 31 a 40 anos;1;VIA VAREJO S.A.;CASAS BAHIA
+2015;1;1;2015-01-06 11:40:46.000;2;Nordeste;PE;3;102;Microcomputador / Produtos de Informática;116;Problemas com Contrato;F;entre 31 a 40 anos;1;CCE -DIGIBRÁS INDUSTRIA DO BRASIL S/A;DIGIBRAS CCE INFORM. TELEVISORES E CELULARES
+2015;1;1;2015-01-12 13:01:30.000;4;Sul;RS;6;54;Cartão de Crédito;28;Problemas com Cobrança;M;entre 61 a 70 anos;1;BANCO CITICARD S.A.;CREDICARD
+2015;1;3;2015-03-02 07:49:10.000;3;Sudeste;SP;3;186;Telefonia Fixa;134;Problemas com Cobrança;F;entre 61 a 70 anos;1;EMPRESA BRASILEIRA DE TELECOMUNICAÇÕES S/A EMBRATEL;CLARO FIXO
