@@ -115,7 +115,7 @@ var geojson = L.geoJson(brasilData, {
     function updateFilters(){
         barChart1.on("filtered", null);
         if(estadosSelecionados.empty()){
-            barChart1.replaceFilter([UFOrdenadosPorReclamacao]);
+            barChart1.filter(null);
         }
         else{
             console.log([estadosSelecionados.keys()]);
@@ -143,7 +143,9 @@ var geojson = L.geoJson(brasilData, {
             });
         }
         else{
+            console.log(filters);
             filters.forEach(function(d){
+
                 if(selecionadosKeys.indexOf(d) == -1){
                     var l = UFsOnMap.get(d);
                     estadosSelecionados.set(d, l);
@@ -168,6 +170,8 @@ var rowChart1 = dc.rowChart('#chart4'); /* Empresas mais denunciadas */
 var rowChart2 = dc.rowChart('#chart5'); /* Grupos de problema mais denunciados */
 var rowChart3 = dc.rowChart('#chart6'); /* Setores mais denunciados */
 var barChart4 = dc.barChart('#chart7'); /* Número de reclamações mensais */
+
+
 
 var UFDim;
 var UFGroupRelativo;
@@ -224,7 +228,7 @@ dsv("Teste1.csv", function(data){
     UFOrdenadosPorReclamacao = UFGroupRelativo.top(Infinity).map(function(d){return d.key})
 
     barChart1 /* dc.barChart('#volume-month-chart', 'chartGroup') */
-        .width(600)
+        //.width(600)
         .height(250)
         //.margins({top: 10, right: 50, bottom: 20, left: 50})
         .dimension(UFDim)
