@@ -170,8 +170,8 @@ var barChart2 = dc.barChart('#chart2'); /* Distribuição dos reclamantes por fa
 var rowChart1 = dc.rowChart('#chart4'); /* Empresas mais denunciadas */
 var rowChart2 = dc.rowChart('#chart5'); /* Grupos de problema mais denunciados */
 var rowChart3 = dc.rowChart('#chart6'); /* Setores mais denunciados */
-var barChart4 = dc.barChart('#chart7'); /* Número de reclamações mensais */
-
+var barChart4 = dc.barChart('#monthChart'); /* Número de reclamações mensais */
+var lineChart = dc.lineChart('#timeLineChart');
 
 
 var UFDim;
@@ -217,8 +217,74 @@ dsv("Teste1.csv", function(data){
     console.log(facts.all()); 
 
 
+
+
+    /////////////////////////////////////////////////////////////////////////
+    
+    
+
+    DataAtendimentoDim = facts.dimension(function(d){
+        return d3.time.day(d.DataAtendimentoFormatado);
+    });
+
+    var DataAtendimentoGroup = DataAtendimentoDim.group();
+
+    lineChart /* dc.lineChart('#monthly-move-chart', 'chartGroup') */
+        .renderArea(true)
+        .height(200)
+        .transitionDuration(1000)
+        .dimension(DataAtendimentoDim)
+        .group(DataAtendimentoGroup)
+        .mouseZoomable(true)
+        .x(d3.time.scale().domain([new Date(2015, 0, 1), new Date(2015, 11, 31)]))
+        .round(d3.time.month.round)
+        .xUnits(d3.time.days)
+        .elasticY(true)
+        .renderHorizontalGridLines(true)
+        .brushOn(false)
+        .title( function(d){
+                  return d3.time.day(d.key) + ":\n Numero de Reclamações: " + d.value;
+                }
+        )
+        .rangeChart(barChart4);
+
+/*
+    var MesAtendimentoDim = facts.dimension(function(d){
+      if( d.MesAtendimento == "1" ){return "Jan";}
+      else if( d.MesAtendimento == "2" ){return "Fev";}
+      else if( d.MesAtendimento == "3" ){return "Mar";}
+      else if( d.MesAtendimento == "4" ){return "Abr";}
+      else if( d.MesAtendimento == "5" ){return "Mai";}
+      else if( d.MesAtendimento == "6" ){return "Jun";}
+      else if( d.MesAtendimento == "7" ){return "Jul";}
+      else if( d.MesAtendimento == "8" ){return "Ago";}
+      else if( d.MesAtendimento == "9" ){return "Set";}
+      else if( d.MesAtendimento == "10" ){return "Out";}
+      else if( d.MesAtendimento == "11" ){return "Nov";}
+      else if( d.MesAtendimento == "12" ){return "Dec";}
+    });
+*/
+
+
+    barChart4 
+        //.width(600)
+        .height(60)
+        //.margins({top: 10, right: 50, bottom: 20, left: 50})
+        .dimension(DataAtendimentoDim)
+        .group(DataAtendimentoGroup)
+        .gap(1)
+        .x(d3.time.scale().domain([new Date(2015, 0, 1), new Date(2015, 11, 31)]))
+        .xUnits(d3.time.days)
+        .centerBar(true)
+        .round(d3.time.days.round)
+        .brushOn(true)
+        .alwaysUseRounding(true);
+
+    barChart4.yAxis().ticks(0);
+
+
     ////////////////////////////////////////////////////////////////////////////
-        /* Numero de reclamações registradas por 100 mil hab. */
+            /* Numero de reclamações registradas por 100 mil hab. */
 
     UFDim = facts.dimension(function(d){ return d.UF; });
     
@@ -396,35 +462,7 @@ dsv("Teste1.csv", function(data){
     ///////////////////////////////////////////////////////////////////////////////
     /* Número de reclamações mensais */
 
-    var MesAtendimentoDim = facts.dimension(function(d){
-      if( d.MesAtendimento == "1" ){return "Jan";}
-      else if( d.MesAtendimento == "2" ){return "Fev";}
-      else if( d.MesAtendimento == "3" ){return "Mar";}
-      else if( d.MesAtendimento == "4" ){return "Abr";}
-      else if( d.MesAtendimento == "5" ){return "Mai";}
-      else if( d.MesAtendimento == "6" ){return "Jun";}
-      else if( d.MesAtendimento == "7" ){return "Jul";}
-      else if( d.MesAtendimento == "8" ){return "Ago";}
-      else if( d.MesAtendimento == "9" ){return "Set";}
-      else if( d.MesAtendimento == "10" ){return "Out";}
-      else if( d.MesAtendimento == "11" ){return "Nov";}
-      else if( d.MesAtendimento == "12" ){return "Dec";}
-    });
-
-    var MesAtendimentoGroup = MesAtendimentoDim.group();
-
-    barChart4 /* dc.barChart('#volume-month-chart', 'chartGroup') */
-        //.width(600)
-        .height(250)
-        //.margins({top: 10, right: 50, bottom: 20, left: 50})
-        .dimension(MesAtendimentoDim)
-        .group(MesAtendimentoGroup)
-        .gap(2)
-        .x(d3.scale.ordinal().domain(MesAtendimentoGroup))
-        .xUnits(dc.units.ordinal)
-        .elasticY(true)
-        .renderHorizontalGridLines(true);
-
+    
 
     dc.renderAll();
 
