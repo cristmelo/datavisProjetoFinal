@@ -23,10 +23,8 @@ map.on('drag', function() {
 
 var geojson = L.geoJson(brasilData, {
                 style: style,
-                onEachFeature: onEachFeature
-                
-    }).addTo(map); 
-
+                onEachFeature: onEachFeature   
+    }).addTo(map);
 
 //Funcoes usadas pelo mapa
 
@@ -67,7 +65,7 @@ var geojson = L.geoJson(brasilData, {
             geojson.resetStyle(e.target);
         }
         else{
-            selectedFeature(e)
+            selectedFeature(e.target)
         }
         
         //info.update();
@@ -79,12 +77,11 @@ var geojson = L.geoJson(brasilData, {
                     mouseout: resetHighlight,
                     click: clickAction
                 });
+        UFsOnMap.set(layer.feature.properties.L2, layer);
     }
 
 
-    function selectedFeature(e) {
-        var layer = e.target;
-        console.log(e.target)
+    function selectedFeature(layer) {
         layer.setStyle({
                     weight: 3,
                     color: '',
@@ -104,8 +101,8 @@ var geojson = L.geoJson(brasilData, {
         var layer = e.target
         console.log(layer.feature.properties.L2);
         if(estadosSelecionados.get(layer.feature.properties.L2) == undefined){       
-            estadosSelecionados.set(layer.feature.properties.L2, e);
-            selectedFeature(e);
+            estadosSelecionados.set(layer.feature.properties.L2, layer);
+            selectedFeature(layer);
         }
         else{
             estadosSelecionados.remove(layer.feature.properties.L2);
@@ -116,28 +113,46 @@ var geojson = L.geoJson(brasilData, {
     }
 
     function updateFilters(){
+        barChart1.on("filtered", null);
         if(estadosSelecionados.empty()){
             barChart1.replaceFilter([UFOrdenadosPorReclamacao]);
-            /*UFDim.filterFunction(function(d){
-                    return true;
-               });
-            */
         }
         else{
             console.log([estadosSelecionados.keys()]);
             barChart1.replaceFilter([estadosSelecionados.keys()]);
-            /*
-            UFDim.filterFunction(function(d){
-                return estadosSelecionados.get(d) != undefined;
-            })
-            */
         }
-        
-
+        barChart1.on("filtered", function(chart, filter){updateMap();});
         dc.redrawAll();
     }
 
 
+
+    function updateMap(){
+        selecionadosKeys = estadosSelecionados.keys();
+        var filters = barChart1.filters();
+
+        if(selecionadosKeys.length == filters.length){
+            //Nao precisa fazer nada
+        }
+        else if (selecionadosKeys.length > filters.length){
+            selecionadosKeys.forEach(function(d){
+                if(filters.indexOf(d) == -1){
+                    geojson.resetStyle(estadosSelecionados.get(d));
+                    estadosSelecionados.remove(d);
+                }
+            });
+        }
+        else{
+            filters.forEach(function(d){
+                if(selecionadosKeys.indexOf(d) == -1){
+                    var l = UFsOnMap.get(d);
+                    estadosSelecionados.set(d, l);
+                    selectedFeature(l);
+                }
+            });
+        }
+        
+    }
 
 ///////////////////////////////////
 
@@ -218,7 +233,8 @@ dsv("Teste1.csv", function(data){
         .x(d3.scale.ordinal().domain(UFOrdenadosPorReclamacao))
         .xUnits(dc.units.ordinal)
         .elasticY(true)
-        .renderHorizontalGridLines(true);
+        .renderHorizontalGridLines(true)
+        .on("filtered", function(chart, filter){updateMap();});
 
     ////////////////////////////////////////////////////////////////////////////
       /* Distribuição dos reclamantes por faixa etária */
