@@ -264,7 +264,7 @@ dsv("Teste1.csv", function(data){
     var SexoConsumidorGroup = SexoConsumidorDim.group();
 
     barChart2 
-        .width(600)
+        //.width(600)
         .height(250)
         //.margins({top: 10, right: 50, bottom: 20, left: 50})
         .dimension(FaixaEtariaConsumidorDim)
@@ -319,7 +319,7 @@ dsv("Teste1.csv", function(data){
     var NomeFantasiaGroupTop = getTops(NomeFantasiaSindecGroup);
 
     rowChart1  
-        .width(600)
+        //.width(600)
         .height(250)
         //.margins({top: 10, right: 50, bottom: 20, left: 50})
         .dimension(NomeFantasiaSindecDim)
@@ -350,7 +350,7 @@ dsv("Teste1.csv", function(data){
     var GrupoProblemaGroupTop = getTops(GrupoProblemaGroup);
 
     rowChart2  
-        .width(600)
+        //.width(600)
         .height(250)
         //.margins({top: 10, right: 50, bottom: 20, left: 50})
         .dimension(GrupoProblemaDim)
@@ -382,7 +382,7 @@ dsv("Teste1.csv", function(data){
     var GrupoAssuntoGroupTop = getTops(GrupoAssuntoGroup);
 
     rowChart3  
-        .width(600)
+        //.width(600)
         .height(250)
         //.margins({top: 10, right: 50, bottom: 20, left: 50})
         .dimension(GrupoAssuntoDim)
@@ -414,7 +414,7 @@ dsv("Teste1.csv", function(data){
     var MesAtendimentoGroup = MesAtendimentoDim.group();
 
     barChart4 /* dc.barChart('#volume-month-chart', 'chartGroup') */
-        .width(600)
+        //.width(600)
         .height(250)
         //.margins({top: 10, right: 50, bottom: 20, left: 50})
         .dimension(MesAtendimentoDim)
