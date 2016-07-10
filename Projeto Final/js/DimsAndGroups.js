@@ -4,7 +4,7 @@
 // Relacionado aos mapas
 var map = L.map('mapid').setView([-14.500,-52.9500], 4);
 
-var mapMaxBounds = L.latLngBounds(L.latLng(5.09, -24.34),L.latLng(-32.54,-81.47));
+var mapMaxBounds = L.latLngBounds(L.latLng(5.09, -28.56),L.latLng(-32.54,-77.34));
 
 var UFsOnMap = d3.map();
 
@@ -25,6 +25,7 @@ var geojson = L.geoJson(brasilData, {
                 style: style,
                 onEachFeature: onEachFeature   
     }).addTo(map);
+
 
 //Funcoes usadas pelo mapa
 
