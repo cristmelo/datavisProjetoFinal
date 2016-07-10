@@ -6,6 +6,8 @@ var map = L.map('mapid').setView([-14.500,-52.9500], 4);
 
 var mapMaxBounds = L.latLngBounds(L.latLng(5.09, -24.34),L.latLng(-32.54,-81.47));
 
+var UFsOnMap = d3.map();
+
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {    
                 attribution: '&copy; <a href="http://www.openstreetmap.org/">OpenStreetMap</a> contributors',
                 maxZoom: 17,
@@ -61,7 +63,7 @@ var geojson = L.geoJson(brasilData, {
     }
 
     function resetHighlight(e) {
-        if(estadosSelecionados.get(e.target._leaflet_id) == undefined){
+        if(estadosSelecionados.get(e.target.feature.properties.L2) == undefined){
             geojson.resetStyle(e.target);
         }
         else{
@@ -100,16 +102,42 @@ var geojson = L.geoJson(brasilData, {
 
     function clickAction(e){
         var layer = e.target
-        if(estadosSelecionados.get(layer._leaflet_id) == undefined){
-            estadosSelecionados.set(layer._leaflet_id, e);
+        console.log(layer.feature.properties.L2);
+        if(estadosSelecionados.get(layer.feature.properties.L2) == undefined){       
+            estadosSelecionados.set(layer.feature.properties.L2, e);
             selectedFeature(e);
-            
         }
         else{
-            estadosSelecionados.remove(layer._leaflet_id);
+            estadosSelecionados.remove(layer.feature.properties.L2);
             highlightFeature(e);   
         }
+
+        updateFilters();
     }
+
+    function updateFilters(){
+        if(estadosSelecionados.empty()){
+            barChart1.replaceFilter([UFOrdenadosPorReclamacao]);
+            /*UFDim.filterFunction(function(d){
+                    return true;
+               });
+            */
+        }
+        else{
+            console.log([estadosSelecionados.keys()]);
+            barChart1.replaceFilter([estadosSelecionados.keys()]);
+            /*
+            UFDim.filterFunction(function(d){
+                return estadosSelecionados.get(d) != undefined;
+            })
+            */
+        }
+        
+
+        dc.redrawAll();
+    }
+
+
 
 ///////////////////////////////////
 
@@ -126,6 +154,9 @@ var rowChart2 = dc.rowChart('#chart5'); /* Grupos de problema mais denunciados *
 var rowChart3 = dc.rowChart('#chart6'); /* Setores mais denunciados */
 var barChart4 = dc.barChart('#chart7'); /* Número de reclamações mensais */
 
+var UFDim;
+var UFGroupRelativo;
+var UFOrdenadosPorReclamacao;
 
 var popByUFmap = d3.map();
 d3.csv("populacaoPorEstado.csv", function(data){
@@ -169,12 +200,13 @@ dsv("Teste1.csv", function(data){
     ////////////////////////////////////////////////////////////////////////////
         /* Numero de reclamações registradas por 100 mil hab. */
 
-    var UFDim = facts.dimension(function(d){ return d.UF; });
+    UFDim = facts.dimension(function(d){ return d.UF; });
+    
 
-    var UFGroupRelativo = UFDim.group().reduceSum(function(d){
+    UFGroupRelativo = UFDim.group().reduceSum(function(d){
                             return 1/(popByUFmap.get(d.UF)/100000);
                         });
-    var UFOrdenadosPorReclamacao = UFGroupRelativo.top(Infinity).map(function(d){return d.key})
+    UFOrdenadosPorReclamacao = UFGroupRelativo.top(Infinity).map(function(d){return d.key})
 
     barChart1 /* dc.barChart('#volume-month-chart', 'chartGroup') */
         .width(600)
