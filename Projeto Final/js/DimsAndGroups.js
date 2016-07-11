@@ -199,6 +199,7 @@ var rowChart2 = dc.rowChart('#chart5'); /* Grupos de problema mais denunciados *
 var rowChart3 = dc.rowChart('#chart6'); /* Setores mais denunciados */
 var barChart4 = dc.barChart('#monthChart'); /* Número de reclamações mensais */
 var lineChart = dc.lineChart('#timeLineChart');
+var pieChart1 = dc.pieChart('#pieChart'); 
 
 
 var UFDim;
@@ -213,9 +214,9 @@ d3.csv("populacaoPorEstado.csv", function(data){
 });
 
 
-var dsv = d3.dsv(";","text/plain; charset=ISO-8859-1");
+var dsv = d3.dsv(";","text/plain");
 
-dsv("output_trim1_10000_2015.csv", function(data){
+dsv("output_40000_2015.csv", function(data){
     var dtgFormat = d3.time.format("%Y-%m-%d %H:%M:%S"); // ex: 2013-08-17 19:52:50
     data.forEach(function(d){
             //d.AnoAtendimento = +d.AnoAtendimento;
@@ -309,6 +310,17 @@ dsv("output_trim1_10000_2015.csv", function(data){
 
     barChart4.yAxis().ticks(0);
 
+    var SexoConsumidorDim = facts.dimension(function(d){
+      return d.SexoConsumidor;
+    });
+
+    var SexoConsumidorGroup = SexoConsumidorDim.group();
+
+    pieChart1
+        .height(180)
+        .radius(70)
+        .dimension(SexoConsumidorDim)
+        .group(SexoConsumidorGroup);
 
     ////////////////////////////////////////////////////////////////////////////
             /* Numero de reclamações registradas por 100 mil hab. */
@@ -350,11 +362,7 @@ dsv("output_trim1_10000_2015.csv", function(data){
 
     var FaixaEtariaConsumidorGroup = FaixaEtariaConsumidorDim.group();
 
-    var SexoConsumidorDim = facts.dimension(function(d){
-      return d.SexoConsumidor;
-    });
-
-    var SexoConsumidorGroup = SexoConsumidorDim.group();
+ 
 
     barChart2 
         //.width(600)

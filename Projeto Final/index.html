@@ -1,0 +1,121 @@
+<!DOCTYPE html >
+<meta charset="utf-8">  
+
+<html>
+<head>
+        <link rel="stylesheet" href="css/dc.css">
+        <link rel="stylesheet" href="packs/leaflet/leaflet.css"/>
+        <link rel="stylesheet" href="packs/bootstrap-3.3.6-dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/styles.css">
+        
+        <!--link rel="import" href="maps.html" -->
+        <script src="js/jquery-3.0.0.min.js"></script>
+        <script src="js/crossfilter.js" charset="utf-8"></script>
+        <script src="packs/d3/d3.min.js" charset="utf-8"></script>
+        <script src="js/dc.js" charset="utf-8"></script>
+        <script src="packs/leaflet/leaflet.js"></script>             
+        <script src="js/colorbrewer.v1.min.js"></script>
+
+		<title> Visualização sobre os dados do PROCON  </title>
+</head>
+<body>
+    <div class = "container" style="text-align: center; align:center;">
+    
+        <div class="row" >
+            <h1>Visualização sobre os dados do PROCON</h1>
+        </div>
+        <hr/>
+        <!-- /////////////////////////////////////////////////////////////////////////// -->
+        <div class="row well">
+            <div class = "col-md-12">
+                <p class="lead" >Reclamacoes ao longo de 2015
+                    <button id="resetMap" type="button" class="btn btn-primary btn-xs" 
+                    onclick="barChart4.filterAll();dc.redrawAll();">Reset</button>
+                </p>
+                <div id = "timeLineChart" style="width: 100%;"></div>
+                <div id = "monthChart" style="width: 100%;"></div>
+            </div>
+        </div>
+
+        <div class="row"> 
+            <div class="col-md-6">
+                <div class ="well" style="display:block;">                            
+                    <p class="lead" >Mapa 
+                        <button id="resetMap" type="button" class="btn btn-primary btn-xs" 
+                    onclick="barChart1.filterAll();dc.redrawAll();">Reset</button>
+                    </p>
+                    <div id="mapid" style="width: 100%;"></div>
+                    
+                    <hr style="border: 0.2px dotted black" /> 
+                    
+                    <p class="lead">Selecione os estados de uma região</p>
+
+                    <button id="centrooeste" type="button" class="btn btn-primary btn-xs" 
+                    onclick="selectRegion(['MT','GO','MS','DF']);dc.redrawAll();">Centro-Oeste</button>
+                    
+                    <button id="nordeste" type="button" class="btn btn-primary btn-xs" 
+                    onclick="selectRegion(['MA','PI','CE','RN','PB','PE','AL','BA','SE']);dc.redrawAll();">Nordeste</button>
+                    
+                    <button id="norte" type="button" class="btn btn-primary btn-xs" 
+                    onclick="selectRegion(['AC','AM','RR','RO','PA','AP','TO']);dc.redrawAll();">Norte</button>
+                    
+                    <button id="sudeste" type="button" class="btn btn-primary btn-xs" 
+                    onclick="selectRegion(['MG','ES','SP','RJ']);dc.redrawAll();">Sudeste</button>
+                    
+                    <button id="sul" type="button" class="btn btn-primary btn-xs" 
+                    onclick="selectRegion(['PR','SC','RS']);dc.redrawAll();">Sul</button>
+
+                </div>
+                <div class = "well" style="display:block;">          
+                    <div id="chart4" style="width: 100%;"></div>
+                    <p class="lead">Empresas mais denunciadas</p>
+                    <button id="resetChart4" type="button" class="btn btn-primary btn-xs" 
+                    onclick="rowChart1.filterAll();dc.redrawAll();">Reset</button>
+                </div>  
+                <div class = "well" style="display:block;">
+                    <div id="chart6" style="width: 100%;"></div>
+                    <p class="lead">Setores mais denunciados</p>
+                    <button id="resetChart6" type="button" class="btn btn-primary btn-xs" 
+                    onclick="rowChart3.filterAll();dc.redrawAll();">Reset</button>
+                </div>
+                  
+            </div>
+
+            <div class="col-md-6">
+                <div class ="well" style="display:block;">
+                    <div id="chart1" style="width: 100%;"></div>
+                    <p class="lead">Numero de reclamações registradas por 100 mil hab.</p>
+                    <button id="resetChart1" type="button" class="btn btn-primary btn-xs" 
+                    onclick="barChart1.filterAll();dc.redrawAll();">Reset</button>
+                </div>
+                <div class = "well" style="display:block;">
+                    <div id="pieChart" style="width: 100%;"></div>
+                    <p class="lead">Sexo Consumidores</p>
+                    <button id="pieChart" type="button" class="btn btn-primary btn-xs" 
+                    onclick="pieChart1.filterAll();dc.redrawAll();">Reset</button>
+                </div>
+                <div class = "well" style="display:block;">          
+                    <div id="chart2" style="width: 100%;"></div>
+                    <p class="lead">Distribuição dos reclamantes por faixa etária</p>
+                    <button id="resetChart1" type="button" class="btn btn-primary btn-xs" 
+                    onclick="barChart2.filterAll();dc.redrawAll();">Reset</button>
+                </div>
+
+                <div class = "well" style="display:block;">
+                    <div id="chart5" style="width: 100%;"></div>
+                    <p class="lead">Grupos de problema mais denunciados</p>
+                    <button id="resetChart1" type="button" class="btn btn-primary btn-xs" 
+                    onclick="rowChart2.filterAll();dc.redrawAll();">Reset</button>
+                </div>  
+            </div>
+        </div>  
+        
+
+    </div>
+    <!-- Javascript -->
+    <script src = "data/BrasilByStates.js" type="text/javascript" charset="UTF-8"> </script> 
+    <script src = "js/DimsAndGroups.js" type="text/javascript" charset="UTF-8"> </script> 
+     
+  		
+</body>
+</html>
