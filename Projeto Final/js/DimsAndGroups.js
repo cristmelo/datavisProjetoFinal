@@ -242,11 +242,6 @@ dsv("output_40000_2015.csv", function(data){
 
     var facts = crossfilter(data);          
 
-    console.log(facts.all()); 
-
-
-
-
     /////////////////////////////////////////////////////////////////////////
     
     
@@ -316,11 +311,25 @@ dsv("output_40000_2015.csv", function(data){
 
     var SexoConsumidorGroup = SexoConsumidorDim.group();
 
+    var todos = facts.groupAll();
+
     pieChart1
         .height(180)
         .radius(70)
         .dimension(SexoConsumidorDim)
-        .group(SexoConsumidorGroup);
+        .group(SexoConsumidorGroup)
+        .label(function (d) {
+            if (pieChart1.hasFilter() && !pieChart1.hasFilter(d.key)) {
+                return d.key + '(0%)';
+            }
+            var label = d.key;
+            if (todos.value()) {
+                label += '(' + Math.floor(d.value / todos.value() * 100) + '%)';
+            }
+            return label;
+
+        })
+        .renderLabel(true);
 
     ////////////////////////////////////////////////////////////////////////////
             /* Numero de reclamações registradas por 100 mil hab. */
