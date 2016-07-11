@@ -125,6 +125,34 @@ var geojson = L.geoJson(brasilData, {
         dc.redrawAll();
     }
 
+    function selectRegion(regiao){
+        var filters = barChart1.filters();
+        var estadoAindaNaoEstaSelecionado = [];
+
+        regiao.forEach(function(d){
+            if(filters.indexOf(d) == -1){
+                estadoAindaNaoEstaSelecionado.push(d);
+            }
+        });
+
+
+        console.log(estadoAindaNaoEstaSelecionado);
+        if(estadoAindaNaoEstaSelecionado.length == 0){
+            console.log('ali')
+            barChart1.replaceFilter([
+                filters.filter(function(d){
+                    return regiao.indexOf(d) == -1;
+                })
+            ]);
+        }
+        else{
+            console.log('Aqui');
+            barChart1.filter([estadoAindaNaoEstaSelecionado]);   
+        }
+    }
+
+
+
 
 
     function updateMap(){

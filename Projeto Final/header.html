@@ -45,12 +45,32 @@
                     onclick="barChart1.filterAll();dc.redrawAll();">Reset</button>
                     </p>
                     <div id="mapid" style="width: 100%;"></div>
+                    
+                    <hr style="border: 0.2px dotted black" /> 
+                    
+                    <p class="lead">Selecione os estados de uma região</p>
+
+                    <button id="centrooeste" type="button" class="btn btn-primary btn-xs" 
+                    onclick="selectRegion(['MT','GO','MS','DF']);dc.redrawAll();">Centro-Oeste</button>
+                    
+                    <button id="nordeste" type="button" class="btn btn-primary btn-xs" 
+                    onclick="selectRegion(['MA','PI','CE','RN','PB','PE','AL','BA','SE']);dc.redrawAll();">Nordeste</button>
+                    
+                    <button id="norte" type="button" class="btn btn-primary btn-xs" 
+                    onclick="selectRegion(['AC','AM','RR','RO','PA','AP','TO']);dc.redrawAll();">Norte</button>
+                    
+                    <button id="sudeste" type="button" class="btn btn-primary btn-xs" 
+                    onclick="selectRegion(['MG','ES','SP','RJ']);dc.redrawAll();">Sudeste</button>
+                    
+                    <button id="sul" type="button" class="btn btn-primary btn-xs" 
+                    onclick="selectRegion(['PR','SC','RS']);dc.redrawAll();">Sul</button>
+
                 </div>
                 <div class = "well" style="display:block;">          
                     <div id="chart4" style="width: 100%;"></div>
                     <p class="lead">Empresas mais denunciadas</p>
                     <button id="resetChart4" type="button" class="btn btn-primary btn-xs" 
-                    onclick="rowChart4.filterAll();dc.redrawAll();">Reset</button>
+                    onclick="rowChart1.filterAll();dc.redrawAll();">Reset</button>
                 </div>  
                 <div class = "well" style="display:block;">
                     <div id="chart6" style="width: 100%;"></div>
